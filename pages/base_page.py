@@ -36,10 +36,10 @@ class PageInstance:
     def safe_get_attribute(element, attribute_name):
         try:
             value = element.get_attribute(attribute_name)
-            if value:
-                # Encode the value to handle any special characters
-                return value.encode('utf-8').decode('utf-8')
-            return None
+
+            # Encode the value to handle any special characters
+            return value.encode('utf-8').decode('utf-8') if value else None
+
         except Exception as e:
             print(f"Error getting attribute '{attribute_name}': {e}")
             return None
@@ -56,16 +56,16 @@ class PageInstance:
         except Exception as e:
             return f"Time_out error: {e}"
 
-    def accept_cookies(self, cookie_selector):
+    def accept_cookies(self, accept_cookie_selector):
         try:
-            self.page.locator(cookie_selector).click()
+            self.page.locator(accept_cookie_selector).click()
             print("Accepted cookies")
         except Exception as e:
             print(f"Could not find or click cookie button: {e}")
 
-    def close_email_signup_popup(self, popup_selector):
+    def close_email_signup_popup(self, close_email_popup_selector):
         try:
-            self.page.locator(popup_selector).click()
+            self.page.locator(close_email_popup_selector).click()
             print("Closed email signup popup")
         except Exception as e:
             print(f"Could not find or close the email signup popup: {e}")
