@@ -16,7 +16,6 @@ class GetUrls:
     def get_urls_from_sitemap(self):
         # Fetch the sitemap XML
         sitemap_url = self.prod_domain_url + 'sitemap.xml'
-        print(f"{sitemap_url}")
         response = requests.get(sitemap_url)
 
         if response.status_code == 200:

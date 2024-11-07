@@ -9,11 +9,12 @@ from playwright.sync_api import BrowserContext
 
 def get_domain(url):
     parsed_url = urlparse(url)
-    return f"{parsed_url.scheme}://{parsed_url.netloc}"
+    print(f"{parsed_url.scheme}://{parsed_url.netloc}/")
+    return f"{parsed_url.scheme}://{parsed_url.netloc}/"
 
 def get_slug_from_url(url):
     if url == get_domain(url) :
-        return "Home"
+        return "Home_Page"
     else:
         parsed_url = urlparse(url)
         return parsed_url.path.lstrip('/')
@@ -27,7 +28,9 @@ class PageInstance:
         self.domain = get_domain(url)
         self.slug = get_slug_from_url(url)
         self.response = None
+        self.open_status = None
         self.open_url()
+
 
 
     def log_response(self, response):
@@ -41,10 +44,16 @@ class PageInstance:
 
 
     def open_url(self):
-        self.page.on("response", lambda response: self.log_response(response))
-        self.page.goto(self.url)
-        self.wait_for_page_load()
-        print(f"Opened URL: {self.url}")
+        try:
+            self.page.on("response", lambda response: self.log_response(response))
+            self.page.goto(self.url)
+            self.wait_for_page_load()
+            self.open_status = "success"
+        except Exception as e:
+            print(f"Error open url '{self.url}': {e}")
+            self.open_status = f"{e}"
+
+
 
     def terminate(self):
         self.page.close()

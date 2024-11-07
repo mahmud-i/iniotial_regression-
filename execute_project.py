@@ -1,13 +1,13 @@
 # execute_project.py
 import sys
 import argparse
-import configparser
+import configparser as cp
 from utils.get_urls import GetUrls
 from tests.conf_test_setup import TestInstance
 
 def initializing_test():
     # Load configuration from specified .ini file
-    config = configparser.ConfigParser()
+    config = cp.ConfigParser()
     config.read("config.ini")
 
     # Retrieve values from the .ini file

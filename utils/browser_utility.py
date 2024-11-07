@@ -1,11 +1,11 @@
-import configparser
+import configparser as cp
 from playwright.sync_api import sync_playwright
 from contextlib import contextmanager
 
 
 class ConfigurePlatform:
     def __init__(self):
-        self.config = configparser.ConfigParser()
+        self.config = cp.ConfigParser()
         self.config.read("./config.ini")
         self.headless_chk = self.config['settings'].get('headless_chk', 'Y').strip().upper()
         self.mobile_device = self.config['platform'].get('mobile_emulation', 'N').strip().upper()
