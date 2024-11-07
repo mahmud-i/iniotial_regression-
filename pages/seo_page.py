@@ -1,8 +1,9 @@
-
+import os
 from pages.base_page import PageInstance
 
+
 class SEOInstance:
-    def __int__(self, page_instance: PageInstance):
+    def __init__(self, page_instance : PageInstance):
         self.instance = page_instance
         self.page = page_instance.page
 
@@ -72,19 +73,74 @@ class SEOInstance:
         try:
             selector = self.page.query_selector_all("meta[property='og:image']")
 
-            if selector.count() > 1 :
-                element = selector.nth(2)
-            else :
-                element = selector
+            if selector:
+                element = selector[1] if len(selector) > 1  else selector[0]
 
-            image_path = self.instance.safe_get_attribute(element, 'content') if element else None
-            image_name = os.path.basename(image_path) if image_path else None
+                image_path = self.instance.safe_get_attribute(element, 'content') if element else None
+                image_name = os.path.basename(image_path) if image_path else None
 
-            return image_name if image_path else None
+                return image_name
+            else:
+                return None
 
         except Exception as e:
             print(f"Error getting og_image '{self.instance.url}': {e}")
             return None
 
+    def get_twitter_title(self):
+        try:
+            element = self.page.query_selector("meta[name='twitter:title']")
+            return self.instance.safe_get_attribute(element, 'content') if element else None
+        except Exception as e:
+            print(f"Error getting twitter_title '{self.instance.url}': {e}")
+            return None
 
+    def get_twitter_description(self):
+        try:
+            element = self.page.query_selector("meta[name='twitter:description']")
+            return self.instance.safe_get_attribute(element, 'content') if element else None
+        except Exception as e:
+            print(f"Error getting twitter_description '{self.instance.url}': {e}")
+            return None
 
+    def get_twitter_card(self):
+        try:
+            element = self.page.query_selector("meta[name='twitter:card']")
+            return self.instance.safe_get_attribute(element, 'content') if element else None
+        except Exception as e:
+            print(f"Error getting twitter_card '{self.instance.url}': {e}")
+            return None
+
+    def get_twitter_image(self):
+        try:
+            selector = self.page.query_selector_all("meta[name='twitter:image']")
+
+            if selector:
+                element = selector[0]
+
+                image_path = self.instance.safe_get_attribute(element, 'content') if element else None
+                image_name = os.path.basename(image_path) if image_path else None
+
+                return image_name
+
+            else:
+                return None
+
+        except Exception as e:
+            print(f"Error getting twitter_image '{self.instance.url}': {e}")
+            return None
+
+    def get_h1(self):
+        try:
+            parent_locator = self.page.locator("main")
+            selector = parent_locator.locator("h1")
+            if selector.count() > 1 :
+                return "Multiple items"
+            else:
+                element = selector
+
+            return self.instance.safe_get_text_content(element) if element else None
+
+        except Exception as e:
+            print(f"Error getting h1 '{self.instance.url}': {e}")
+            return None

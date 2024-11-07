@@ -52,7 +52,7 @@ class GetUrls:
             return []
 
     @staticmethod
-    def sample_from_array(arr, min_items=5, max_items=8):
+    def sample_from_array(arr, min_items=3, max_items=5):
         # Ensure the sample size is within the array length
         sample_size = min(max_items, len(arr))
 

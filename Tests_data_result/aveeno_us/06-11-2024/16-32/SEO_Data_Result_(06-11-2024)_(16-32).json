@@ -1,0 +1,62 @@
+{
+    "products/baby-care/dry-skin": {
+        "url": "https://www.aveeno.com/products/baby-care/dry-skin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Baby Products to Help Protect and Nourish Baby's Dry Skin | Aveeno®",
+            "meta_description": "Nourish and restore moisture to your baby’s dry or chapped skin with AVEENO® baby products, formulated with hydrating vitamin E and natural colloidal oatmeal.",
+            "canonical_link": "https://www.aveeno.com/products/baby-care/dry-skin",
+            "og_title": "Baby Products to Help Protect and Nourish Baby's Dry Skin | Aveeno®",
+            "og_description": "Nourish and restore moisture to your baby’s dry or chapped skin with AVEENO® baby products, formulated with hydrating vitamin E and natural colloidal oatmeal.",
+            "og_type": "product.group",
+            "og_site": "Aveeno®",
+            "og_url": "https://www.aveeno.com/products/baby-care/dry-skin",
+            "og_image": null,
+            "twitter_title": "Baby Products to Help Protect and Nourish Baby's Dry Skin | Aveeno®",
+            "twitter_description": "Nourish and restore moisture to your baby’s dry or chapped skin with AVEENO® baby products, formulated with hydrating vitamin E and natural colloidal oatmeal.",
+            "twitter_card": "summary",
+            "twitter_image": "Aveeno_the_Power_of_Oat_for_Sensitive_Skin.png",
+            "h1": "Baby Dry Skin"
+        }
+    },
+    "products/discontinued-products/ultra-calming-foaming-cleanser": {
+        "url": "https://www.aveeno.com/products/discontinued-products/ultra-calming-foaming-cleanser",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Discontinued Ultra-Calming Foaming Facial Cleanser For Sensitive Skin | Aveeno®",
+            "meta_description": "Calm irritated or sensitive skin and help reduce the appearance of redness while gently cleansing your skin with this light foaming cleanser.",
+            "canonical_link": "https://www.aveeno.com/products/discontinued-products/ultra-calming-foaming-cleanser",
+            "og_title": "Discontinued Ultra-Calming Foaming Facial Cleanser For Sensitive Skin | Aveeno®",
+            "og_description": "Calm irritated or sensitive skin and help reduce the appearance of redness while gently cleansing your skin with this light foaming cleanser.",
+            "og_type": "product",
+            "og_site": "Aveeno®",
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Discontinued Ultra-Calming Foaming Facial Cleanser For Sensitive Skin | Aveeno®",
+            "twitter_description": "Calm irritated or sensitive skin and help reduce the appearance of redness while gently cleansing your skin with this light foaming cleanser.",
+            "twitter_card": "summary",
+            "twitter_image": "Aveeno_the_Power_of_Oat_for_Sensitive_Skin.png",
+            "h1": "Ultra-Calming Foaming Facial Cleanser"
+        }
+    },
+    "journal/baby/how-help-sick-baby-sleep": {
+        "url": "https://www.aveeno.com/journal/baby/how-help-sick-baby-sleep",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "How to Help a Sick Baby Sleep | AVEENO®",
+            "meta_description": "How to Help a Sick Baby Sleep When a baby has a cold, it can mean long, sleepless nights for everyone. And, often, this lack of sleep becomes part of a vicious cycle: baby gets sick and doesn’t sleep well and, as a result, doesn’t get the critical shut eye they need to kick their congestion, fever and general icks. Because of this, illnesses wear on longer than they should, and sleep continues to be a battle night after night -- and that means you’re getting less shut-eye, too.",
+            "canonical_link": "https://www.aveeno.com/journal/baby/how-help-sick-baby-sleep",
+            "og_title": "How to Help a Sick Baby Sleep | AVEENO®",
+            "og_description": "How to Help a Sick Baby Sleep When a baby has a cold, it can mean long, sleepless nights for everyone. And, often, this lack of sleep becomes part of a vicious cycle: baby gets sick and doesn’t sleep well and, as a result, doesn’t get the critical shut eye they need to kick their congestion, fever and general icks. Because of this, illnesses wear on longer than they should, and sleep continues to be a battle night after night -- and that means you’re getting less shut-eye, too.",
+            "og_type": "article",
+            "og_site": "Aveeno®",
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "How to Help a Sick Baby Sleep | AVEENO®",
+            "twitter_description": "How to Help a Sick Baby Sleep When a baby has a cold, it can mean long, sleepless nights for everyone. And, often, this lack of sleep becomes part of a vicious cycle: baby gets sick and doesn’t sleep well and, as a result, doesn’t get the critical shut eye they need to kick their congestion, fever and general icks. Because of this, illnesses wear on longer than they should, and sleep continues to be a battle night after night -- and that means you’re getting less shut-eye, too.",
+            "twitter_card": "summary",
+            "twitter_image": "Aveeno_the_Power_of_Oat_for_Sensitive_Skin.png",
+            "h1": "How to Help a Sick Baby Sleep"
+        }
+    }
+}
