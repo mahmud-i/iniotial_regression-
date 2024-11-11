@@ -7,6 +7,8 @@ from tests.test_seo import SEOTest
 from datetime import datetime
 import tests.test_pdp as pdp_test
 
+
+
 class TestInstance:
     def __init__(self, brand_name):
         self.config = cp.ConfigParser()
@@ -33,7 +35,7 @@ class TestInstance:
         with ConfigurePlatform().browser() as (browser, context):
             c = 0
             total = len(urls_to_check)
-            print(f"Running tests for: {self.brand_name}\nTotal urls to check: {total}")
+            print(f"\n\n\nRunning tests for: {self.brand_name}\nTotal urls to check: {total}")
             self.page_setup(context)
 
             seo_test_instance = SEOTest(self.brand_name, self.config)
@@ -57,10 +59,10 @@ class TestInstance:
 
 
 
-            report_directory = f"Tests_data_result/{self.brand_name}/{self.date}/{self.time}"
+            report_directory = f"Tests_data_result/{self.date}/{self.brand_name}/{self.time}"
             os.makedirs(report_directory, exist_ok=True)
 
-            seo_test_instance.generate_seo_report(report_directory) #SEO Test Report Generation
+            seo_test_instance.generate_seo_report(report_directory, self.brand_name) #SEO Test Report Generation
 
             if self.testing_error:
                 j.save_json(self.testing_error, f"{report_directory}/error_page_testing.json") #Page with error report generation

@@ -1,0 +1,1319 @@
+
+    <html>
+    <head>
+        <title>SEO_Data</title>
+        <style>
+            
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f9; 
+            color: #333; 
+        }
+
+        #report-container {
+            width: 90%;
+            margin: auto;
+    	}
+
+        h1 { 
+            text-align: center; 
+            color: #444; 
+        }
+
+        .acc, .acc-alt { 
+            cursor: pointer;
+            color: black; 
+            padding: 10px; 
+            border: 1px solid #ddd; 
+            width: 100%; 
+            text-align: left; 
+            font-size: 14px; 
+            font-weight: bold;
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .acc { background-color: #D0D0D0; }
+        .acc-alt { background-color: #EDEDED; }
+
+        .active, .acc:hover, .acc-alt:hover { 
+            color: white;
+            background-color: #0056b3; 
+        }
+        
+        
+        .acc_Pass {
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: green;
+            font-weight: bold;
+        } 
+        
+        .acc_Fail { 
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: red;
+            font-weight: bold;
+        } 
+        
+        .active_Fail  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: red; 
+        }
+        
+        .acc_Fail:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: red;
+        }
+        
+        .active_Pass  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: green; 
+        }
+        
+        .acc_Pass:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: green;
+        }
+        
+        .toggle-sign {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: right;
+            padding-right: 8px;
+        }
+        
+        .panel { 
+            padding: 10px; 
+            display: None; 
+            width: 100%; 
+            background-color: white; 
+            overflow: hidden; 
+            border: 1px solid #ddd; 
+            border-top: none;
+            font-size: 14px;  
+        }
+
+        ul, ol { 
+            margin: 0 0 10px 20px; 
+        }
+
+        li { 
+            margin-bottom: 5px; 
+        }
+
+        strong { 
+            color: #555; 
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <div id="report-container">
+        <h1>SEO_Data</h1>
+    
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">1. 404</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/404</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Page Not Found | PEPCID®</li>
+<li><strong>meta_description</strong>: None</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/404</li>
+<li><strong>og_title</strong>: Page Not Found | PEPCID®</li>
+<li><strong>og_description</strong>: None</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/page-not-found</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Page Not Found | PEPCID®</li>
+<li><strong>twitter_description</strong>: None</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: 404</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">2. Home_Page</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Heartburn Relief Products with Active Ingredient Famotidine | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn how H2 Blockers, such as famotidine in PEPCID® products, help provide lasting heartburn relief and lower the amount of acid your stomach produces.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com</li>
+<li><strong>og_title</strong>: Heartburn Relief Products with Active Ingredient Famotidine | PEPCID®</li>
+<li><strong>og_description</strong>: Learn how H2 Blockers, such as famotidine in PEPCID® products, help provide lasting heartburn relief and lower the amount of acid your stomach produces.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Heartburn Relief Products with Active Ingredient Famotidine | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn how H2 Blockers, such as famotidine in PEPCID® products, help provide lasting heartburn relief and lower the amount of acid your stomach produces.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_banner-desktop_what_is_pepcid_v2-en-us</li>
+<li><strong>h1</strong>: #1 Doctor Recommended OTC Acid Reducer Brand</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">3. bv_terms_of_use</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/bv_terms_of_use</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: PEPCID® Brand Reviews Terms of Use | PEPCID®</li>
+<li><strong>meta_description</strong>: By submitting any content to PEPCID® Brand, you represent and warrant that: You are the sole author of your question or review Your review represents your honest and truthful opinion; and that you are at least 16 years old; Use of the content you supply does not violate these Terms of Use and will not cause injury to any person or entity Submitted content is moderated and will be posted within 72 hours if approved.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/bv_terms_of_use</li>
+<li><strong>og_title</strong>: PEPCID® Brand Reviews Terms of Use | PEPCID®</li>
+<li><strong>og_description</strong>: By submitting any content to PEPCID® Brand, you represent and warrant that: You are the sole author of your question or review Your review represents your honest and truthful opinion; and that you are at least 16 years old; Use of the content you supply does not violate these Terms of Use and will not cause injury to any person or entity Submitted content is moderated and will be posted within 72 hours if approved.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/bv_terms_of_use</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: PEPCID® Brand Reviews Terms of Use | PEPCID®</li>
+<li><strong>twitter_description</strong>: By submitting any content to PEPCID® Brand, you represent and warrant that: You are the sole author of your question or review Your review represents your honest and truthful opinion; and that you are at least 16 years old; Use of the content you supply does not violate these Terms of Use and will not cause injury to any person or entity Submitted content is moderated and will be posted within 72 hours if approved.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: PEPCID® Brand Reviews Terms of Use</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">4. compare-heartburn-treatments</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/compare-heartburn-treatments</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Compare Different Types of Heartburn Relief Treatments | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn about different types of heartburn treatments, active ingredients and explore which heartburn medication might be best to relieve your symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/compare-heartburn-treatments</li>
+<li><strong>og_title</strong>: Compare Different Types of Heartburn Relief Treatments | PEPCID®</li>
+<li><strong>og_description</strong>: Learn about different types of heartburn treatments, active ingredients and explore which heartburn medication might be best to relieve your symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/compare-heartburn-treatments</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Compare Different Types of Heartburn Relief Treatments | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn about different types of heartburn treatments, active ingredients and explore which heartburn medication might be best to relieve your symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: compare-h-2-blocker2x-en-us</li>
+<li><strong>h1</strong>: Compare Heartburn Treatments</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">5. compare-heartburn-treatments/antacids</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/compare-heartburn-treatments/antacids</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Are Antacids? Learn More About Fast Heartburn Relief | PEPCID®</li>
+<li><strong>meta_description</strong>: Antacids can neutralize stomach acid, which helps prevent and relieve heartburn. Learn more about how different types of antacid medications work.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/compare-heartburn-treatments/antacids</li>
+<li><strong>og_title</strong>: What Are Antacids? Learn More About Fast Heartburn Relief | PEPCID®</li>
+<li><strong>og_description</strong>: Antacids can neutralize stomach acid, which helps prevent and relieve heartburn. Learn more about how different types of antacid medications work.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/compare-heartburn-treatments/antacids</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Are Antacids? Learn More About Fast Heartburn Relief | PEPCID®</li>
+<li><strong>twitter_description</strong>: Antacids can neutralize stomach acid, which helps prevent and relieve heartburn. Learn more about how different types of antacid medications work.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_antacids.png</li>
+<li><strong>h1</strong>: What Are Antacids?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">6. compare-heartburn-treatments/compare-pepcid</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/compare-heartburn-treatments/compare-pepcid</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: How PEPCID® Compares to Other OTC Heartburn Medications | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn how PEPCID® and its active ingredient compares to other heartburn relief products and discover which heartburn medicine might work best to alleviate your symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/compare-heartburn-treatments/compare-pepcid</li>
+<li><strong>og_title</strong>: How PEPCID® Compares to Other OTC Heartburn Medications | PEPCID®</li>
+<li><strong>og_description</strong>: Learn how PEPCID® and its active ingredient compares to other heartburn relief products and discover which heartburn medicine might work best to alleviate your symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/compare-heartburn-treatments/compare-pepcid</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: How PEPCID® Compares to Other OTC Heartburn Medications | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn how PEPCID® and its active ingredient compares to other heartburn relief products and discover which heartburn medicine might work best to alleviate your symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Compare PEPCID® to Other OTC Heartburn Medications</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">7. compare-heartburn-treatments/compare-pepcid/pepcid-vs-zantac</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/compare-heartburn-treatments/compare-pepcid/pepcid-vs-zantac</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: PEPCID® vs ZANTAC 360°™: Comparing OTC Heartburn Relief Products | PEPCID®</li>
+<li><strong>meta_description</strong>: Understand the difference between PEPCID® and ZANTAC 360°™ and learn why PEPCID® products with famotidine may be the right option for those in need of fast heartburn relief.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/compare-heartburn-treatments/compare-pepcid/pepcid-vs-zantac</li>
+<li><strong>og_title</strong>: PEPCID® vs ZANTAC 360°™: Comparing OTC Heartburn Relief Products | PEPCID®</li>
+<li><strong>og_description</strong>: Understand the difference between PEPCID® and ZANTAC 360°™ and learn why PEPCID® products with famotidine may be the right option for those in need of fast heartburn relief.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/compare-heartburn-treatments/compare-pepcid/pepcid-vs-zantac</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: PEPCID® vs ZANTAC 360°™: Comparing OTC Heartburn Relief Products | PEPCID®</li>
+<li><strong>twitter_description</strong>: Understand the difference between PEPCID® and ZANTAC 360°™ and learn why PEPCID® products with famotidine may be the right option for those in need of fast heartburn relief.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Compare PEPCID® to ZANTAC 360°®</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">8. compare-heartburn-treatments/famotidine</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/compare-heartburn-treatments/famotidine</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Famotidine: An H2 Blocker That Relieves Heartburn Fast | PEPCID®</li>
+<li><strong>meta_description</strong>: Famotidine stops stomach cells from producing more stomach acid. Learn more about how medications that contain famotidine help prevent and treat heartburn.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/compare-heartburn-treatments/famotidine</li>
+<li><strong>og_title</strong>: Famotidine: An H2 Blocker That Relieves Heartburn Fast | PEPCID®</li>
+<li><strong>og_description</strong>: Famotidine stops stomach cells from producing more stomach acid. Learn more about how medications that contain famotidine help prevent and treat heartburn.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/compare-heartburn-treatments/famotidine</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Famotidine: An H2 Blocker That Relieves Heartburn Fast | PEPCID®</li>
+<li><strong>twitter_description</strong>: Famotidine stops stomach cells from producing more stomach acid. Learn more about how medications that contain famotidine help prevent and treat heartburn.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_famotidine.png</li>
+<li><strong>h1</strong>: What Is Famotidine?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">9. compare-heartburn-treatments/h2s-vs-antacids-vs-ppis</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/compare-heartburn-treatments/h2s-vs-antacids-vs-ppis</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: H2s vs. Antacids vs. PPIs: Which Treatment Is Right For You? | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn about the difference between histamine-2 blockers (H2s), antacids and proton pump inhibitors (PPIs), and discover which heartburn medicine might be best for you.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/compare-heartburn-treatments/h2s-vs-antacids-vs-ppis</li>
+<li><strong>og_title</strong>: H2s vs. Antacids vs. PPIs: Which Treatment Is Right For You? | PEPCID®</li>
+<li><strong>og_description</strong>: Learn about the difference between histamine-2 blockers (H2s), antacids and proton pump inhibitors (PPIs), and discover which heartburn medicine might be best for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/compare-heartburn-treatments/h2s-vs-antacids-vs-ppis</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: H2s vs. Antacids vs. PPIs: Which Treatment Is Right For You? | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn about the difference between histamine-2 blockers (H2s), antacids and proton pump inhibitors (PPIs), and discover which heartburn medicine might be best for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: H2 Blocker vs. Antacid vs. PPI</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">10. contact-us</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/contact-us</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Contact Us, Where To Buy PEPCID® Products, & Top FAQs | PEPCID®</li>
+<li><strong>meta_description</strong>: Looking to contact PEPCID®? Reach us via email, phone or connect with us on social media. Click through to also discover common FAQs and where to buy PEPCID® products.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/contact-us</li>
+<li><strong>og_title</strong>: Contact Us, Where To Buy PEPCID® Products, & Top FAQs | PEPCID®</li>
+<li><strong>og_description</strong>: Looking to contact PEPCID®? Reach us via email, phone or connect with us on social media. Click through to also discover common FAQs and where to buy PEPCID® products.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/contact-us</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Contact Us, Where To Buy PEPCID® Products, & Top FAQs | PEPCID®</li>
+<li><strong>twitter_description</strong>: Looking to contact PEPCID®? Reach us via email, phone or connect with us on social media. Click through to also discover common FAQs and where to buy PEPCID® products.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-onthego-7-en-us</li>
+<li><strong>h1</strong>: Contact Us</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">11. cookie-policy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/cookie-policy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Cookie Policy | PEPCID®</li>
+<li><strong>meta_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications,</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/cookie-policy</li>
+<li><strong>og_title</strong>: Cookie Policy | PEPCID®</li>
+<li><strong>og_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications,</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/cookie-policy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Cookie Policy | PEPCID®</li>
+<li><strong>twitter_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications,</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Cookie Policy</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">12. coupons</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/coupons</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Coupons & Savings | PEPCID®</li>
+<li><strong>meta_description</strong>: Find savings with special discounts and coupons for PEPCID® products, like PEPCID® Complete® and PEPCID® AC®.
+</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/coupons</li>
+<li><strong>og_title</strong>: Coupons & Savings | PEPCID®</li>
+<li><strong>og_description</strong>: Find savings with special discounts and coupons for PEPCID® products, like PEPCID® Complete® and PEPCID® AC®.
+</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/coupons</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Coupons & Savings | PEPCID®</li>
+<li><strong>twitter_description</strong>: Find savings with special discounts and coupons for PEPCID® products, like PEPCID® Complete® and PEPCID® AC®.
+</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Coupons</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">13. email-signup</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/email-signup</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Email Sign Up | PEPCID®</li>
+<li><strong>meta_description</strong>: Want to receive tips, personalized content and exclusive offers from PEPCID®?</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/email-signup</li>
+<li><strong>og_title</strong>: Email Sign Up | PEPCID®</li>
+<li><strong>og_description</strong>: Want to receive tips, personalized content and exclusive offers from PEPCID®?</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: None</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Email Sign Up | PEPCID®</li>
+<li><strong>twitter_description</strong>: Want to receive tips, personalized content and exclusive offers from PEPCID®?</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Email Sign Up & Offers</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">14. faq</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/faq</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Frequently Asked Questions | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn more about what causes heartburn and find answers to the most frequently asked questions about PEPCID® products and active ingredient famotidine.
+</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/faq</li>
+<li><strong>og_title</strong>: Frequently Asked Questions | PEPCID®</li>
+<li><strong>og_description</strong>: Learn more about what causes heartburn and find answers to the most frequently asked questions about PEPCID® products and active ingredient famotidine.
+</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/faq</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Frequently Asked Questions | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn more about what causes heartburn and find answers to the most frequently asked questions about PEPCID® products and active ingredient famotidine.
+</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: 6-icy-cool-mint-3-en-us</li>
+<li><strong>h1</strong>: Frequently Asked Questions</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">15. legal-notice</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/legal-notice</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Legal Notice | PEPCID®</li>
+<li><strong>meta_description</strong>: Read the legal notice for this website, information about PEPCID®, as well as McNeil Consumer Pharmaceuticals Co.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/legal-notice</li>
+<li><strong>og_title</strong>: Legal Notice | PEPCID®</li>
+<li><strong>og_description</strong>: Read the legal notice for this website, information about PEPCID®, as well as McNeil Consumer Pharmaceuticals Co.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/legal-notice</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Legal Notice | PEPCID®</li>
+<li><strong>twitter_description</strong>: Read the legal notice for this website, information about PEPCID®, as well as McNeil Consumer Pharmaceuticals Co.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Legal Notice</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">16. our-products</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/our-products</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Heartburn Relief Products | PEPCID®</li>
+<li><strong>meta_description</strong>: Explore PEPCID® heartburn products to find out how you can control stomach acid and heartburn and experience fast, long-lasting symptom relief all day or all night.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/our-products</li>
+<li><strong>og_title</strong>: Heartburn Relief Products | PEPCID®</li>
+<li><strong>og_description</strong>: Explore PEPCID® heartburn products to find out how you can control stomach acid and heartburn and experience fast, long-lasting symptom relief all day or all night.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/our-products</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Heartburn Relief Products | PEPCID®</li>
+<li><strong>twitter_description</strong>: Explore PEPCID® heartburn products to find out how you can control stomach acid and heartburn and experience fast, long-lasting symptom relief all day or all night.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-onthego-8-en-us</li>
+<li><strong>h1</strong>: Heartburn Relief in One Tablet</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">17. our-products/digestive-health-top-to-bottom</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/our-products/digestive-health-top-to-bottom</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Digestive Aids | PEPCID®</li>
+<li><strong>meta_description</strong>: Explore our family of products that can help with digestive issues such as heartburn, lactose intolerance and diarrhea. Including PEPCID®, LACTAID® and IMODIUM®.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/our-products/digestive-health-top-to-bottom</li>
+<li><strong>og_title</strong>: Digestive Aids | PEPCID®</li>
+<li><strong>og_description</strong>: Explore our family of products that can help with digestive issues such as heartburn, lactose intolerance and diarrhea. Including PEPCID®, LACTAID® and IMODIUM®.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/our-products/digestive-health-top-to-bottom</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Digestive Aids | PEPCID®</li>
+<li><strong>twitter_description</strong>: Explore our family of products that can help with digestive issues such as heartburn, lactose intolerance and diarrhea. Including PEPCID®, LACTAID® and IMODIUM®.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-original-1-en-us</li>
+<li><strong>h1</strong>: Digestive Aids</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">18. our-products/max-strength-pepcid-ac-cool-mint</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/our-products/max-strength-pepcid-ac-cool-mint</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: PEPCID AC® Maximum Strength Heartburn Relief, Icy Cool Mint | PEPCID®</li>
+<li><strong>meta_description</strong>: Relieve your heartburn and acid reflux symptoms fast with the PEPCID AC® Maximum Strength Heartburn Relief in Icy Cool Mint flavor and with 20 mg of Famotidine.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/our-products/max-strength-pepcid-ac-cool-mint</li>
+<li><strong>og_title</strong>: PEPCID AC® Maximum Strength Heartburn Relief, Icy Cool Mint | PEPCID®</li>
+<li><strong>og_description</strong>: Relieve your heartburn and acid reflux symptoms fast with the PEPCID AC® Maximum Strength Heartburn Relief in Icy Cool Mint flavor and with 20 mg of Famotidine.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/our-products/max-strength-pepcid-ac-cool-mint</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: PEPCID AC® Maximum Strength Heartburn Relief, Icy Cool Mint | PEPCID®</li>
+<li><strong>twitter_description</strong>: Relieve your heartburn and acid reflux symptoms fast with the PEPCID AC® Maximum Strength Heartburn Relief in Icy Cool Mint flavor and with 20 mg of Famotidine.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: max-stength-image1.jpg</li>
+<li><strong>h1</strong>: PEPCID AC® Maximum Strength Heartburn Relief & Acid Reducer, Icy Cool Mint, 20 mg Famotidine Tablets </li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">19. our-products/maximum-strength-pepcid-ac</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/our-products/maximum-strength-pepcid-ac</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Maximum Strength PEPCID AC® Tablets with Famotidine | PEPCID®</li>
+<li><strong>meta_description</strong>: Prevent & relieve heartburn with Maximum Strength PEPCID AC® tablets with famotidine. Our strongest acid control formula helps control stomach acid all day or all night.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/our-products/maximum-strength-pepcid-ac</li>
+<li><strong>og_title</strong>: Maximum Strength PEPCID AC® Tablets with Famotidine | PEPCID®</li>
+<li><strong>og_description</strong>: Prevent & relieve heartburn with Maximum Strength PEPCID AC® tablets with famotidine. Our strongest acid control formula helps control stomach acid all day or all night.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/our-products/maximum-strength-pepcid-ac</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Maximum Strength PEPCID AC® Tablets with Famotidine | PEPCID®</li>
+<li><strong>twitter_description</strong>: Prevent & relieve heartburn with Maximum Strength PEPCID AC® tablets with famotidine. Our strongest acid control formula helps control stomach acid all day or all night.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-maximum-1-en-us</li>
+<li><strong>h1</strong>: Maximum Strength PEPCID AC® Tablets with Famotidine</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">20. our-products/original-strength-pepcid-ac</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/our-products/original-strength-pepcid-ac</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Original Strength PEPCID AC® Tablets with Famotidine | PEPCID®</li>
+<li><strong>meta_description</strong>: Get fast heartburn relief with Original Strength PEPCID AC®. Our acid reducing tablets with famotidine prevent heartburn and start to relieve symptoms in 15-30 minutes.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/our-products/original-strength-pepcid-ac</li>
+<li><strong>og_title</strong>: Original Strength PEPCID AC® Tablets with Famotidine | PEPCID®</li>
+<li><strong>og_description</strong>: Get fast heartburn relief with Original Strength PEPCID AC®. Our acid reducing tablets with famotidine prevent heartburn and start to relieve symptoms in 15-30 minutes.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/our-products/original-strength-pepcid-ac</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Original Strength PEPCID AC® Tablets with Famotidine | PEPCID®</li>
+<li><strong>twitter_description</strong>: Get fast heartburn relief with Original Strength PEPCID AC®. Our acid reducing tablets with famotidine prevent heartburn and start to relieve symptoms in 15-30 minutes.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-original-1-en-us</li>
+<li><strong>h1</strong>: Original Strength PEPCID AC® Tablets with Famotidine</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">21. our-products/pepcid-complete</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/our-products/pepcid-complete</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: PEPCID COMPLETE® Dual Action Heartburn Relief Chewable Tablets | PEPCID®</li>
+<li><strong>meta_description</strong>: Get fast heartburn relief that lasts with PEPCID COMPLETE®. The dual-action antacid & acid reducer neutralizes and controls stomach acid with one chewable tablet.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/our-products/pepcid-complete</li>
+<li><strong>og_title</strong>: PEPCID COMPLETE® Dual Action Heartburn Relief Chewable Tablets | PEPCID®</li>
+<li><strong>og_description</strong>: Get fast heartburn relief that lasts with PEPCID COMPLETE®. The dual-action antacid & acid reducer neutralizes and controls stomach acid with one chewable tablet.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/our-products/pepcid-complete</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: PEPCID COMPLETE® Dual Action Heartburn Relief Chewable Tablets | PEPCID®</li>
+<li><strong>twitter_description</strong>: Get fast heartburn relief that lasts with PEPCID COMPLETE®. The dual-action antacid & acid reducer neutralizes and controls stomach acid with one chewable tablet.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-complete-1_0-en-us</li>
+<li><strong>h1</strong>: PEPCID COMPLETE® Chewable Tablet with Famotidine & Antacids</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">22. our-products/pepcid-complete-on-the-go</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/our-products/pepcid-complete-on-the-go</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: PEPCID COMPLETE® On-The-Go Heartburn Relief Chewable Tablets | PEPCID®</li>
+<li><strong>meta_description</strong>: Get fast heartburn relief with dual-action antacid & acid reducer PEPCID COMPLETE®. Available in individually wrapped chewable tablets for relief on-the-go.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/our-products/pepcid-complete-on-the-go</li>
+<li><strong>og_title</strong>: PEPCID COMPLETE® On-The-Go Heartburn Relief Chewable Tablets | PEPCID®</li>
+<li><strong>og_description</strong>: Get fast heartburn relief with dual-action antacid & acid reducer PEPCID COMPLETE®. Available in individually wrapped chewable tablets for relief on-the-go.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/our-products/pepcid-complete-on-the-go</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: PEPCID COMPLETE® On-The-Go Heartburn Relief Chewable Tablets | PEPCID®</li>
+<li><strong>twitter_description</strong>: Get fast heartburn relief with dual-action antacid & acid reducer PEPCID COMPLETE®. Available in individually wrapped chewable tablets for relief on-the-go.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-onthego-1-en-us</li>
+<li><strong>h1</strong>: PEPCID COMPLETE® ON-THE-GO Chewable Tablet with Famotidine & Antacids </li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">23. sitemap</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/sitemap</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Site Map | PEPCID®</li>
+<li><strong>meta_description</strong>: Explore the site map and see how PEPCID® can help fight heartburn and educate you on ways to stop heartburn before it starts.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/sitemap</li>
+<li><strong>og_title</strong>: Site Map | PEPCID®</li>
+<li><strong>og_description</strong>: Explore the site map and see how PEPCID® can help fight heartburn and educate you on ways to stop heartburn before it starts.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/sitemap</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Site Map | PEPCID®</li>
+<li><strong>twitter_description</strong>: Explore the site map and see how PEPCID® can help fight heartburn and educate you on ways to stop heartburn before it starts.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-onthego-5-en-us</li>
+<li><strong>h1</strong>: Sitemap</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">24. understanding-heartburn</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Understanding Heartburn | PEPCID®</li>
+<li><strong>meta_description</strong>: Find answers in our digital library to better understand what heartburn is and the symptoms you may be experiencing, as well as common causes, tips for relief and more.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn</li>
+<li><strong>og_title</strong>: Understanding Heartburn | PEPCID®</li>
+<li><strong>og_description</strong>: Find answers in our digital library to better understand what heartburn is and the symptoms you may be experiencing, as well as common causes, tips for relief and more.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Understanding Heartburn | PEPCID®</li>
+<li><strong>twitter_description</strong>: Find answers in our digital library to better understand what heartburn is and the symptoms you may be experiencing, as well as common causes, tips for relief and more.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-onthego-8-en-us</li>
+<li><strong>h1</strong>: Understanding Heartburn</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">25. understanding-heartburn/acid-reflux-diet</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/acid-reflux-diet</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Acid Reflux Diet Tips: Foods to Avoid and Diet Changes | PEPCID ®</li>
+<li><strong>meta_description</strong>: Which foods will give you heartburn? Discover diet tips and learn more about which foods to avoid if you are suffering from acid reflux or GERD.
+</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/acid-reflux-diet</li>
+<li><strong>og_title</strong>: Acid Reflux Diet Tips: Foods to Avoid and Diet Changes | PEPCID ®</li>
+<li><strong>og_description</strong>: Which foods will give you heartburn? Discover diet tips and learn more about which foods to avoid if you are suffering from acid reflux or GERD.
+</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/acid-reflux-diet</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Acid Reflux Diet Tips: Foods to Avoid and Diet Changes | PEPCID ®</li>
+<li><strong>twitter_description</strong>: Which foods will give you heartburn? Discover diet tips and learn more about which foods to avoid if you are suffering from acid reflux or GERD.
+</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: article-hb-diet-tips-en-us</li>
+<li><strong>h1</strong>: Acid Reflux Diet Tips: Foods To Avoid and Diet Modifications</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">26. understanding-heartburn/acid-reflux-gerd</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/acid-reflux-gerd</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Heartburn vs. Acid Reflux vs. GERD: What’s the Difference? | PEPCID®</li>
+<li><strong>meta_description</strong>: Are heartburn, acid reflux, and GERD the same? Not exactly. Read more about the differences between these conditions, as well as their symptoms and causes.
+</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/acid-reflux-gerd</li>
+<li><strong>og_title</strong>: Heartburn vs. Acid Reflux vs. GERD: What’s the Difference? | PEPCID®</li>
+<li><strong>og_description</strong>: Are heartburn, acid reflux, and GERD the same? Not exactly. Read more about the differences between these conditions, as well as their symptoms and causes.
+</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/acid-reflux-gerd</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Heartburn vs. Acid Reflux vs. GERD: What’s the Difference? | PEPCID®</li>
+<li><strong>twitter_description</strong>: Are heartburn, acid reflux, and GERD the same? Not exactly. Read more about the differences between these conditions, as well as their symptoms and causes.
+</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_heartburn_vs_acid_reflux_vs_gerd2x-en-us</li>
+<li><strong>h1</strong>: Heartburn vs. Acid Reflux vs. GERD</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">27. understanding-heartburn/heartburn-and-stress</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-and-stress</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Can Stress Trigger Heartburn or Acid Reflux? | PEPCID®</li>
+<li><strong>meta_description</strong>: Find information on how stress may trigger heartburn or acid reflux. Learn ways to stop, manage, and relieve stress and heartburn, including how PEPCID® can help.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-and-stress</li>
+<li><strong>og_title</strong>: Can Stress Trigger Heartburn or Acid Reflux? | PEPCID®</li>
+<li><strong>og_description</strong>: Find information on how stress may trigger heartburn or acid reflux. Learn ways to stop, manage, and relieve stress and heartburn, including how PEPCID® can help.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-and-stress</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Can Stress Trigger Heartburn or Acid Reflux? | PEPCID®</li>
+<li><strong>twitter_description</strong>: Find information on how stress may trigger heartburn or acid reflux. Learn ways to stop, manage, and relieve stress and heartburn, including how PEPCID® can help.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_stress-and-heartburn2x-en-us</li>
+<li><strong>h1</strong>: Can Stress Trigger Heartburn or Acid Reflux?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">28. understanding-heartburn/heartburn-at-night</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-at-night</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: How To Relieve Heartburn at Night | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn what causes nighttime heartburn and acid reflux, common symptoms of heartburn at night, and potential treatments. Talk to your doctor if you experience nighttime heartburn frequently.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-at-night</li>
+<li><strong>og_title</strong>: How To Relieve Heartburn at Night | PEPCID®</li>
+<li><strong>og_description</strong>: Learn what causes nighttime heartburn and acid reflux, common symptoms of heartburn at night, and potential treatments. Talk to your doctor if you experience nighttime heartburn frequently.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-at-night</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: How To Relieve Heartburn at Night | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn what causes nighttime heartburn and acid reflux, common symptoms of heartburn at night, and potential treatments. Talk to your doctor if you experience nighttime heartburn frequently.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: article-night-time-article-new-en-us</li>
+<li><strong>h1</strong>: How To Relieve Heartburn at Night</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">29. understanding-heartburn/heartburn-during-pregnancy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-during-pregnancy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Heartburn During Pregnancy: Causes, Symptoms, and Relief | PEPCID®</li>
+<li><strong>meta_description</strong>: Pregnancy hormones can trigger heartburn or make symptoms worse. Discover what triggers heartburn and how you can prevent and relieve heartburn or acid reflux.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-during-pregnancy</li>
+<li><strong>og_title</strong>: Heartburn During Pregnancy: Causes, Symptoms, and Relief | PEPCID®</li>
+<li><strong>og_description</strong>: Pregnancy hormones can trigger heartburn or make symptoms worse. Discover what triggers heartburn and how you can prevent and relieve heartburn or acid reflux.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-during-pregnancy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Heartburn During Pregnancy: Causes, Symptoms, and Relief | PEPCID®</li>
+<li><strong>twitter_description</strong>: Pregnancy hormones can trigger heartburn or make symptoms worse. Discover what triggers heartburn and how you can prevent and relieve heartburn or acid reflux.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_heartburnduringpregnancy2x-en-us</li>
+<li><strong>h1</strong>: Heartburn During Pregnancy: Causes, Symptoms, Prevention & Treatments</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">30. understanding-heartburn/heartburn-myths</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-myths</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Common Heartburn Myths | PEPCID®</li>
+<li><strong>meta_description</strong>: When it comes to heartburn, it can be difficult to separate what’s fact from fiction. Understand the truth behind these common heartburn myths.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-myths</li>
+<li><strong>og_title</strong>: Common Heartburn Myths | PEPCID®</li>
+<li><strong>og_description</strong>: When it comes to heartburn, it can be difficult to separate what’s fact from fiction. Understand the truth behind these common heartburn myths.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-myths</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Common Heartburn Myths | PEPCID®</li>
+<li><strong>twitter_description</strong>: When it comes to heartburn, it can be difficult to separate what’s fact from fiction. Understand the truth behind these common heartburn myths.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: article-common-hb-myths-new-en-us</li>
+<li><strong>h1</strong>: Common Heartburn Myths</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">31. understanding-heartburn/heartburn-relief</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-relief</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Fast Heartburn Relief: Medications and Remedies to Stop Heartburn | PEPCID®</li>
+<li><strong>meta_description</strong>: Looking for ways to reduce your heartburn or acid reflux fast? Learn about tips for quick heartburn relief, including remedies and medications such as PEPCID®.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-relief</li>
+<li><strong>og_title</strong>: Fast Heartburn Relief: Medications and Remedies to Stop Heartburn | PEPCID®</li>
+<li><strong>og_description</strong>: Looking for ways to reduce your heartburn or acid reflux fast? Learn about tips for quick heartburn relief, including remedies and medications such as PEPCID®.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-relief</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Fast Heartburn Relief: Medications and Remedies to Stop Heartburn | PEPCID®</li>
+<li><strong>twitter_description</strong>: Looking for ways to reduce your heartburn or acid reflux fast? Learn about tips for quick heartburn relief, including remedies and medications such as PEPCID®.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_fast_heartburn_relief2x-en-us</li>
+<li><strong>h1</strong>: How To Get Fast Heartburn Relief</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">32. understanding-heartburn/heartburn-triggers-quiz</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/heartburn-triggers-quiz</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 302 (Found)</li>
+<li><strong>meta_title</strong>: Heartburn Relief Products with Active Ingredient Famotidine | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn how H2 Blockers, such as famotidine in PEPCID® products, help provide lasting heartburn relief and lower the amount of acid your stomach produces.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com</li>
+<li><strong>og_title</strong>: Heartburn Relief Products with Active Ingredient Famotidine | PEPCID®</li>
+<li><strong>og_description</strong>: Learn how H2 Blockers, such as famotidine in PEPCID® products, help provide lasting heartburn relief and lower the amount of acid your stomach produces.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Heartburn Relief Products with Active Ingredient Famotidine | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn how H2 Blockers, such as famotidine in PEPCID® products, help provide lasting heartburn relief and lower the amount of acid your stomach produces.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_banner-desktop_what_is_pepcid_v2-en-us</li>
+<li><strong>h1</strong>: #1 Doctor Recommended OTC Acid Reducer Brand</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">33. understanding-heartburn/home-remedies-for-heartburn</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/home-remedies-for-heartburn</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Home Remedies and Tips for Heartburn Relief and Prevention | PEPCID®</li>
+<li><strong>meta_description</strong>: Home remedies for heartburn can prevent acid reflux from ruining your day. Learn about natural tips and tricks you can use at home that help reduce heartburn.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/home-remedies-for-heartburn</li>
+<li><strong>og_title</strong>: Home Remedies and Tips for Heartburn Relief and Prevention | PEPCID®</li>
+<li><strong>og_description</strong>: Home remedies for heartburn can prevent acid reflux from ruining your day. Learn about natural tips and tricks you can use at home that help reduce heartburn.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/home-remedies-for-heartburn</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Home Remedies and Tips for Heartburn Relief and Prevention | PEPCID®</li>
+<li><strong>twitter_description</strong>: Home remedies for heartburn can prevent acid reflux from ruining your day. Learn about natural tips and tricks you can use at home that help reduce heartburn.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: article-do-more-to-prevent-hb_new-en-us</li>
+<li><strong>h1</strong>: Home Remedies and Tips for Heartburn Relief & Prevention</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">34. understanding-heartburn/what-causes-heartburn</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/what-causes-heartburn</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Causes Heartburn? | PEPCID®</li>
+<li><strong>meta_description</strong>: Food and lifestyle choices can cause heartburn in anyone. Learn more about common triggers that cause heartburn and what you can avoid to prevent future symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/what-causes-heartburn</li>
+<li><strong>og_title</strong>: What Causes Heartburn? | PEPCID®</li>
+<li><strong>og_description</strong>: Food and lifestyle choices can cause heartburn in anyone. Learn more about common triggers that cause heartburn and what you can avoid to prevent future symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/what-causes-heartburn</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Causes Heartburn? | PEPCID®</li>
+<li><strong>twitter_description</strong>: Food and lifestyle choices can cause heartburn in anyone. Learn more about common triggers that cause heartburn and what you can avoid to prevent future symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: article-what-causes-hb2x-en-us</li>
+<li><strong>h1</strong>: What Causes Heartburn?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">35. understanding-heartburn/what-does-heartburn-feel-like</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/what-does-heartburn-feel-like</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Does Heartburn Feel Like? Top Symptoms to Look Out For | PEPCID®</li>
+<li><strong>meta_description</strong>: Learn more about what heartburn feels like, common symptoms of heartburn, and how the symptoms differ from those of GERD.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/what-does-heartburn-feel-like</li>
+<li><strong>og_title</strong>: What Does Heartburn Feel Like? Top Symptoms to Look Out For | PEPCID®</li>
+<li><strong>og_description</strong>: Learn more about what heartburn feels like, common symptoms of heartburn, and how the symptoms differ from those of GERD.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/understanding-heartburn/what-does-heartburn-feel-like</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Does Heartburn Feel Like? Top Symptoms to Look Out For | PEPCID®</li>
+<li><strong>twitter_description</strong>: Learn more about what heartburn feels like, common symptoms of heartburn, and how the symptoms differ from those of GERD.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: article-what-does-hb-feel-like-en-us</li>
+<li><strong>h1</strong>: What Does Heartburn Feel Like?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">36. understanding-heartburn/what-is-heartburn</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/understanding-heartburn/what-is-heartburn</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Is Heartburn and How Does It Happen? | PEPCID®</li>
+<li><strong>meta_description</strong>: Heartburn is the uncomfortable burning sensation in the chest when stomach acid flows backward from your stomach to your esophagus. Learn more about how it occurs here.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/understanding-heartburn/what-is-heartburn</li>
+<li><strong>og_title</strong>: What Is Heartburn and How Does It Happen? | PEPCID®</li>
+<li><strong>og_description</strong>: Heartburn is the uncomfortable burning sensation in the chest when stomach acid flows backward from your stomach to your esophagus. Learn more about how it occurs here.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/what-is-heartburn</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Is Heartburn and How Does It Happen? | PEPCID®</li>
+<li><strong>twitter_description</strong>: Heartburn is the uncomfortable burning sensation in the chest when stomach acid flows backward from your stomach to your esophagus. Learn more about how it occurs here.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: article-what-is-hb_new-en-us</li>
+<li><strong>h1</strong>: What Is Heartburn?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">37. what-is-pepcid</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/what-is-pepcid</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Is PEPCID®? | PEPCID®</li>
+<li><strong>meta_description</strong>: PEPCID® is the original brand with the active ingredient famotidine which is a histamine-2 blocker (H2 blocker) that provides relief for occasional heartburn.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/what-is-pepcid</li>
+<li><strong>og_title</strong>: What Is PEPCID®? | PEPCID®</li>
+<li><strong>og_description</strong>: PEPCID® is the original brand with the active ingredient famotidine which is a histamine-2 blocker (H2 blocker) that provides relief for occasional heartburn.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/what-is-pepcid</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Is PEPCID®? | PEPCID®</li>
+<li><strong>twitter_description</strong>: PEPCID® is the original brand with the active ingredient famotidine which is a histamine-2 blocker (H2 blocker) that provides relief for occasional heartburn.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid_banner-desktop_what_is_pepcid_v2-en-us</li>
+<li><strong>h1</strong>: What Is PEPCID®?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">38. where-to-buy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.pepcid.com/where-to-buy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Where to Buy PEPCID® Products with Famotidine | PEPCID®</li>
+<li><strong>meta_description</strong>: Find out where you can buy PEPCID® (famotidine) products so you can get heartburn relief fast. Use our Where to Buy tool to find a PEPCID® retailer online or near you.</li>
+<li><strong>canonical_link</strong>: https://www.pepcid.com/where-to-buy</li>
+<li><strong>og_title</strong>: Where to Buy PEPCID® Products with Famotidine | PEPCID®</li>
+<li><strong>og_description</strong>: Find out where you can buy PEPCID® (famotidine) products so you can get heartburn relief fast. Use our Where to Buy tool to find a PEPCID® retailer online or near you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: PEPCID®</li>
+<li><strong>og_url</strong>: https://www.pepcid.com/where-to-buy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Where to Buy PEPCID® Products with Famotidine | PEPCID®</li>
+<li><strong>twitter_description</strong>: Find out where you can buy PEPCID® (famotidine) products so you can get heartburn relief fast. Use our Where to Buy tool to find a PEPCID® retailer online or near you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pepcid-original-1-en-us</li>
+<li><strong>h1</strong>: Where To Buy</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <script>
+            function toggleAccordion(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function togglePass(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Pass");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function toggleFail(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Fail");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            // Automatically set up all accordions on page load
+            document.addEventListener("DOMContentLoaded", function() {
+                var accordions = document.querySelectorAll("#accordion");
+                accordions.forEach(function(accordion) {
+                    // Initially set all panels to hidden
+                    var panel = accordion.nextElementSibling;
+                    if (panel) panel.style.display = "none";
+                });
+            });
+            
+        </script>
+    </div>
+    </body>
+    </html>
+    

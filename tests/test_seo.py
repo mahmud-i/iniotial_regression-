@@ -140,14 +140,14 @@ class SEOTest:
 
 
 
-    def generate_seo_report(self, report_directory):
+    def generate_seo_report(self, report_directory, brand_name):
         seo_directory = f"{report_directory}/SEO_Report"
         os.makedirs(seo_directory, exist_ok=True)
         if self.global_seo_result_data:
-            j.save_json(self.global_seo_result_data, f"{seo_directory}/SEO_Data.json")
+            j.save_json(self.global_seo_result_data, f"{seo_directory}/{brand_name}_seo_data.json")
         if self.global_seo_test_result:
-            j.save_json(self.global_seo_test_result, f"{seo_directory}/SEO_test_Result.json")
+            j.save_json(self.global_seo_test_result, f"{seo_directory}/{brand_name}_seo_test_result.json")
         if self.global_seo_pass_result:
-            j.save_json(self.global_seo_pass_result, f"{seo_directory}/SEO_pass_Result.json")
+            j.save_json(self.global_seo_pass_result, f"{seo_directory}/{brand_name}_seo_pass_result.json")
         if self.global_seo_error_result:
-            j.save_json(self.global_seo_error_result, f"{seo_directory}/SEO_error_Result.json")
+            j.save_json(self.global_seo_error_result, f"{seo_directory}/{brand_name}_seo_error_result.json")

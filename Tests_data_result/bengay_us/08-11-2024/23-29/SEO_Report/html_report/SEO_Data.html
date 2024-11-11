@@ -1,0 +1,1020 @@
+
+    <html>
+    <head>
+        <title>SEO_Data</title>
+        <style>
+            
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f9; 
+            color: #333; 
+        }
+
+        #report-container {
+            width: 90%;
+            margin: auto;
+    	}
+
+        h1 { 
+            text-align: center; 
+            color: #444; 
+        }
+
+        .acc, .acc-alt { 
+            cursor: pointer;
+            color: black; 
+            padding: 10px; 
+            border: 1px solid #ddd; 
+            width: 100%; 
+            text-align: left; 
+            font-size: 14px; 
+            font-weight: bold;
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .acc { background-color: #D0D0D0; }
+        .acc-alt { background-color: #EDEDED; }
+
+        .active, .acc:hover, .acc-alt:hover { 
+            color: white;
+            background-color: #0056b3; 
+        }
+        
+        
+        .acc_Pass {
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: green;
+            font-weight: bold;
+        } 
+        
+        .acc_Fail { 
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: red;
+            font-weight: bold;
+        } 
+        
+        .active_Fail  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: red; 
+        }
+        
+        .acc_Fail:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: red;
+        }
+        
+        .active_Pass  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: green; 
+        }
+        
+        .acc_Pass:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: green;
+        }
+        
+        .toggle-sign {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: right;
+            padding-right: 8px;
+        }
+        
+        .panel { 
+            padding: 10px; 
+            display: None; 
+            width: 100%; 
+            background-color: white; 
+            overflow: hidden; 
+            border: 1px solid #ddd; 
+            border-top: none;
+            font-size: 14px;  
+        }
+
+        ul, ol { 
+            margin: 0 0 10px 20px; 
+        }
+
+        li { 
+            margin-bottom: 5px; 
+        }
+
+        strong { 
+            color: #555; 
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <div id="report-container">
+        <h1>SEO_Data</h1>
+    
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">1. 404</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/404</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: </li>
+<li><strong>meta_description</strong>: None</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/404</li>
+<li><strong>og_title</strong>: None</li>
+<li><strong>og_description</strong>: None</li>
+<li><strong>og_type</strong>: None</li>
+<li><strong>og_site</strong>: None</li>
+<li><strong>og_url</strong>: None</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: None</li>
+<li><strong>twitter_description</strong>: None</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: 404</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">2. Home_Page</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Topical Pain Relief Products | BENGAY®</li>
+<li><strong>meta_description</strong>: The official website of BENGAY® – Learn how BENGAY® products can help relieve minor muscle or joint pain.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com</li>
+<li><strong>og_title</strong>: Topical Pain Relief Products | BENGAY®</li>
+<li><strong>og_description</strong>: The official website of BENGAY® – Learn how BENGAY® products can help relieve minor muscle or joint pain.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/homepage</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Topical Pain Relief Products | BENGAY®</li>
+<li><strong>twitter_description</strong>: The official website of BENGAY® – Learn how BENGAY® products can help relieve minor muscle or joint pain.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: BE A SORE WINNER</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">3. bv-terms-of-use</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/bv-terms-of-use</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Reviews Terms of Use | BENGAY®</li>
+<li><strong>meta_description</strong>: BENGAY® brand ratings and reviews terms and conditions. These Terms of Use govern your conduct associated with the Customer Ratings and Review service offered by BENGAY® (the "CRR Service"). To the extent of any conflict between BENGAY®'s Privacy Policy and these Terms of Use, these Terms of Use shall control with respect to the CRR Service. By submitting any content to BENGAY®, you represent and warrant that:</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/bv-terms-of-use</li>
+<li><strong>og_title</strong>: Reviews Terms of Use | BENGAY®</li>
+<li><strong>og_description</strong>: BENGAY® brand ratings and reviews terms and conditions. These Terms of Use govern your conduct associated with the Customer Ratings and Review service offered by BENGAY® (the "CRR Service"). To the extent of any conflict between BENGAY®'s Privacy Policy and these Terms of Use, these Terms of Use shall control with respect to the CRR Service. By submitting any content to BENGAY®, you represent and warrant that:</li>
+<li><strong>og_type</strong>: None</li>
+<li><strong>og_site</strong>: None</li>
+<li><strong>og_url</strong>: None</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Reviews Terms of Use | BENGAY®</li>
+<li><strong>twitter_description</strong>: BENGAY® brand ratings and reviews terms and conditions. These Terms of Use govern your conduct associated with the Customer Ratings and Review service offered by BENGAY® (the "CRR Service"). To the extent of any conflict between BENGAY®'s Privacy Policy and these Terms of Use, these Terms of Use shall control with respect to the CRR Service. By submitting any content to BENGAY®, you represent and warrant that:</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Reviews Terms of Use</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">4. contact-us</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/contact-us</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Contact Us, Common FAQS & Where-To-Buy | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn the uses of BENGAY® products & the pain relief they can provide. Find how to contact us, where to buy BENGAY®, & how to save with coupons.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/contact-us</li>
+<li><strong>og_title</strong>: Contact Us, Common FAQS & Where-To-Buy | BENGAY®</li>
+<li><strong>og_description</strong>: Learn the uses of BENGAY® products & the pain relief they can provide. Find how to contact us, where to buy BENGAY®, & how to save with coupons.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/contact-us</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Contact Us, Common FAQS & Where-To-Buy | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn the uses of BENGAY® products & the pain relief they can provide. Find how to contact us, where to buy BENGAY®, & how to save with coupons.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Contact Us</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">5. cookie-policy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/cookie-policy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Cookie Policy | BENGAY®</li>
+<li><strong>meta_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/cookie-policy</li>
+<li><strong>og_title</strong>: Cookie Policy | BENGAY®</li>
+<li><strong>og_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/cookie-policy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Cookie Policy | BENGAY®</li>
+<li><strong>twitter_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Cookie Policy</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">6. coupons</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/coupons</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: BENGAY® Coupons, Discounts, and Offers | BENGAY®</li>
+<li><strong>meta_description</strong>: Find coupons for Bengay® products here. Sign up with your email for more discounts and offers for your favorite products such Ultra Strength BENGAY® Cream, and more.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/coupons</li>
+<li><strong>og_title</strong>: BENGAY® Coupons, Discounts, and Offers | BENGAY®</li>
+<li><strong>og_description</strong>: Find coupons for Bengay® products here. Sign up with your email for more discounts and offers for your favorite products such Ultra Strength BENGAY® Cream, and more.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/coupons  </li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: BENGAY® Coupons, Discounts, and Offers | BENGAY®</li>
+<li><strong>twitter_description</strong>: Find coupons for Bengay® products here. Sign up with your email for more discounts and offers for your favorite products such Ultra Strength BENGAY® Cream, and more.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: BENGAY® COUPONS</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">7. frequently-asked-questions</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/frequently-asked-questions</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: FAQs about Topical Pain Relief & BENGAY® Products</li>
+<li><strong>meta_description</strong>: Find answers to frequently asked questions about topical pain relief and BENGAY® topical pain relief products.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/frequently-asked-questions</li>
+<li><strong>og_title</strong>: FAQs about Topical Pain Relief & BENGAY® Products</li>
+<li><strong>og_description</strong>: Find answers to frequently asked questions about topical pain relief and BENGAY® topical pain relief products.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/frequently-asked-questions</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: FAQs about Topical Pain Relief & BENGAY® Products</li>
+<li><strong>twitter_description</strong>: Find answers to frequently asked questions about topical pain relief and BENGAY® topical pain relief products.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Frequently Asked Questions</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">8. legal-notice</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/legal-notice</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Legal Notice | BENGAY®</li>
+<li><strong>meta_description</strong>: View the legal notice for the BENGAY® website.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/legal-notice</li>
+<li><strong>og_title</strong>: Legal Notice | BENGAY®</li>
+<li><strong>og_description</strong>: View the legal notice for the BENGAY® website.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/legalnotice</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Legal Notice | BENGAY®</li>
+<li><strong>twitter_description</strong>: View the legal notice for the BENGAY® website.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Legal Notice</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">9. products</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/products</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: BENGAY® Pain Relief Products | BENGAY®</li>
+<li><strong>meta_description</strong>: Discover BENGAY® products. Learn how these topical pain relief products can help relieve minor aches & pains, and find the BENGAY® product for you.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/products</li>
+<li><strong>og_title</strong>: BENGAY® Pain Relief Products | BENGAY®</li>
+<li><strong>og_description</strong>: Discover BENGAY® products. Learn how these topical pain relief products can help relieve minor aches & pains, and find the BENGAY® product for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/products</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: BENGAY® Pain Relief Products | BENGAY®</li>
+<li><strong>twitter_description</strong>: Discover BENGAY® products. Learn how these topical pain relief products can help relieve minor aches & pains, and find the BENGAY® product for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: BENGAY® PRODUCTS</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">10. products/lidocaine-tropical-jasmine-cream</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/products/lidocaine-tropical-jasmine-cream</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: BENGAY® 4% Lidocaine Cream in Tropical Jasmine | BENGAY®</li>
+<li><strong>meta_description</strong>: Temporarily relieve pain with this maximum strength numbing cream. The topical analgesic offers the numbing relief of 4% lidocaine HCl with a tropical jasmine scent.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/products/lidocaine-tropical-jasmine-cream</li>
+<li><strong>og_title</strong>: BENGAY® 4% Lidocaine Cream in Tropical Jasmine | BENGAY®</li>
+<li><strong>og_description</strong>: Temporarily relieve pain with this maximum strength numbing cream. The topical analgesic offers the numbing relief of 4% lidocaine HCl with a tropical jasmine scent.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/products/lidocaine-tropical-jasmine-cream</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: BENGAY® 4% Lidocaine Cream in Tropical Jasmine | BENGAY®</li>
+<li><strong>twitter_description</strong>: Temporarily relieve pain with this maximum strength numbing cream. The topical analgesic offers the numbing relief of 4% lidocaine HCl with a tropical jasmine scent.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: bengay_lidocaine_tropical_jasmine_primary_image-min-en-us</li>
+<li><strong>h1</strong>: BENGAY® 4% Lidocaine Cream Tropical Jasmine</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">11. products/ultra-strength-cream</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/products/ultra-strength-cream</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Ultra Strength Pain Relief Cream | BENGAY®</li>
+<li><strong>meta_description</strong>: Find pain relief with the strongest BENGAY® ever – the BENGAY® Ultra Strength Cream – that provides pain relief for minor aches and pains.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/products/ultra-strength-cream</li>
+<li><strong>og_title</strong>: Ultra Strength Pain Relief Cream | BENGAY®</li>
+<li><strong>og_description</strong>: Find pain relief with the strongest BENGAY® ever – the BENGAY® Ultra Strength Cream – that provides pain relief for minor aches and pains.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/products/ultra-strength-cream</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Ultra Strength Pain Relief Cream | BENGAY®</li>
+<li><strong>twitter_description</strong>: Find pain relief with the strongest BENGAY® ever – the BENGAY® Ultra Strength Cream – that provides pain relief for minor aches and pains.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: bengay_ultra_strength_primary_image-min-en-us</li>
+<li><strong>h1</strong>: Ultra Strength BENGAY® Cream</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">12. products/ultra-strength-pain-relieving-patch</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/products/ultra-strength-pain-relieving-patch</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Ultra Strength Pain Relief Patch | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn about BENGAY® Ultra Strength Pain Relief Patch, a self-adhesive patch that relieves minor aches and pains.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/products/ultra-strength-pain-relieving-patch</li>
+<li><strong>og_title</strong>: Ultra Strength Pain Relief Patch | BENGAY®</li>
+<li><strong>og_description</strong>: Learn about BENGAY® Ultra Strength Pain Relief Patch, a self-adhesive patch that relieves minor aches and pains.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/products/ultra-strength-pain-relieving-patch</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Ultra Strength Pain Relief Patch | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn about BENGAY® Ultra Strength Pain Relief Patch, a self-adhesive patch that relieves minor aches and pains.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: Ultra_Strength_BENGAY_Pain_Relieving_Patch-Product.webp</li>
+<li><strong>h1</strong>: Ultra Strength BENGAY® Pain Relieving Patch</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">13. products/vanishing-scent-pain-relief-gel</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/products/vanishing-scent-pain-relief-gel</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Vanishing Scent Pain Relief Gel | BENGAY®</li>
+<li><strong>meta_description</strong>: Want pain relief without the distinctive smell of BENGAY®? Learn about BENGAY® Vanishing Scent Pain Relief Gel for pain relief for minor aches and pains.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/products/vanishing-scent-pain-relief-gel</li>
+<li><strong>og_title</strong>: Vanishing Scent Pain Relief Gel | BENGAY®</li>
+<li><strong>og_description</strong>: Want pain relief without the distinctive smell of BENGAY®? Learn about BENGAY® Vanishing Scent Pain Relief Gel for pain relief for minor aches and pains.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/products/vanishing-scent-pain-relief-gel</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Vanishing Scent Pain Relief Gel | BENGAY®</li>
+<li><strong>twitter_description</strong>: Want pain relief without the distinctive smell of BENGAY®? Learn about BENGAY® Vanishing Scent Pain Relief Gel for pain relief for minor aches and pains.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: bengay_vanishing_scent_primary_image-min-en-us.jpg</li>
+<li><strong>h1</strong>: Vanishing Scent BENGAY® Gel</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">14. sitemap</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sitemap</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: </li>
+<li><strong>meta_description</strong>: None</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sitemap</li>
+<li><strong>og_title</strong>: None</li>
+<li><strong>og_description</strong>: None</li>
+<li><strong>og_type</strong>: None</li>
+<li><strong>og_site</strong>: None</li>
+<li><strong>og_url</strong>: None</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: None</li>
+<li><strong>twitter_description</strong>: None</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Site Map</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">15. sore-spotter</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sore-spotter</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Sore Spotter | BENGAY®</li>
+<li><strong>meta_description</strong>: Locate where you’re feeling pain with our Sore Spotter tool, and we will help you find the BENGAY® pain relief product for you.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sore-spotter</li>
+<li><strong>og_title</strong>: Sore Spotter | BENGAY®</li>
+<li><strong>og_description</strong>: Locate where you’re feeling pain with our Sore Spotter tool, and we will help you find the BENGAY® pain relief product for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/sore-spotter</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Sore Spotter | BENGAY®</li>
+<li><strong>twitter_description</strong>: Locate where you’re feeling pain with our Sore Spotter tool, and we will help you find the BENGAY® pain relief product for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: sore-spotter-en-us</li>
+<li><strong>h1</strong>: SORE SPOTTER</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">16. sore-spotter/treating-back-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sore-spotter/treating-back-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Easing & Treating Back Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn the common causes and symptoms of minor back pain. Find out how to ease minor back pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sore-spotter/treating-back-pain</li>
+<li><strong>og_title</strong>: Easing & Treating Back Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Learn the common causes and symptoms of minor back pain. Find out how to ease minor back pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/sore-spotter/treating-back-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Easing & Treating Back Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn the common causes and symptoms of minor back pain. Find out how to ease minor back pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: back-pain-treatment-en-us.webp</li>
+<li><strong>h1</strong>: TARGETING YOUR BACK PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">17. sore-spotter/treating-knee-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sore-spotter/treating-knee-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Easing & Treating Knee Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn the common causes and symptoms of minor knee pain. Find out how to ease minor knee pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sore-spotter/treating-knee-pain</li>
+<li><strong>og_title</strong>: Easing & Treating Knee Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Learn the common causes and symptoms of minor knee pain. Find out how to ease minor knee pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/sore-spotter/treating-knee-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Easing & Treating Knee Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn the common causes and symptoms of minor knee pain. Find out how to ease minor knee pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: treating-knee-pain-en-us.webp</li>
+<li><strong>h1</strong>: THE KEYS TO UNLOCKING KNEE PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">18. sore-spotter/treating-leg-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sore-spotter/treating-leg-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Easing & Treating Leg Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn the common causes and symptoms of minor leg pain. Read how to ease minor leg pain, & find a BENGAY® pain relief product for you.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sore-spotter/treating-leg-pain</li>
+<li><strong>og_title</strong>: Easing & Treating Leg Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Learn the common causes and symptoms of minor leg pain. Read how to ease minor leg pain, & find a BENGAY® pain relief product for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/sore-spotter/treating-leg-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Easing & Treating Leg Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn the common causes and symptoms of minor leg pain. Read how to ease minor leg pain, & find a BENGAY® pain relief product for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: KICKING_YOUR_LEG_PAIN-Article.webp</li>
+<li><strong>h1</strong>: KICKING YOUR LEG PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">19. sore-spotter/treating-neck-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sore-spotter/treating-neck-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Easing & Treating Minor Neck Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn the common causes and symptoms of minor neck pain. Find out how to ease neck pain, & find the BENGAY® pain relief product for you.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sore-spotter/treating-neck-pain</li>
+<li><strong>og_title</strong>: Easing & Treating Minor Neck Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Learn the common causes and symptoms of minor neck pain. Find out how to ease neck pain, & find the BENGAY® pain relief product for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/sore-spotter/treating-neck-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Easing & Treating Minor Neck Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn the common causes and symptoms of minor neck pain. Find out how to ease neck pain, & find the BENGAY® pain relief product for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: JUST SAY NO TO NECK PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">20. sore-spotter/treating-shoulder-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sore-spotter/treating-shoulder-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Easing & Treating Minor Shoulder Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn the causes & symptoms of minor shoulder pain. Find out how to relieve shoulder pain, and find the right BENGAY® minor shoulder pain relief product.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sore-spotter/treating-shoulder-pain</li>
+<li><strong>og_title</strong>: Easing & Treating Minor Shoulder Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Learn the causes & symptoms of minor shoulder pain. Find out how to relieve shoulder pain, and find the right BENGAY® minor shoulder pain relief product.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/sore-spotter/treating-shoulder-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Easing & Treating Minor Shoulder Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn the causes & symptoms of minor shoulder pain. Find out how to relieve shoulder pain, and find the right BENGAY® minor shoulder pain relief product.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: SHRUG AWAY MINOR SHOULDER PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">21. sore-spotter/treating-wrist-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/sore-spotter/treating-wrist-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Easing & Treating Minor Wrist Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn the causes & symptoms of minor wrist pain. Find out how to ease minor wrist pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/sore-spotter/treating-wrist-pain</li>
+<li><strong>og_title</strong>: Easing & Treating Minor Wrist Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Learn the causes & symptoms of minor wrist pain. Find out how to ease minor wrist pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/sore-spotter/treating-wrist-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Easing & Treating Minor Wrist Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn the causes & symptoms of minor wrist pain. Find out how to ease minor wrist pain, and find the BENGAY® pain relief product for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: treating-wrist-pain-en-us.webp</li>
+<li><strong>h1</strong>: GETTING A GRIP ON MINOR WRIST PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">22. understanding-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/understanding-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Understanding Pain & Pain Relief | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn about different types of minor pain affecting your body, how to relieve pain, and BENGAY® pain relief product options for your aches and pains.
+</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/understanding-pain</li>
+<li><strong>og_title</strong>: Understanding Pain & Pain Relief | BENGAY®</li>
+<li><strong>og_description</strong>: Learn about different types of minor pain affecting your body, how to relieve pain, and BENGAY® pain relief product options for your aches and pains.
+</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/understanding-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Understanding Pain & Pain Relief | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn about different types of minor pain affecting your body, how to relieve pain, and BENGAY® pain relief product options for your aches and pains.
+</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: PAIN COMES IN ALL FORMS OF “OW”</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">23. understanding-pain/arthritis-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/understanding-pain/arthritis-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What is Arthritis? Symptoms, Types, & Treatment Tips l BENGAY®</li>
+<li><strong>meta_description</strong>: Over 54 million Americans have some form of arthritis. Learn all you need to know along with tips on how to manage and relieve your arthritis pain and symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/understanding-pain/arthritis-pain</li>
+<li><strong>og_title</strong>: What is Arthritis? Symptoms, Types, & Treatment Tips l BENGAY®</li>
+<li><strong>og_description</strong>: Over 54 million Americans have some form of arthritis. Learn all you need to know along with tips on how to manage and relieve your arthritis pain and symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/understanding-pain/arthritis-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What is Arthritis? Symptoms, Types, & Treatment Tips l BENGAY®</li>
+<li><strong>twitter_description</strong>: Over 54 million Americans have some form of arthritis. Learn all you need to know along with tips on how to manage and relieve your arthritis pain and symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: BEATING ARTHRITIS PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">24. understanding-pain/ice-vs-heat</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/understanding-pain/ice-vs-heat</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Ice vs. Heat for Pain Relief | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn when to use cold therapy or heat therapy to relieve minor aches and pains, including how to apply the RICE method and other pain relief tips.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/understanding-pain/ice-vs-heat</li>
+<li><strong>og_title</strong>: Ice vs. Heat for Pain Relief | BENGAY®</li>
+<li><strong>og_description</strong>: Learn when to use cold therapy or heat therapy to relieve minor aches and pains, including how to apply the RICE method and other pain relief tips.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/understanding-pain/ice-vs-heat</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Ice vs. Heat for Pain Relief | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn when to use cold therapy or heat therapy to relieve minor aches and pains, including how to apply the RICE method and other pain relief tips.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: ICE VS. HEAT</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">25. understanding-pain/knee-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/understanding-pain/knee-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Understanding Knee Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Start to understand your minor knee pain. Check out tips you can incorporate into your daily routine to relieve minor knee pain.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/understanding-pain/knee-pain</li>
+<li><strong>og_title</strong>: Understanding Knee Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Start to understand your minor knee pain. Check out tips you can incorporate into your daily routine to relieve minor knee pain.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/understanding-pain/knee-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Understanding Knee Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Start to understand your minor knee pain. Check out tips you can incorporate into your daily routine to relieve minor knee pain.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: NAILING KNEE PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">26. understanding-pain/muscle-pain-relief-tips</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/understanding-pain/muscle-pain-relief-tips</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Understanding Muscle Pain & Relief from Sports | BENGAY®</li>
+<li><strong>meta_description</strong>: Learn how to understand your muscle pain, different strengthening and recovery techniques, and how to get relief from sports and exercise-related pain.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/understanding-pain/muscle-pain-relief-tips</li>
+<li><strong>og_title</strong>: Understanding Muscle Pain & Relief from Sports | BENGAY®</li>
+<li><strong>og_description</strong>: Learn how to understand your muscle pain, different strengthening and recovery techniques, and how to get relief from sports and exercise-related pain.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/understanding-pain/muscle-pain-relief-tips</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Understanding Muscle Pain & Relief from Sports | BENGAY®</li>
+<li><strong>twitter_description</strong>: Learn how to understand your muscle pain, different strengthening and recovery techniques, and how to get relief from sports and exercise-related pain.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: UNDERSTAND MUSCLE PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">27. understanding-pain/neck-shoulder-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/understanding-pain/neck-shoulder-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Understanding Neck & Shoulder Pain | BENGAY®</li>
+<li><strong>meta_description</strong>: Find ways to relieve minor aches and pain in your neck and shoulders.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/understanding-pain/neck-shoulder-pain</li>
+<li><strong>og_title</strong>: Understanding Neck & Shoulder Pain | BENGAY®</li>
+<li><strong>og_description</strong>: Find ways to relieve minor aches and pain in your neck and shoulders.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/understanding-pain/neck-shoulder-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Understanding Neck & Shoulder Pain | BENGAY®</li>
+<li><strong>twitter_description</strong>: Find ways to relieve minor aches and pain in your neck and shoulders.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: SQUASHING NECK AND SHOULDER PAIN</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">28. understanding-pain/topical-pain-relief</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.bengay.com/understanding-pain/topical-pain-relief</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Understanding Topical Pain Relief | BENGAY®</li>
+<li><strong>meta_description</strong>: Discover the benefits of topical pain relief for minor aches and pains. Check out BENGAY® topical pain relief products like patches, creams, rubs, and gels.</li>
+<li><strong>canonical_link</strong>: https://www.bengay.com/understanding-pain/topical-pain-relief</li>
+<li><strong>og_title</strong>: Understanding Topical Pain Relief | BENGAY®</li>
+<li><strong>og_description</strong>: Discover the benefits of topical pain relief for minor aches and pains. Check out BENGAY® topical pain relief products like patches, creams, rubs, and gels.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: BENGAY®</li>
+<li><strong>og_url</strong>: https://www.bengay.com/understanding-pain/topical-pain-relief</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Understanding Topical Pain Relief | BENGAY®</li>
+<li><strong>twitter_description</strong>: Discover the benefits of topical pain relief for minor aches and pains. Check out BENGAY® topical pain relief products like patches, creams, rubs, and gels.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: TOPICAL PAIN RELIEF</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <script>
+            function toggleAccordion(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function togglePass(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Pass");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function toggleFail(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Fail");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            // Automatically set up all accordions on page load
+            document.addEventListener("DOMContentLoaded", function() {
+                var accordions = document.querySelectorAll("#accordion");
+                accordions.forEach(function(accordion) {
+                    // Initially set all panels to hidden
+                    var panel = accordion.nextElementSibling;
+                    if (panel) panel.style.display = "none";
+                });
+            });
+            
+        </script>
+    </div>
+    </body>
+    </html>
+    

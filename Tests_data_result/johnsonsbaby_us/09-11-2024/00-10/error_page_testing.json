@@ -1,0 +1,5 @@
+{
+    "https://www.johnsonsbaby.com/baby-products/johnsons-baby-oil-gel-aloe-vera-vitamin-e": {
+        "error": "page opening error: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.johnsonsbaby.com/baby-products/johnsons-baby-oil-gel-aloe-vera-vitamin-e\nCall log:\nnavigating to \"https://www.johnsonsbaby.com/baby-products/johnsons-baby-oil-gel-aloe-vera-vitamin-e\", waiting until \"load\"\n"
+    }
+}

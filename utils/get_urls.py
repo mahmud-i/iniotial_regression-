@@ -16,7 +16,12 @@ class GetUrls:
     def get_urls_from_sitemap(self):
         # Fetch the sitemap XML
         sitemap_url = self.prod_domain_url + 'sitemap.xml'
-        response = requests.get(sitemap_url)
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+        }
+
+        response = requests.get(sitemap_url, headers=headers)
 
         if response.status_code == 200:
             # Parse the XML content

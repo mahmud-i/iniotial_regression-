@@ -1,0 +1,988 @@
+
+    <html>
+    <head>
+        <title>SEO_Data</title>
+        <style>
+            
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f9; 
+            color: #333; 
+        }
+
+        #report-container {
+            width: 90%;
+            margin: auto;
+    	}
+
+        h1 { 
+            text-align: center; 
+            color: #444; 
+        }
+
+        .acc, .acc-alt { 
+            cursor: pointer;
+            color: black; 
+            padding: 10px; 
+            border: 1px solid #ddd; 
+            width: 100%; 
+            text-align: left; 
+            font-size: 14px; 
+            font-weight: bold;
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .acc { background-color: #D0D0D0; }
+        .acc-alt { background-color: #EDEDED; }
+
+        .active, .acc:hover, .acc-alt:hover { 
+            color: white;
+            background-color: #0056b3; 
+        }
+        
+        
+        .acc_Pass {
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: green;
+            font-weight: bold;
+        } 
+        
+        .acc_Fail { 
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: red;
+            font-weight: bold;
+        } 
+        
+        .active_Fail  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: red; 
+        }
+        
+        .acc_Fail:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: red;
+        }
+        
+        .active_Pass  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: green; 
+        }
+        
+        .acc_Pass:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: green;
+        }
+        
+        .toggle-sign {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: right;
+            padding-right: 8px;
+        }
+        
+        .panel { 
+            padding: 10px; 
+            display: None; 
+            width: 100%; 
+            background-color: white; 
+            overflow: hidden; 
+            border: 1px solid #ddd; 
+            border-top: none;
+            font-size: 14px;  
+        }
+
+        ul, ol { 
+            margin: 0 0 10px 20px; 
+        }
+
+        li { 
+            margin-bottom: 5px; 
+        }
+
+        strong { 
+            color: #555; 
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <div id="report-container">
+        <h1>SEO_Data</h1>
+    
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">1. 404</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/404</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Page not found</li>
+<li><strong>meta_description</strong>: None</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/404</li>
+<li><strong>og_title</strong>: Page not found</li>
+<li><strong>og_description</strong>: None</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/404</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Page not found</li>
+<li><strong>twitter_description</strong>: None</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: 404</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">2. Home_Page</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Eye Drops for Dry, Red, Itchy, & Watery Eyes | VISINE®</li>
+<li><strong>meta_description</strong>: Get eye relief with VISINE® Eye Drops for itchy, red, dry, burning, and watery eyes as well as other symptoms from eye irritation and allergies.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com</li>
+<li><strong>og_title</strong>: Eye Drops for Dry, Red, Itchy, & Watery Eyes | VISINE®</li>
+<li><strong>og_description</strong>: Get eye relief with VISINE® Eye Drops for itchy, red, dry, burning, and watery eyes as well as other symptoms from eye irritation and allergies.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/homepage</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Eye Drops for Dry, Red, Itchy, & Watery Eyes | VISINE®</li>
+<li><strong>twitter_description</strong>: Get eye relief with VISINE® Eye Drops for itchy, red, dry, burning, and watery eyes as well as other symptoms from eye irritation and allergies.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>:   Same VISINE®Rebooted Look</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">3. bv_terms_of_use</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/bv_terms_of_use</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® brand ratings and reviews terms and conditions | VISINE®</li>
+<li><strong>meta_description</strong>: These Terms of Use govern your conduct associated with the Customer Ratings and Review service offered by VISINE® (the "CRR Service"). To the extent of any conflict between VISINE®'s Privacy Policy and these Terms of Use, these Terms of Use shall control with respect to the CRR Service. By submitting any content to VISINE®, you represent and warrant that:</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/bv_terms_of_use</li>
+<li><strong>og_title</strong>: VISINE® brand ratings and reviews terms and conditions | VISINE®</li>
+<li><strong>og_description</strong>: These Terms of Use govern your conduct associated with the Customer Ratings and Review service offered by VISINE® (the "CRR Service"). To the extent of any conflict between VISINE®'s Privacy Policy and these Terms of Use, these Terms of Use shall control with respect to the CRR Service. By submitting any content to VISINE®, you represent and warrant that:</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/bv_terms_of_use</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® brand ratings and reviews terms and conditions | VISINE®</li>
+<li><strong>twitter_description</strong>: These Terms of Use govern your conduct associated with the Customer Ratings and Review service offered by VISINE® (the "CRR Service"). To the extent of any conflict between VISINE®'s Privacy Policy and these Terms of Use, these Terms of Use shall control with respect to the CRR Service. By submitting any content to VISINE®, you represent and warrant that:</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Brand Ratings and Reviews Terms and Conditions</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">4. contact-us</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/contact-us</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Common Frequently Asked Questions & Contact Us | VISINE®</li>
+<li><strong>meta_description</strong>: Browse our frequently asked questions to find the information you need about VISINE® products and learn which types of eye drops are right for you.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/contact-us</li>
+<li><strong>og_title</strong>: Common Frequently Asked Questions & Contact Us | VISINE®</li>
+<li><strong>og_description</strong>: Browse our frequently asked questions to find the information you need about VISINE® products and learn which types of eye drops are right for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/contact-us</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Common Frequently Asked Questions & Contact Us | VISINE®</li>
+<li><strong>twitter_description</strong>: Browse our frequently asked questions to find the information you need about VISINE® products and learn which types of eye drops are right for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Contact Us</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">5. cookie-policy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/cookie-policy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Cookie Policy | VISINE®</li>
+<li><strong>meta_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following:</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/cookie-policy</li>
+<li><strong>og_title</strong>: Cookie Policy | VISINE®</li>
+<li><strong>og_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following:</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/cookie-policy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Cookie Policy | VISINE®</li>
+<li><strong>twitter_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following:</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Cookie Policy</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">6. coupon-offers</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/coupon-offers</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Coupons & Special Offers</li>
+<li><strong>meta_description</strong>: Find ways to save on VISINE® products, including eye drops for dry, red, itchy, and watery eyes with these VISINE® coupons.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/coupon-offers</li>
+<li><strong>og_title</strong>: VISINE® Coupons & Special Offers</li>
+<li><strong>og_description</strong>: Find ways to save on VISINE® products, including eye drops for dry, red, itchy, and watery eyes with these VISINE® coupons.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/coupon-offers</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Coupons & Special Offers</li>
+<li><strong>twitter_description</strong>: Find ways to save on VISINE® products, including eye drops for dry, red, itchy, and watery eyes with these VISINE® coupons.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Coupons</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">7. dry-eye-symptoms-causes</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/dry-eye-symptoms-causes</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Dry Eyes Symptoms & Causes and How to Get Relief | VISINE®</li>
+<li><strong>meta_description</strong>: Do you have dry eyes? Learn about the common causes of dry eye, and how you can treat your dry eyes with these helpful tips from VISINE®.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/dry-eye-symptoms-causes</li>
+<li><strong>og_title</strong>: Dry Eyes Symptoms & Causes and How to Get Relief | VISINE®</li>
+<li><strong>og_description</strong>: Do you have dry eyes? Learn about the common causes of dry eye, and how you can treat your dry eyes with these helpful tips from VISINE®.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/dry-eye-symptoms-causes</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Dry Eyes Symptoms & Causes and How to Get Relief | VISINE®</li>
+<li><strong>twitter_description</strong>: Do you have dry eyes? Learn about the common causes of dry eye, and how you can treat your dry eyes with these helpful tips from VISINE®.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Understanding Why You Have Dry Eyes</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">8. email-signup</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/email-signup</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Email Sign Up & Offers | VISINE®</li>
+<li><strong>meta_description</strong>: Want to receive tips, personalized content and exclusive offers from VISINE®?</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/email-signup</li>
+<li><strong>og_title</strong>: Email Sign Up & Offers | VISINE®</li>
+<li><strong>og_description</strong>: Want to receive tips, personalized content and exclusive offers from VISINE®?</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/email-signup</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Email Sign Up & Offers | VISINE®</li>
+<li><strong>twitter_description</strong>: Want to receive tips, personalized content and exclusive offers from VISINE®?</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Email Sign Up & Offers</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">9. eye-allergies-symptoms</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-allergies-symptoms</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Seasonal Eye Allergy Symptoms & How to Get Relief | VISINE® Eye Drops</li>
+<li><strong>meta_description</strong>: Do you have eye allergies? Learn about the symptoms associated with eye allergies & discover how to get relief from the everyday things that cause your eyes to overreact.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-allergies-symptoms</li>
+<li><strong>og_title</strong>: Seasonal Eye Allergy Symptoms & How to Get Relief | VISINE® Eye Drops</li>
+<li><strong>og_description</strong>: Do you have eye allergies? Learn about the symptoms associated with eye allergies & discover how to get relief from the everyday things that cause your eyes to overreact.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-allergies-symptoms</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Seasonal Eye Allergy Symptoms & How to Get Relief | VISINE® Eye Drops</li>
+<li><strong>twitter_description</strong>: Do you have eye allergies? Learn about the symptoms associated with eye allergies & discover how to get relief from the everyday things that cause your eyes to overreact.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Understanding What Causes Eye Allergies</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">10. eye-condition-symptoms</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-condition-symptoms</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Symptoms of Eye Conditions | VISINE® Eye Drops</li>
+<li><strong>meta_description</strong>: Learn the symptoms of common eye conditions like red eyes, dry eyes and itchy eyes, what causes these conditions, and how to treat them.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-condition-symptoms</li>
+<li><strong>og_title</strong>: Symptoms of Eye Conditions | VISINE® Eye Drops</li>
+<li><strong>og_description</strong>: Learn the symptoms of common eye conditions like red eyes, dry eyes and itchy eyes, what causes these conditions, and how to treat them.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-condition-symptoms</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Symptoms of Eye Conditions | VISINE® Eye Drops</li>
+<li><strong>twitter_description</strong>: Learn the symptoms of common eye conditions like red eyes, dry eyes and itchy eyes, what causes these conditions, and how to treat them.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Symptoms of Common Eye Conditions</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">11. eye-drops</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Eye Drops & Relief Products | VISINE®</li>
+<li><strong>meta_description</strong>: Find fast and effective relief from dry, itchy, or irritated eyes with VISINE®. Compare our different types of eye drops to determine which is best for you.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops</li>
+<li><strong>og_title</strong>: VISINE® Eye Drops & Relief Products | VISINE®</li>
+<li><strong>og_description</strong>: Find fast and effective relief from dry, itchy, or irritated eyes with VISINE®. Compare our different types of eye drops to determine which is best for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Eye Drops & Relief Products | VISINE®</li>
+<li><strong>twitter_description</strong>: Find fast and effective relief from dry, itchy, or irritated eyes with VISINE®. Compare our different types of eye drops to determine which is best for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Eye Drops</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">12. eye-drops/antihistamine-eye-allergy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/antihistamine-eye-allergy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Allergy Eye Relief Multi-Action Antihistamine and Redness Reliever Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Find eye allergy relief with VISINE® antihistamine & redness relief eye drops for temporary relief of itchy, red eyes due to pollen, ragweed, grass, animal hair & dander.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/antihistamine-eye-allergy</li>
+<li><strong>og_title</strong>: Allergy Eye Relief Multi-Action Antihistamine and Redness Reliever Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Find eye allergy relief with VISINE® antihistamine & redness relief eye drops for temporary relief of itchy, red eyes due to pollen, ragweed, grass, animal hair & dander.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/antihistamine-eye-allergy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Allergy Eye Relief Multi-Action Antihistamine and Redness Reliever Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Find eye allergy relief with VISINE® antihistamine & redness relief eye drops for temporary relief of itchy, red eyes due to pollen, ragweed, grass, animal hair & dander.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Allergy Eye Relief Multi-Action Antihistamine & Redness Reliever Eye Drops</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">13. eye-drops/astringent-a-c-ultra-itchy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/astringent-a-c-ultra-itchy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: A.C.® Itchy Eye Relief Astringent/Redness Reliever Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Discover how to get itchy, red eye relief with VISINE AC® astringent and redness relieving eye drops, for effective multi-symptom relief from itchy, red, and watery eyes.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/astringent-a-c-ultra-itchy</li>
+<li><strong>og_title</strong>: A.C.® Itchy Eye Relief Astringent/Redness Reliever Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Discover how to get itchy, red eye relief with VISINE AC® astringent and redness relieving eye drops, for effective multi-symptom relief from itchy, red, and watery eyes.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/astringent-a-c-ultra-itchy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: A.C.® Itchy Eye Relief Astringent/Redness Reliever Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Discover how to get itchy, red eye relief with VISINE AC® astringent and redness relieving eye drops, for effective multi-symptom relief from itchy, red, and watery eyes.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE AC® Itchy Eye Relief Astringent Eye Drops with Redness Reliever for Itchy & Watery, Red Eyes</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">14. eye-drops/dry-eye-relief</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/dry-eye-relief</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Dry Eye Relief Lubricant Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Discover how VISINE® Dry Eye Relief Lubricant Eye Drops moisturize & relieve dry, irritated & gritty eyes with 10 important ingredients found in your own natural tears.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/dry-eye-relief</li>
+<li><strong>og_title</strong>: VISINE® Dry Eye Relief Lubricant Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Discover how VISINE® Dry Eye Relief Lubricant Eye Drops moisturize & relieve dry, irritated & gritty eyes with 10 important ingredients found in your own natural tears.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/dry-eye-relief</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Dry Eye Relief Lubricant Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Discover how VISINE® Dry Eye Relief Lubricant Eye Drops moisturize & relieve dry, irritated & gritty eyes with 10 important ingredients found in your own natural tears.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Dry Eye Relief Lubricant Eye Drops, Moisturizing Eye Drops for Irritated Eyes</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">15. eye-drops/lubricating-all-day-comfort</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/lubricating-all-day-comfort</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Dry Eye Relief All Day Comfort Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Learn how VISINE® Dry Eye Relief All Day Comfort Lubricant Eye Drops start to relieve dry eyes in seconds, provide up to 10 hours of comfort, and protect from further irritation.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/lubricating-all-day-comfort</li>
+<li><strong>og_title</strong>: VISINE® Dry Eye Relief All Day Comfort Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Learn how VISINE® Dry Eye Relief All Day Comfort Lubricant Eye Drops start to relieve dry eyes in seconds, provide up to 10 hours of comfort, and protect from further irritation.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/lubricating-all-day-comfort</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Dry Eye Relief All Day Comfort Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Learn how VISINE® Dry Eye Relief All Day Comfort Lubricant Eye Drops start to relieve dry eyes in seconds, provide up to 10 hours of comfort, and protect from further irritation.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Dry Eye Relief All Day Comfort Lubricant Eye Drops to Moisturize Dry Eyes & Protect Against Further Irritation</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">16. eye-drops/red-eye-comfort</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/red-eye-comfort</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Red Eye Comfort Eye Drops for Redness Relief | VISINE®</li>
+<li><strong>meta_description</strong>: Discover how VISINE® Red Eye Comfort eye drops can provide fast relief of eye redness due to minor irritations such as smoke and other airborne irritants.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/red-eye-comfort</li>
+<li><strong>og_title</strong>: VISINE® Red Eye Comfort Eye Drops for Redness Relief | VISINE®</li>
+<li><strong>og_description</strong>: Discover how VISINE® Red Eye Comfort eye drops can provide fast relief of eye redness due to minor irritations such as smoke and other airborne irritants.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/red-eye-comfort</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Red Eye Comfort Eye Drops for Redness Relief | VISINE®</li>
+<li><strong>twitter_description</strong>: Discover how VISINE® Red Eye Comfort eye drops can provide fast relief of eye redness due to minor irritations such as smoke and other airborne irritants.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Red Eye Comfort Eye Drops for Fast-Acting Redness Relief</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">17. eye-drops/red-eye-hydrating-comfort</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/red-eye-hydrating-comfort</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Red Eye Hydrating Comfort Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Learn how VISINE® Red Eye Hydrating Comfort eye drops deliver fast and effective red eye relief while lubricating and refreshing dry, irritated, or burning eyes.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/red-eye-hydrating-comfort</li>
+<li><strong>og_title</strong>: VISINE® Red Eye Hydrating Comfort Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Learn how VISINE® Red Eye Hydrating Comfort eye drops deliver fast and effective red eye relief while lubricating and refreshing dry, irritated, or burning eyes.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/red-eye-hydrating-comfort</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Red Eye Hydrating Comfort Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Learn how VISINE® Red Eye Hydrating Comfort eye drops deliver fast and effective red eye relief while lubricating and refreshing dry, irritated, or burning eyes.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Red Eye Hydrating Comfort Eye Drops for Redness & Irritation Relief</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">18. eye-drops/red-eye-total-comfort-dry-eye-relief-multipack</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/red-eye-total-comfort-dry-eye-relief-multipack</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Total Comfort Multi-Symptom and Dry Eye Relief Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Get rid of red eyes and dry eyes with this VISINE® multipack containing a bottle each of Red Eye Total Comfort Multi-Symptom Eye Drops and Dry Eye Relief Lubricant Eye Drops.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/red-eye-total-comfort-dry-eye-relief-multipack</li>
+<li><strong>og_title</strong>: VISINE® Total Comfort Multi-Symptom and Dry Eye Relief Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Get rid of red eyes and dry eyes with this VISINE® multipack containing a bottle each of Red Eye Total Comfort Multi-Symptom Eye Drops and Dry Eye Relief Lubricant Eye Drops.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/red-eye-total-comfort-dry-eye-relief-multipack</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Total Comfort Multi-Symptom and Dry Eye Relief Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Get rid of red eyes and dry eyes with this VISINE® multipack containing a bottle each of Red Eye Total Comfort Multi-Symptom Eye Drops and Dry Eye Relief Lubricant Eye Drops.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Red Eye Total Comfort Multi-Symptom & Dry Eye Relief Lubricant Eye Drops Multipack, 2 x 0.5 oz</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">19. eye-drops/red-eye-total-comfort-multi-symptom</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/red-eye-total-comfort-multi-symptom</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Red Eye Total Comfort Multi-Symptom Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Learn how VISINE® Red Eye Total Comfort Multi-Symptom eye drops provide all-in-one relief from red, burning, watery, itchy, dry eyes and provide up to 10 hours of comfort.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/red-eye-total-comfort-multi-symptom</li>
+<li><strong>og_title</strong>: VISINE® Red Eye Total Comfort Multi-Symptom Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Learn how VISINE® Red Eye Total Comfort Multi-Symptom eye drops provide all-in-one relief from red, burning, watery, itchy, dry eyes and provide up to 10 hours of comfort.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/red-eye-total-comfort-multi-symptom</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Red Eye Total Comfort Multi-Symptom Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Learn how VISINE® Red Eye Total Comfort Multi-Symptom eye drops provide all-in-one relief from red, burning, watery, itchy, dry eyes and provide up to 10 hours of comfort.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Red Eye Total Comfort Multi-Symptom Eye Drops, All-in-One Relief from Red, Itchy, & Dry Eyes</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">20. eye-drops/tired-dry-eye-relief</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/eye-drops/tired-dry-eye-relief</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: VISINE® Dry Eye Relief Tired Eye Lubricant Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Learn how to soothe and relieve tired eyes with VISINE® Dry Eye Relief Tired Eye Lubricant Eye Drops which soothes and revives tired eyes from Screen Time irritation.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/eye-drops/tired-dry-eye-relief</li>
+<li><strong>og_title</strong>: VISINE® Dry Eye Relief Tired Eye Lubricant Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Learn how to soothe and relieve tired eyes with VISINE® Dry Eye Relief Tired Eye Lubricant Eye Drops which soothes and revives tired eyes from Screen Time irritation.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/eye-drops/tired-dry-eye-relief</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: VISINE® Dry Eye Relief Tired Eye Lubricant Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Learn how to soothe and relieve tired eyes with VISINE® Dry Eye Relief Tired Eye Lubricant Eye Drops which soothes and revives tired eyes from Screen Time irritation.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: VISINE® Dry Eye Relief Tired Eye Lubricating Eye Drops for Soothing Screen Time Eye Irritations</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">21. faq</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/faq</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Frequently Asked Questions | VISINE®</li>
+<li><strong>meta_description</strong>: Browse our frequently asked questions to find the information you need about VISINE® products and learn which types of eye drops are right for you.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/faq</li>
+<li><strong>og_title</strong>: Frequently Asked Questions | VISINE®</li>
+<li><strong>og_description</strong>: Browse our frequently asked questions to find the information you need about VISINE® products and learn which types of eye drops are right for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/faq</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Frequently Asked Questions | VISINE®</li>
+<li><strong>twitter_description</strong>: Browse our frequently asked questions to find the information you need about VISINE® products and learn which types of eye drops are right for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Frequently Asked Questions About VISINE® Products</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">22. itchy-eyes-causes</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/itchy-eyes-causes</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Itchy Eyes Symptoms and Causes | VISINE®</li>
+<li><strong>meta_description</strong>: Learn what causes itchy eyes and problems with eye allergies. Fix your itch with relief options and learning the causes.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/itchy-eyes-causes</li>
+<li><strong>og_title</strong>: Itchy Eyes Symptoms and Causes | VISINE®</li>
+<li><strong>og_description</strong>: Learn what causes itchy eyes and problems with eye allergies. Fix your itch with relief options and learning the causes.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/itchy-eyes-causes</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Itchy Eyes Symptoms and Causes | VISINE®</li>
+<li><strong>twitter_description</strong>: Learn what causes itchy eyes and problems with eye allergies. Fix your itch with relief options and learning the causes.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Understanding Itchy Eyes</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">23. legal-notice</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/legal-notice</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Legal Notice | VISINE®</li>
+<li><strong>meta_description</strong>: View the legal notice for the VISINE® website.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/legal-notice</li>
+<li><strong>og_title</strong>: Legal Notice | VISINE®</li>
+<li><strong>og_description</strong>: View the legal notice for the VISINE® website.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/legal-notice</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Legal Notice | VISINE®</li>
+<li><strong>twitter_description</strong>: View the legal notice for the VISINE® website.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Legal Notice</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">24. red-eyes-causes-symptoms</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/red-eyes-causes-symptoms</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Red Eye Causes & Symptoms | VISINE® Eye Drops</li>
+<li><strong>meta_description</strong>: Learn more about the causes of red eyes, common symptoms of the condition and how you can find red eye relief from the eye care experts at VISINE®.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/red-eyes-causes-symptoms</li>
+<li><strong>og_title</strong>: Red Eye Causes & Symptoms | VISINE® Eye Drops</li>
+<li><strong>og_description</strong>: Learn more about the causes of red eyes, common symptoms of the condition and how you can find red eye relief from the eye care experts at VISINE®.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/red-eyes-causes-symptoms</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Red Eye Causes & Symptoms | VISINE® Eye Drops</li>
+<li><strong>twitter_description</strong>: Learn more about the causes of red eyes, common symptoms of the condition and how you can find red eye relief from the eye care experts at VISINE®.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Understanding Red Eyes</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">25. sitemap</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/sitemap</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Sitemap | VISINE® Eye Drops</li>
+<li><strong>meta_description</strong>: Use this site map to help you navigate the VISINE® website.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/sitemap</li>
+<li><strong>og_title</strong>: Sitemap | VISINE® Eye Drops</li>
+<li><strong>og_description</strong>: Use this site map to help you navigate the VISINE® website.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/site-map</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Sitemap | VISINE® Eye Drops</li>
+<li><strong>twitter_description</strong>: Use this site map to help you navigate the VISINE® website.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Sitemap</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">26. tired-eyes-symptoms</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/tired-eyes-symptoms</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: How To Relieve Your Dry, Tired Eye Symptoms | VISINE®</li>
+<li><strong>meta_description</strong>: Discover the symptoms of dry, tired eyes, learn about the common causes of tired eyes such as screen use, and find how to relieve your dry, tired eyes here.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/tired-eyes-symptoms</li>
+<li><strong>og_title</strong>: How To Relieve Your Dry, Tired Eye Symptoms | VISINE®</li>
+<li><strong>og_description</strong>: Discover the symptoms of dry, tired eyes, learn about the common causes of tired eyes such as screen use, and find how to relieve your dry, tired eyes here.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/tired-eyes-symptoms</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: How To Relieve Your Dry, Tired Eye Symptoms | VISINE®</li>
+<li><strong>twitter_description</strong>: Discover the symptoms of dry, tired eyes, learn about the common causes of tired eyes such as screen use, and find how to relieve your dry, tired eyes here.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Understanding Tired Eyes</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">27. where-to-buy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.visine.com/where-to-buy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Where to Buy VISINE® Eye Drops | VISINE®</li>
+<li><strong>meta_description</strong>: Find out where you can buy VISINE® so you can get relief for your red, itchy, dry or tired eyes. Use our Where to Buy tool to find a VISINE® retailer online or near you.</li>
+<li><strong>canonical_link</strong>: https://www.visine.com/where-to-buy</li>
+<li><strong>og_title</strong>: Where to Buy VISINE® Eye Drops | VISINE®</li>
+<li><strong>og_description</strong>: Find out where you can buy VISINE® so you can get relief for your red, itchy, dry or tired eyes. Use our Where to Buy tool to find a VISINE® retailer online or near you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: VISINE®</li>
+<li><strong>og_url</strong>: https://www.visine.com/where-to-buy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Where to Buy VISINE® Eye Drops | VISINE®</li>
+<li><strong>twitter_description</strong>: Find out where you can buy VISINE® so you can get relief for your red, itchy, dry or tired eyes. Use our Where to Buy tool to find a VISINE® retailer online or near you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Where To Buy</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <script>
+            function toggleAccordion(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function togglePass(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Pass");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function toggleFail(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Fail");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            // Automatically set up all accordions on page load
+            document.addEventListener("DOMContentLoaded", function() {
+                var accordions = document.querySelectorAll("#accordion");
+                accordions.forEach(function(accordion) {
+                    // Initially set all panels to hidden
+                    var panel = accordion.nextElementSibling;
+                    if (panel) panel.style.display = "none";
+                });
+            });
+            
+        </script>
+    </div>
+    </body>
+    </html>
+    

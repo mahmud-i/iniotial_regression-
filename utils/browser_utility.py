@@ -37,5 +37,6 @@ class ConfigurePlatform:
                 browser = p.chromium.launch(headless=headless)
                 device = p.devices[self.device_model]
                 context = browser.new_context(**device)
+
             yield browser, context
             browser.close()

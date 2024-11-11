@@ -1,0 +1,1423 @@
+
+    <html>
+    <head>
+        <title>SEO_Data</title>
+        <style>
+            
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f9; 
+            color: #333; 
+        }
+
+        #report-container {
+            width: 90%;
+            margin: auto;
+    	}
+
+        h1 { 
+            text-align: center; 
+            color: #444; 
+        }
+
+        .acc, .acc-alt { 
+            cursor: pointer;
+            color: black; 
+            padding: 10px; 
+            border: 1px solid #ddd; 
+            width: 100%; 
+            text-align: left; 
+            font-size: 14px; 
+            font-weight: bold;
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .acc { background-color: #D0D0D0; }
+        .acc-alt { background-color: #EDEDED; }
+
+        .active, .acc:hover, .acc-alt:hover { 
+            color: white;
+            background-color: #0056b3; 
+        }
+        
+        
+        .acc_Pass {
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: green;
+            font-weight: bold;
+        } 
+        
+        .acc_Fail { 
+            cursor: pointer;
+            padding: 3px;
+            margin-top: 5px;
+            border: o.5px solid #f4f4f4; 
+            width: 80%; 
+            text-align: left; 
+            font-size: 14px; 
+            transition: background-color 0.3s; 
+            display: flex;
+            justify-content: space-between;
+            color: red;
+            font-weight: bold;
+        } 
+        
+        .active_Fail  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: red; 
+        }
+        
+        .acc_Fail:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: red;
+        }
+        
+        .active_Pass  { 
+            border: 1px solid #ddd; 
+            border-bottom: none;
+            color: white;
+            background-color: green; 
+        }
+        
+        .acc_Pass:hover { 
+            border: 1px solid #ddd; 
+            color: white;
+            background-color: green;
+        }
+        
+        .toggle-sign {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: right;
+            padding-right: 8px;
+        }
+        
+        .panel { 
+            padding: 10px; 
+            display: None; 
+            width: 100%; 
+            background-color: white; 
+            overflow: hidden; 
+            border: 1px solid #ddd; 
+            border-top: none;
+            font-size: 14px;  
+        }
+
+        ul, ol { 
+            margin: 0 0 10px 20px; 
+        }
+
+        li { 
+            margin-bottom: 5px; 
+        }
+
+        strong { 
+            color: #555; 
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <div id="report-container">
+        <h1>SEO_Data</h1>
+    
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">1. 404</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/404</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Page not found | SUDAFED®</li>
+<li><strong>meta_description</strong>: None</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/404</li>
+<li><strong>og_title</strong>: Page not found | SUDAFED®</li>
+<li><strong>og_description</strong>: None</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/page-not-found</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED®</li>
+<li><strong>twitter_description</strong>: None</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: 404</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">2. Home_Page</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Head Cold & Sinus Congestion Relief | SUDAFED®</li>
+<li><strong>meta_description</strong>: Get powerful relief from head congestion, sinus pain and pressure, and common cold symptoms with SUDAFED® so you can breathe easier and feel better faster.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com</li>
+<li><strong>og_title</strong>: Head Cold & Sinus Congestion Relief | SUDAFED®</li>
+<li><strong>og_description</strong>: Get powerful relief from head congestion, sinus pain and pressure, and common cold symptoms with SUDAFED® so you can breathe easier and feel better faster.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/node/366</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Head Cold & Sinus Congestion Relief</li>
+<li><strong>twitter_description</strong>: Get powerful relief from head congestion, sinus pain and pressure, and common cold symptoms with SUDAFED® so you can breathe easier and feel better faster.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Find a SUDAFED® Product That Is Right for Your Symptoms</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">3. bv_terms_of_use</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/bv_terms_of_use</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED® Brand REVIEWS TERMS OF USE | SUDAFED®</li>
+<li><strong>meta_description</strong>: By submitting any content to SUDAFED® Brand, you represent and warrant that: You are the sole author of your question or review Your review represents your honest and truthful opinion; and that you are at least 16 years old; Use of the content you supply does not violate these Terms of Use and will not cause injury to any person or entity Submitted content is moderated and will be posted within 72 hours if approved.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/bv_terms_of_use</li>
+<li><strong>og_title</strong>: SUDAFED® Brand REVIEWS TERMS OF USE | SUDAFED®</li>
+<li><strong>og_description</strong>: By submitting any content to SUDAFED® Brand, you represent and warrant that: You are the sole author of your question or review Your review represents your honest and truthful opinion; and that you are at least 16 years old; Use of the content you supply does not violate these Terms of Use and will not cause injury to any person or entity Submitted content is moderated and will be posted within 72 hours if approved.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/bv_terms_of_use</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED® Brand REVIEWS TERMS OF USE | SUDAFED®</li>
+<li><strong>twitter_description</strong>: By submitting any content to SUDAFED® Brand, you represent and warrant that: You are the sole author of your question or review Your review represents your honest and truthful opinion; and that you are at least 16 years old; Use of the content you supply does not violate these Terms of Use and will not cause injury to any person or entity Submitted content is moderated and will be posted within 72 hours if approved.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: SUDAFED® Brand Reviews Terms of Use</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">4. compare-sudafed</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/compare-sudafed</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Compare Adult Head Cold & Sinus Congestion Relief Products | SUDAFED®</li>
+<li><strong>meta_description</strong>: Need relief but don’t know where to start? Explore & compare SUDAFED® products to find out which decongestant is best to relieve your sinus, congestion & cold symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/compare-sudafed</li>
+<li><strong>og_title</strong>: Compare Adult Head Cold & Sinus Congestion Relief Products | SUDAFED®</li>
+<li><strong>og_description</strong>: Need relief but don’t know where to start? Explore & compare SUDAFED® products to find out which decongestant is best to relieve your sinus, congestion & cold symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/compare-sudafed/adult-head-sinus-congestion-relief-products</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Compare Adult Head Cold & Sinus Congestion Relief Products | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Need relief but don’t know where to start? Explore & compare SUDAFED® products to find out which decongestant is best to relieve your sinus, congestion & cold symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Compare SUDAFED® Head & Sinus Congestion Products</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">5. contact-us</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/contact-us</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Contact Us & Top FAQs | SUDAFED®</li>
+<li><strong>meta_description</strong>: Discover some of our most frequently asked questions, like what are SUDAFED® active ingredients? Also, learn where to buy & how to contact us.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/contact-us</li>
+<li><strong>og_title</strong>: Contact Us & Top FAQs | SUDAFED®</li>
+<li><strong>og_description</strong>: Discover some of our most frequently asked questions, like what are SUDAFED® active ingredients? Also, learn where to buy & how to contact us.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/contact-us</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Contact Us & Top FAQs | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Discover some of our most frequently asked questions, like what are SUDAFED® active ingredients? Also, learn where to buy & how to contact us.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Contact Us</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">6. cookie-policy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/cookie-policy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Cookie Policy | SUDAFED®</li>
+<li><strong>meta_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/cookie-policy</li>
+<li><strong>og_title</strong>: Cookie Policy | SUDAFED®</li>
+<li><strong>og_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/cookie-policy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Cookie Policy | SUDAFED®</li>
+<li><strong>twitter_description</strong>: This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following: Assisting you in navigation, Assisting in registering for our events, login, and your ability to provide feedback, Analyzing the use of our products, services or applications.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Cookie Policy</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">7. coupons</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/coupons</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Coupons & Offers | SUDAFED®</li>
+<li><strong>meta_description</strong>: Download free printable coupons to save money on SUDAFED® Products. Sign up for additional deals and discounts.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/coupons</li>
+<li><strong>og_title</strong>: Coupons & Offers | SUDAFED®</li>
+<li><strong>og_description</strong>: Download free printable coupons to save money on SUDAFED® Products. Sign up for additional deals and discounts.</li>
+<li><strong>og_type</strong>: None</li>
+<li><strong>og_site</strong>: None</li>
+<li><strong>og_url</strong>: None</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Coupons & Offers | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Download free printable coupons to save money on SUDAFED® Products. Sign up for additional deals and discounts.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: SUDAFED® Coupons & Offers</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">8. faq</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/faq</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED® Frequently Asked Questions (FAQ) | SUDAFED®</li>
+<li><strong>meta_description</strong>: Get answers to common questions about SUDAFED​®​ products here, including how they work, whether you can take SUDAFED®​ with other medication and more.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/faq</li>
+<li><strong>og_title</strong>: SUDAFED® Frequently Asked Questions (FAQ) | SUDAFED®</li>
+<li><strong>og_description</strong>: Get answers to common questions about SUDAFED​®​ products here, including how they work, whether you can take SUDAFED®​ with other medication and more.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/faq</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED® Frequently Asked Questions (FAQ) | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Get answers to common questions about SUDAFED​®​ products here, including how they work, whether you can take SUDAFED®​ with other medication and more.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: SUDAFED® Frequently Asked Questions (FAQ)</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">9. know-your-congestion</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Know Your Congestion: Learn About Symptoms & Treatment | SUDAFED®</li>
+<li><strong>meta_description</strong>: Do you know your congestion? Learn about the different types of congestion, congestion symptoms, congestion treatment and relief tips, and more with our helpful articles. </li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion</li>
+<li><strong>og_title</strong>: Know Your Congestion: Learn About Symptoms & Treatment | SUDAFED®</li>
+<li><strong>og_description</strong>: Do you know your congestion? Learn about the different types of congestion, congestion symptoms, congestion treatment and relief tips, and more with our helpful articles. </li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://sudafed.com/know-your-congestion</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Know Your Congestion: Learn About Symptoms & Treatment | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Do you know your congestion? Learn about the different types of congestion, congestion symptoms, congestion treatment and relief tips, and more with our helpful articles. </li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Know Your Congestion</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">10. know-your-congestion/can-allergies-cause-sinus-pressure</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/can-allergies-cause-sinus-pressure</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Can Allergies Cause Sinus Pressure? | SUDAFED®</li>
+<li><strong>meta_description</strong>: Over time, you may notice your allergy symptoms develop into more severe sinus problems. Find out how allergies can cause sinus pain and how to get relief.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/can-allergies-cause-sinus-pressure</li>
+<li><strong>og_title</strong>: Can Allergies Cause Sinus Pressure? | SUDAFED®</li>
+<li><strong>og_description</strong>: Over time, you may notice your allergy symptoms develop into more severe sinus problems. Find out how allergies can cause sinus pain and how to get relief.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/know-your-congestion/can-allergies-cause-sinus-pressure</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Can Allergies Cause Sinus Pressure? | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Over time, you may notice your allergy symptoms develop into more severe sinus problems. Find out how allergies can cause sinus pain and how to get relief.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: 2_4_1_allergies-en-us</li>
+<li><strong>h1</strong>: Can Allergies Cause Sinus Pressure?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">11. know-your-congestion/common-cold</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/common-cold</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Common Cold Symptoms, Causes, & Treatment Options | SUDAFED®</li>
+<li><strong>meta_description</strong>: Unearth common cold remedies along with symptoms, common cold treatment options, and cold prevention. Achieve relief from your cold.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/common-cold</li>
+<li><strong>og_title</strong>: Common Cold Symptoms, Causes, & Treatment Options | SUDAFED®</li>
+<li><strong>og_description</strong>: Unearth common cold remedies along with symptoms, common cold treatment options, and cold prevention. Achieve relief from your cold.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/know-your-congestion/common-cold</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Common Cold Symptoms, Causes, & Treatment Options | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Unearth common cold remedies along with symptoms, common cold treatment options, and cold prevention. Achieve relief from your cold.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: 3_2_1_commoncold-en-us.jpg</li>
+<li><strong>h1</strong>: Common Head Cold: Symptoms, Causes and Treatment</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">12. know-your-congestion/head-congestion</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/head-congestion</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Understanding Head Congestion: Causes, Symptoms and Treatment</li>
+<li><strong>meta_description</strong>: Think you have a head cold? Uncover the reasons behind your head cold symptoms and find a head congestion treatment option that may be right for you.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/head-congestion</li>
+<li><strong>og_title</strong>: Understanding Head Congestion: Causes, Symptoms and Treatment</li>
+<li><strong>og_description</strong>: Think you have a head cold? Uncover the reasons behind your head cold symptoms and find a head congestion treatment option that may be right for you.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/know-your-congestion/head-congestion</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Understanding Head Congestion: Causes, Symptoms and Treatment</li>
+<li><strong>twitter_description</strong>: Think you have a head cold? Uncover the reasons behind your head cold symptoms and find a head congestion treatment option that may be right for you.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: 3_1_1_headcongestion_forehead-en-us</li>
+<li><strong>h1</strong>: Head Congestion: Causes and Symptoms</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">13. know-your-congestion/sinus-congestion-pressure</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/sinus-congestion-pressure</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Discover Causes of Sinus Congestion and Pressure | SUDAFED®</li>
+<li><strong>meta_description</strong>: Learn more about sinus congestion and pressure, symptoms like headaches, along with tips for lifestyle changes that can help with relief.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/sinus-congestion-pressure</li>
+<li><strong>og_title</strong>: Discover Causes of Sinus Congestion and Pressure | SUDAFED®</li>
+<li><strong>og_description</strong>: Learn more about sinus congestion and pressure, symptoms like headaches, along with tips for lifestyle changes that can help with relief.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/know-your-congestion/sinus-congestion-pressure</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Discover Causes of Sinus Congestion and Pressure | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Learn more about sinus congestion and pressure, symptoms like headaches, along with tips for lifestyle changes that can help with relief.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: 2_3_1_sinuscongestion_frontal-en-us</li>
+<li><strong>h1</strong>: Causes of Sinus Congestion and Pressure</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">14. know-your-congestion/sinus-pressure-pain-relief</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/sinus-pressure-pain-relief</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Discover Causes and Relief of Sinus Pain and Pressure | SUDAFED®</li>
+<li><strong>meta_description</strong>: Dealing with sinus pressure and pain? Visit the SUDAFED® website to find out what may be causing your nasal and sinus congestion.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/sinus-pressure-pain-relief</li>
+<li><strong>og_title</strong>: Discover Causes and Relief of Sinus Pain and Pressure | SUDAFED®</li>
+<li><strong>og_description</strong>: Dealing with sinus pressure and pain? Visit the SUDAFED® website to find out what may be causing your nasal and sinus congestion.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/know-your-congestion/sinus-pressure-pain-relief</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Discover Causes and Relief of Sinus Pain and Pressure | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Dealing with sinus pressure and pain? Visit the SUDAFED® website to find out what may be causing your nasal and sinus congestion.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: 2_2_1_sinuspressurepain-en-us</li>
+<li><strong>h1</strong>: Sinus Pressure and Pain</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">15. know-your-congestion/sinus-vs-head-congestion</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/sinus-vs-head-congestion</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Identifying Sinus Congestion vs. Head Congestion | SUDAFED®</li>
+<li><strong>meta_description</strong>: Feeling congested? Discover what you need to know about sinus congestion versus head congestion including causes, symptoms, and treatment options from SUDAFED®.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/sinus-vs-head-congestion</li>
+<li><strong>og_title</strong>: Identifying Sinus Congestion vs. Head Congestion | SUDAFED®</li>
+<li><strong>og_description</strong>: Feeling congested? Discover what you need to know about sinus congestion versus head congestion including causes, symptoms, and treatment options from SUDAFED®.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/know-your-congestion/sinus-vs-head-congestion</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Identifying Sinus Congestion vs. Head Congestion | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Feeling congested? Discover what you need to know about sinus congestion versus head congestion including causes, symptoms, and treatment options from SUDAFED®.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: tout-sinus-head-congestion.jpg</li>
+<li><strong>h1</strong>: Sinus Congestion vs. Head Congestion</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">16. know-your-congestion/what-is-oxymetazoline</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/what-is-oxymetazoline</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Is Oxymetazoline Nasal Spray & What Is It Used For? | SUDAFED®</li>
+<li><strong>meta_description</strong>: Learn about the benefits, uses & potential side effects of oxymetazoline nasal spray. Learn how this powerful & effective nasal spray can help relieve nasal congestion symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/what-is-oxymetazoline</li>
+<li><strong>og_title</strong>: What Is Oxymetazoline Nasal Spray & What Is It Used For? | SUDAFED®</li>
+<li><strong>og_description</strong>: Learn about the benefits, uses & potential side effects of oxymetazoline nasal spray. Learn how this powerful & effective nasal spray can help relieve nasal congestion symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>:  https://www.sudafed.com/know-your-congestion/what-is-oxymetazoline</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Is Oxymetazoline Nasal Spray & What Is It Used For? | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Learn about the benefits, uses & potential side effects of oxymetazoline nasal spray. Learn how this powerful & effective nasal spray can help relieve nasal congestion symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: Image_Container.png</li>
+<li><strong>h1</strong>: What Is Oxymetazoline & What Is It Used For?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">17. know-your-congestion/what-is-pseudoephedrine</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/what-is-pseudoephedrine</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Is Pseudoephedrine, the Active Ingredient in Sudafed? | SUDAFED®</li>
+<li><strong>meta_description</strong>: Explore SUDAFED®’s active ingredient, pseudoephedrine HCl: learn how it works, what it’s used for, why it’s behind-the-counter, warnings, side effects, dosage & more.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/what-is-pseudoephedrine</li>
+<li><strong>og_title</strong>: What Is Pseudoephedrine, the Active Ingredient in Sudafed? | SUDAFED®</li>
+<li><strong>og_description</strong>: Explore SUDAFED®’s active ingredient, pseudoephedrine HCl: learn how it works, what it’s used for, why it’s behind-the-counter, warnings, side effects, dosage & more.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/know-your-congestion/what-is-pseudoephedrine</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Is Pseudoephedrine, the Active Ingredient in Sudafed? | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Explore SUDAFED®’s active ingredient, pseudoephedrine HCl: learn how it works, what it’s used for, why it’s behind-the-counter, warnings, side effects, dosage & more.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: sudafed_hero-image-en-us</li>
+<li><strong>h1</strong>: What Is Pseudoephedrine, the Active Ingredient in Many SUDAFED® Products? And What Is It Used For?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">18. know-your-congestion/what-is-saline-spray</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-congestion/what-is-saline-spray</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: What Is Saline Nasal Spray and What Is It Used For? | SUDAFED®</li>
+<li><strong>meta_description</strong>: Learn about the benefits, uses & safety of saline nasal spray. Learn how to use this gentle & effective nasal spray to help moisturize dry, irritated nasal passages.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion/what-is-saline-spray</li>
+<li><strong>og_title</strong>: What Is Saline Nasal Spray and What Is It Used For? | SUDAFED®</li>
+<li><strong>og_description</strong>: Learn about the benefits, uses & safety of saline nasal spray. Learn how to use this gentle & effective nasal spray to help moisturize dry, irritated nasal passages.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://sudafed.com/know-your-head-congestion/what-is-saline-spray</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: What Is Saline Nasal Spray and What Is It Used For? | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Learn about the benefits, uses & safety of saline nasal spray. Learn how to use this gentle & effective nasal spray to help moisturize dry, irritated nasal passages.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: Image_Container.png</li>
+<li><strong>h1</strong>: What Is Saline Nasal Spray and What Is It Used For?</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">19. know-your-sinus-congestion</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/know-your-sinus-congestion</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 301 (Moved Permanently)</li>
+<li><strong>meta_title</strong>: Know Your Congestion: Learn About Symptoms & Treatment | SUDAFED®</li>
+<li><strong>meta_description</strong>: Do you know your congestion? Learn about the different types of congestion, congestion symptoms, congestion treatment and relief tips, and more with our helpful articles. </li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/know-your-congestion</li>
+<li><strong>og_title</strong>: Know Your Congestion: Learn About Symptoms & Treatment | SUDAFED®</li>
+<li><strong>og_description</strong>: Do you know your congestion? Learn about the different types of congestion, congestion symptoms, congestion treatment and relief tips, and more with our helpful articles. </li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://sudafed.com/know-your-congestion</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Know Your Congestion: Learn About Symptoms & Treatment | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Do you know your congestion? Learn about the different types of congestion, congestion symptoms, congestion treatment and relief tips, and more with our helpful articles. </li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Know Your Congestion</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">20. legal</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/legal</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Legal Notice | SUDAFED®</li>
+<li><strong>meta_description</strong>: Review the SUDAFED® website legal notice for using this site and find out how data is stored and shared.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/legal</li>
+<li><strong>og_title</strong>: Legal Notice | SUDAFED®</li>
+<li><strong>og_description</strong>: Review the SUDAFED® website legal notice for using this site and find out how data is stored and shared.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/legal</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED®</li>
+<li><strong>twitter_description</strong>: Review the SUDAFED® website legal notice for using this site and find out how data is stored and shared.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Legal Notice</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">21. medicine-disposal</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/medicine-disposal</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: How to Safely Dispose of Medicine | SUDAFED®</li>
+<li><strong>meta_description</strong>: Find out if the SUDAFED® you have is expired, and how to safely dispose of your expired medicine.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/medicine-disposal</li>
+<li><strong>og_title</strong>: How to Safely Dispose of Medicine | SUDAFED®</li>
+<li><strong>og_description</strong>: Find out if the SUDAFED® you have is expired, and how to safely dispose of your expired medicine.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/medicine-disposal</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: How to Safely Dispose of Medicine</li>
+<li><strong>twitter_description</strong>: Find out if the SUDAFED® you have is expired, and how to safely dispose of your expired medicine.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Proper Medicine Disposal</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">22. privacy-policy/us</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/privacy-policy/us</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Kenvue US Privacy Policy - A new view of care</li>
+<li><strong>meta_description</strong>: None</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/privacy-policy/us</li>
+<li><strong>og_title</strong>: Kenvue US Privacy Policy - A new view of care</li>
+<li><strong>og_description</strong>: None</li>
+<li><strong>og_type</strong>: website</li>
+<li><strong>og_site</strong>: Kenvue</li>
+<li><strong>og_url</strong>: https://www.kenvue.com/privacy-policy/us</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Kenvue US Privacy Policy</li>
+<li><strong>twitter_description</strong>: None</li>
+<li><strong>twitter_card</strong>: summary_large_image</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: None</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">23. products</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Nasal Decongestant & Sinus Relief Products | SUDAFED®</li>
+<li><strong>meta_description</strong>: Explore products available from SUDAFED®, including nasal decongestants and sinus pressure relief for day or night. Available for adults and children.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products</li>
+<li><strong>og_title</strong>: Nasal Decongestant & Sinus Relief Products | SUDAFED®</li>
+<li><strong>og_description</strong>: Explore products available from SUDAFED®, including nasal decongestants and sinus pressure relief for day or night. Available for adults and children.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Find Pain & Fever Relief Medicine Products from MOTRIN®</li>
+<li><strong>twitter_description</strong>: Learn about the different pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Products</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">24. products/childrens-sudafed-nasal-decongestant-berry-liquid</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/childrens-sudafed-nasal-decongestant-berry-liquid</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: CHILDREN’S SUDAFED PE® Nasal Decongestant for Kids | SUDAFED®</li>
+<li><strong>meta_description</strong>: Help relieve your child’s nasal and sinus congestion and pressure with Children’s Sudafed Nasal Decongestant Liquid with phenylephrine in kid-friendly berry flavor.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/childrens-sudafed-nasal-decongestant-berry-liquid</li>
+<li><strong>og_title</strong>: CHILDREN’S SUDAFED PE® Nasal Decongestant for Kids | SUDAFED®</li>
+<li><strong>og_description</strong>: Help relieve your child’s nasal and sinus congestion and pressure with Children’s Sudafed Nasal Decongestant Liquid with phenylephrine in kid-friendly berry flavor.</li>
+<li><strong>og_type</strong>: product</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/childrens-sudafed-nasal-decongestant-berry-liquid</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: CHILDREN’S SUDAFED PE® Nasal Decongestant for Kids | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Help relieve your child’s nasal and sinus congestion and pressure with Children’s Sudafed Nasal Decongestant Liquid with phenylephrine in kid-friendly berry flavor.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: childrenspenasaldecongestant_berryliquid_productshot2x-en-us</li>
+<li><strong>h1</strong>: Children’s SUDAFED PE® Nasal Decongestant Liquid Medicine for Kids, Berry Flavor*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">25. products/childrens-sudafed-nasal-decongestant-grape-liquid</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/childrens-sudafed-nasal-decongestant-grape-liquid</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: CHILDREN’S SUDAFED® Nasal Decongestant Liquid for Kids | SUDAFED®</li>
+<li><strong>meta_description</strong>: Help relieve your child’s nasal and sinus congestion and pressure with Children’s Sudafed Nasal Decongestant Liquid with Pseudoephedrine in kid-friendly grape flavor.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/childrens-sudafed-nasal-decongestant-grape-liquid</li>
+<li><strong>og_title</strong>: CHILDREN’S SUDAFED® Nasal Decongestant Liquid for Kids | SUDAFED®</li>
+<li><strong>og_description</strong>: Help relieve your child’s nasal and sinus congestion and pressure with Children’s Sudafed Nasal Decongestant Liquid with Pseudoephedrine in kid-friendly grape flavor.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/childrens-sudafed-nasal-decongestant-grape-liquid</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: CHILDREN’S SUDAFED® Nasal Decongestant Liquid for Kids | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Help relieve your child’s nasal and sinus congestion and pressure with Children’s Sudafed Nasal Decongestant Liquid with Pseudoephedrine in kid-friendly grape flavor.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: childrensnasaldecongestant_grapeliquid_productshot2x-en-us</li>
+<li><strong>h1</strong>: Children’s SUDAFED® Nasal Decongestant Liquid Medicine for Kids, Grape Flavor</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">26. products/childrens-sudafed-pe-cold-cough-grape-liquid</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/childrens-sudafed-pe-cold-cough-grape-liquid</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: CHILDREN’S SUDAFED PE® Cold & Cough Decongestant Medicine for Kids | SUDAFED®</li>
+<li><strong>meta_description</strong>: Help relieve your child’s cough, cold, and nasal congestion symptoms with Children’s Sudafed Decongestant Liquid, made with phenylephrine in kid-friendly grape flavor.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/childrens-sudafed-pe-cold-cough-grape-liquid</li>
+<li><strong>og_title</strong>: CHILDREN’S SUDAFED PE® Cold & Cough Decongestant Medicine for Kids | SUDAFED®</li>
+<li><strong>og_description</strong>: Help relieve your child’s cough, cold, and nasal congestion symptoms with Children’s Sudafed Decongestant Liquid, made with phenylephrine in kid-friendly grape flavor.</li>
+<li><strong>og_type</strong>: product</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/childrens-sudafed-pe-cold-cough-grape-liquid</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: CHILDREN’S SUDAFED PE® Cold & Cough Decongestant Medicine for Kids | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Help relieve your child’s cough, cold, and nasal congestion symptoms with Children’s Sudafed Decongestant Liquid, made with phenylephrine in kid-friendly grape flavor.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: childrenspecoughcold_grapeliquid_productshot2x-en-us</li>
+<li><strong>h1</strong>: Children’s SUDAFED PE® Cough + Cold Liquid Decongestant Medicine for Kids, Grape Flavor*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">27. products/sinus-severe-original-nasal-spray</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sinus-severe-original-nasal-spray</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED® Sinus Severe Original Nasal Spray Decongestant | SUDAFED®</li>
+<li><strong>meta_description</strong>: Get fast, lasting congestion relief with SUDAFED® Sinus Severe Original Nasal Spray. Powered by oxymetazoline HCl, it helps clear your stuffy nose for up to 12 hours.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sinus-severe-original-nasal-spray</li>
+<li><strong>og_title</strong>: SUDAFED® Sinus Severe Original Nasal Spray Decongestant | SUDAFED®</li>
+<li><strong>og_description</strong>: Get fast, lasting congestion relief with SUDAFED® Sinus Severe Original Nasal Spray. Powered by oxymetazoline HCl, it helps clear your stuffy nose for up to 12 hours.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sinus-severe-original-nasal-spray </li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED® Sinus Severe Original Nasal Spray Decongestant | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Get fast, lasting congestion relief with SUDAFED® Sinus Severe Original Nasal Spray. Powered by oxymetazoline HCl, it helps clear your stuffy nose for up to 12 hours.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: SUD_NA_US_300450528018_535280100_100001_OM_Nasal_Spray_00000.jpg</li>
+<li><strong>h1</strong>: SUDAFED® Sinus Severe Original Nasal Spray Decongestant </li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">28. products/sudafed-dosage-information</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-dosage-information</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Sudafed Dosage Information | SUDAFED®</li>
+<li><strong>meta_description</strong>: Learn the proper dosage of SUDAFED® sinus and nasal congestion relief products for adults and children.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-dosage-information</li>
+<li><strong>og_title</strong>: Sudafed Dosage Information | SUDAFED®</li>
+<li><strong>og_description</strong>: Learn the proper dosage of SUDAFED® sinus and nasal congestion relief products for adults and children.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-dosage-information</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Sudafed Dosage Information | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Learn the proper dosage of SUDAFED® sinus and nasal congestion relief products for adults and children.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Dosage Information</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">29. products/sudafed-pe-day-night-sinus-congestion</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-pe-day-night-sinus-congestion</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED PE® Day & Night Sinus Congestion Relief | SUDAFED®</li>
+<li><strong>meta_description</strong>: Tackle nasal & sinus congestion all day & night with SUDAFED PE® Sinus Congestion Day + Night, designed to target congestion symptoms caused by cold, flu or hay fever.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-pe-day-night-sinus-congestion</li>
+<li><strong>og_title</strong>: SUDAFED PE® Day & Night Sinus Congestion Relief | SUDAFED®</li>
+<li><strong>og_description</strong>: Tackle nasal & sinus congestion all day & night with SUDAFED PE® Sinus Congestion Day + Night, designed to target congestion symptoms caused by cold, flu or hay fever.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-pe-day-night-sinus-congestion</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED PE® Day & Night Sinus Congestion Relief | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Tackle nasal & sinus congestion all day & night with SUDAFED PE® Sinus Congestion Day + Night, designed to target congestion symptoms caused by cold, flu or hay fever.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pesinuscongestiondaynight_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED PE® Day + Night Sinus Congestion Relief Decongestant Tablets*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">30. products/sudafed-pe-head-congestion-flu-severe</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-flu-severe</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED PE® Head Congestion & Flu Severe Relief Decongestant Tablets | SUDAFED®</li>
+<li><strong>meta_description</strong>: Get relief from congestion and flu symptoms such as coughing, congestion, sore throat, and sinus headaches with SUDAFED PE® Head Congestion + Flu Severe Relief Tablets.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-flu-severe</li>
+<li><strong>og_title</strong>: SUDAFED PE® Head Congestion & Flu Severe Relief Decongestant Tablets | SUDAFED®</li>
+<li><strong>og_description</strong>: Get relief from congestion and flu symptoms such as coughing, congestion, sore throat, and sinus headaches with SUDAFED PE® Head Congestion + Flu Severe Relief Tablets.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-flu-severe</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED PE® Head Congestion & Flu Severe Relief Decongestant Tablets | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Get relief from congestion and flu symptoms such as coughing, congestion, sore throat, and sinus headaches with SUDAFED PE® Head Congestion + Flu Severe Relief Tablets.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: peheadcongestionflusevere_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED PE® Head Congestion + Flu Severe Relief Decongestant Tablets with Acetaminophen*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">31. products/sudafed-pe-head-congestion-mucus</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-mucus</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED PE® Head Congestion & Mucus Relief Medicine | SUDAFED®</li>
+<li><strong>meta_description</strong>: Treat sinus pressure, pain and congestion and get mucus relief with SUDAFED PE® for Head Congestion + Mucus, formulated to treat multiple cold, flu & allergy symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-mucus</li>
+<li><strong>og_title</strong>: SUDAFED PE® Head Congestion & Mucus Relief Medicine | SUDAFED®</li>
+<li><strong>og_description</strong>: Treat sinus pressure, pain and congestion and get mucus relief with SUDAFED PE® for Head Congestion + Mucus, formulated to treat multiple cold, flu & allergy symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-mucus</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED PE® Head Congestion & Mucus Relief Medicine | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Treat sinus pressure, pain and congestion and get mucus relief with SUDAFED PE® for Head Congestion + Mucus, formulated to treat multiple cold, flu & allergy symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: peheadcongestionmucus_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED PE® Head Congestion + Mucus Relief Medicine Decongestant Tablets with Acetaminophen*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">32. products/sudafed-pe-head-congestion-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED PE® Decongestant for Head Congestion + Pain Relief | SUDAFED®</li>
+<li><strong>meta_description</strong>: Relieve head congestion, sinus pressure, sinus headache & more common cold & flu symptoms with this nasal decongestant with the pain-relieving benefits of ibuprofen.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-pain</li>
+<li><strong>og_title</strong>: SUDAFED PE® Decongestant for Head Congestion + Pain Relief | SUDAFED®</li>
+<li><strong>og_description</strong>: Relieve head congestion, sinus pressure, sinus headache & more common cold & flu symptoms with this nasal decongestant with the pain-relieving benefits of ibuprofen.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-pe-head-congestion-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED PE® Decongestant for Head Congestion + Pain Relief | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Relieve head congestion, sinus pressure, sinus headache & more common cold & flu symptoms with this nasal decongestant with the pain-relieving benefits of ibuprofen.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: peheadcongestionpain_productshot2x.jpg</li>
+<li><strong>h1</strong>: SUDAFED PE® Head Congestion + Pain Relief Decongestant Caplets with Ibuprofen*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">33. products/sudafed-pe-sinus-congestion</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-pe-sinus-congestion</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED PE® Sinus Congestion Relief Decongestant Tablets | SUDAFED®</li>
+<li><strong>meta_description</strong>: Temporarily relieve sinus and nasal congestion with SUDAFED PE® Sinus Congestion, formulated with phenylephrine HCl for non-drowsy maximum-strength relief.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-pe-sinus-congestion</li>
+<li><strong>og_title</strong>: SUDAFED PE® Sinus Congestion Relief Decongestant Tablets | SUDAFED®</li>
+<li><strong>og_description</strong>: Temporarily relieve sinus and nasal congestion with SUDAFED PE® Sinus Congestion, formulated with phenylephrine HCl for non-drowsy maximum-strength relief.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-pe-sinus-congestion</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED PE® Sinus Congestion Relief Decongestant Tablets | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Temporarily relieve sinus and nasal congestion with SUDAFED PE® Sinus Congestion, formulated with phenylephrine HCl for non-drowsy maximum-strength relief.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pesinuscongestion_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED PE® Sinus Congestion Relief Maximum Strength Decongestant Tablets*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">34. products/sudafed-pe-sinus-pressure-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-pe-sinus-pressure-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED PE® Pressure + Pain Relief for Sinus Headaches & Congestion | SUDAFED®</li>
+<li><strong>meta_description</strong>: Relieve head congestion, sinus pressure, sinus headache & more common cold & flu symptoms with this nasal decongestant with the pain-relieving benefits of acetaminophen.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-pe-sinus-pressure-pain</li>
+<li><strong>og_title</strong>: SUDAFED PE® Pressure + Pain Relief for Sinus Headaches & Congestion | SUDAFED®</li>
+<li><strong>og_description</strong>: Relieve head congestion, sinus pressure, sinus headache & more common cold & flu symptoms with this nasal decongestant with the pain-relieving benefits of acetaminophen.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-pe-sinus-pressure-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED PE® Pressure + Pain Relief for Sinus Headaches & Congestion | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Relieve head congestion, sinus pressure, sinus headache & more common cold & flu symptoms with this nasal decongestant with the pain-relieving benefits of acetaminophen.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: pesinuspressurepain_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED PE® Sinus Pressure + Pain Relief Maximum Strength Decongestant Tablets with Acetaminophen*</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">35. products/sudafed-saline-nasal-mist-aloe</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-saline-nasal-mist-aloe</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED® Non-Medicated Saline Nasal Mist with Aloe | SUDAFED®</li>
+<li><strong>meta_description</strong>: Flush out your sinuses &amp; hydrate your nasal passages with SUDAFED® Non-Medicated Saline Nasal Mist with Aloe for gently soothing dry nasal passages &amp; quick sinus relief.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-saline-nasal-mist-aloe</li>
+<li><strong>og_title</strong>: SUDAFED® Non-Medicated Saline Nasal Mist with Aloe | SUDAFED®</li>
+<li><strong>og_description</strong>: Flush out your sinuses &amp; hydrate your nasal passages with SUDAFED® Non-Medicated Saline Nasal Mist with Aloe for gently soothing dry nasal passages &amp; quick sinus relief.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-saline-nasal-mist-aloe</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED® Non-Medicated Saline Nasal Mist with Aloe | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Flush out your sinuses &amp; hydrate your nasal passages with SUDAFED® Non-Medicated Saline Nasal Mist with Aloe for gently soothing dry nasal passages &amp; quick sinus relief.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: sud_na_us_300450559036_81801_saline_spray_aloe_00001.webp</li>
+<li><strong>h1</strong>: SUDAFED® Non-Medicated Saline Nasal Mist with Aloe</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">36. products/sudafed-sinus-12-hour-pressure-pain</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-sinus-12-hour-pressure-pain</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED® 12-Hour Pressure + Pain Relief for Sinus Headaches & Congestion | SUDAFED®</li>
+<li><strong>meta_description</strong>: Get sinus congestion and headache relief with non-drowsy SUDAFED® 12 Hour Pressure + Pain made with pseudoephedrine HCl and naproxen sodium.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-sinus-12-hour-pressure-pain</li>
+<li><strong>og_title</strong>: SUDAFED® 12-Hour Pressure + Pain Relief for Sinus Headaches & Congestion | SUDAFED®</li>
+<li><strong>og_description</strong>: Get sinus congestion and headache relief with non-drowsy SUDAFED® 12 Hour Pressure + Pain made with pseudoephedrine HCl and naproxen sodium.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-sinus-12-hour-pressure-pain</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED® 12-Hour Pressure + Pain Relief for Sinus Headaches & Congestion | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Get sinus congestion and headache relief with non-drowsy SUDAFED® 12 Hour Pressure + Pain made with pseudoephedrine HCl and naproxen sodium.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: sinus12hourpressurepain_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED® Sinus 12 Hour Pressure + Pain Relief Decongestant Caplets</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">37. products/sudafed-sinus-congestion</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-sinus-congestion</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED® Sinus Congestion Relief Decongestant with Pseudoephedrine | SUDAFED®</li>
+<li><strong>meta_description</strong>: Get powerful sinus congestion & pressure relief with SUDAFED® Sinus Congestion, formulated with pseudoephedrine HCl to help relieve swollen nasal passages.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-sinus-congestion</li>
+<li><strong>og_title</strong>: SUDAFED® Sinus Congestion Relief Decongestant with Pseudoephedrine | SUDAFED®</li>
+<li><strong>og_description</strong>: Get powerful sinus congestion & pressure relief with SUDAFED® Sinus Congestion, formulated with pseudoephedrine HCl to help relieve swollen nasal passages.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-sinus-congestion</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED® Sinus Congestion Relief Decongestant with Pseudoephedrine | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Get powerful sinus congestion & pressure relief with SUDAFED® Sinus Congestion, formulated with pseudoephedrine HCl to help relieve swollen nasal passages.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: sinuscongestion_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED® Sinus Congestion Relief Maximum Strength Decongestant Tablets</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">38. products/sudafed-sinus-congestion-12-hour</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/products/sudafed-sinus-congestion-12-hour</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: SUDAFED® 12-Hour Sinus Congestion Relief Decongestant Caplets | SUDAFED®</li>
+<li><strong>meta_description</strong>: Get relief from sinus pressure & congestion with SUDAFED® 12-Hour Relief Caplets. This non-drowsy decongestant formula with pseudoephedrine provides long-lasting relief.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/products/sudafed-sinus-congestion-12-hour</li>
+<li><strong>og_title</strong>: SUDAFED® 12-Hour Sinus Congestion Relief Decongestant Caplets | SUDAFED®</li>
+<li><strong>og_description</strong>: Get relief from sinus pressure & congestion with SUDAFED® 12-Hour Relief Caplets. This non-drowsy decongestant formula with pseudoephedrine provides long-lasting relief.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/products/sudafed-sinus-congestion-12-hour</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: SUDAFED® 12-Hour Sinus Congestion Relief Decongestant Caplets | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Get relief from sinus pressure & congestion with SUDAFED® 12-Hour Relief Caplets. This non-drowsy decongestant formula with pseudoephedrine provides long-lasting relief.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: sinuscongestion12hour_productshot2x-en-us</li>
+<li><strong>h1</strong>: SUDAFED® Sinus Congestion 12 Hour Relief Maximum Strength Decongestant Caplets</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">39. pseudoephedrine</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/pseudoephedrine</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Some SUDAFED® Products Contain Pseudoephedrine</li>
+<li><strong>meta_description</strong>: Pseudoephedrine is an active ingredient in nasal decongestants like SUDAFED®. It helps to clear up congestion and sinus pressure caused by colds, hay fever, or other upper respiratory allergies.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/pseudoephedrine</li>
+<li><strong>og_title</strong>: Some SUDAFED® Products Contain Pseudoephedrine</li>
+<li><strong>og_description</strong>: Pseudoephedrine is an active ingredient in nasal decongestants like SUDAFED®. It helps to clear up congestion and sinus pressure caused by colds, hay fever, or other upper respiratory allergies.</li>
+<li><strong>og_type</strong>: None</li>
+<li><strong>og_site</strong>: None</li>
+<li><strong>og_url</strong>: None</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Some SUDAFED® Products Contain Pseudoephedrine</li>
+<li><strong>twitter_description</strong>: Pseudoephedrine is an active ingredient in nasal decongestants like SUDAFED®. It helps to clear up congestion and sinus pressure caused by colds, hay fever, or other upper respiratory allergies.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Some SUDAFED® Products Contain Pseudoephedrine</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">40. regulations</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/regulations</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Using Pseudoephedrine Responsibly: Regulations and Safety</li>
+<li><strong>meta_description</strong>: Learn why pseudoephedrine is regulated and how to use it responsibly. Explore the implications of the Combat Methamphetamine Epidemic Act of 2006 and discover available SUDAFED® products.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/regulations</li>
+<li><strong>og_title</strong>: Using Pseudoephedrine Responsibly: Regulations and Safety</li>
+<li><strong>og_description</strong>: Learn why pseudoephedrine is regulated and how to use it responsibly. Explore the implications of the Combat Methamphetamine Epidemic Act of 2006 and discover available SUDAFED® products.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: /regulations</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Using Pseudoephedrine Responsibly: Regulations and Safety</li>
+<li><strong>twitter_description</strong>: Learn why pseudoephedrine is regulated and how to use it responsibly. Explore the implications of the Combat Methamphetamine Epidemic Act of 2006 and discover available SUDAFED® products.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Using Pseudoephedrine Responsibly</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">41. sitemap</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/sitemap</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Site Map | SUDAFED®</li>
+<li><strong>meta_description</strong>: Explore the Site Map for the SUDAFED® website.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/sitemap</li>
+<li><strong>og_title</strong>: Site Map | SUDAFED®</li>
+<li><strong>og_description</strong>: Explore the Site Map for the SUDAFED® website.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/sitemap</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Site Map</li>
+<li><strong>twitter_description</strong>: Explore the Site Map for the SUDAFED® website.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: Site Map</li>
+<li><strong>h1</strong>: Sitemap</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <div class=acc-alt id ="accordion" onclick="toggleAccordion(this)">
+                <span class="row-data">42. where-to-buy</span>
+                <span class="toggle-sign">+</span>
+        </div>
+        <div class="panel">
+            <ul>
+<li><strong>url</strong>: https://www.sudafed.com/where-to-buy</li>
+<li><strong>seo_data</strong>: <ul>
+<li><strong>page_response</strong>: 200 (OK)</li>
+<li><strong>meta_title</strong>: Where to Buy SUDAFED® Products | SUDAFED®</li>
+<li><strong>meta_description</strong>: Use our Where to Buy tool to find SUDAFED® over-the-counter decongestant products online or at a store near you, so you can experience relief from cold & sinus symptoms.</li>
+<li><strong>canonical_link</strong>: https://www.sudafed.com/where-to-buy</li>
+<li><strong>og_title</strong>: Where to Buy SUDAFED® Products | SUDAFED®</li>
+<li><strong>og_description</strong>: Use our Where to Buy tool to find SUDAFED® over-the-counter decongestant products online or at a store near you, so you can experience relief from cold & sinus symptoms.</li>
+<li><strong>og_type</strong>: article</li>
+<li><strong>og_site</strong>: SUDAFED®</li>
+<li><strong>og_url</strong>: https://www.sudafed.com/where-to-buy</li>
+<li><strong>og_image</strong>: None</li>
+<li><strong>twitter_title</strong>: Where to Buy SUDAFED® Products | SUDAFED®</li>
+<li><strong>twitter_description</strong>: Use our Where to Buy tool to find SUDAFED® over-the-counter decongestant products online or at a store near you, so you can experience relief from cold & sinus symptoms.</li>
+<li><strong>twitter_card</strong>: summary</li>
+<li><strong>twitter_image</strong>: None</li>
+<li><strong>h1</strong>: Where To Buy</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+        <script>
+            function toggleAccordion(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function togglePass(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Pass");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            function toggleFail(element) {
+                // Toggle the active class on the clicked accordion
+                element.classList.toggle("active_Fail");
+            
+                // Get the associated panel, which is the next sibling element
+                var panel = element.nextElementSibling;
+            
+                // Check if the panel is currently displayed
+                if (panel.style.display === "block") {
+                    panel.style.display = "none"; // Hide the panel
+                    element.querySelector(".toggle-sign").textContent = "+"; // Set toggle sign to +
+                } else {
+                    panel.style.display = "block"; // Show the panel
+                    element.querySelector(".toggle-sign").textContent = "-"; // Set toggle sign to -
+                }
+            }
+            
+            // Automatically set up all accordions on page load
+            document.addEventListener("DOMContentLoaded", function() {
+                var accordions = document.querySelectorAll("#accordion");
+                accordions.forEach(function(accordion) {
+                    // Initially set all panels to hidden
+                    var panel = accordion.nextElementSibling;
+                    if (panel) panel.style.display = "none";
+                });
+            });
+            
+        </script>
+    </div>
+    </body>
+    </html>
+    

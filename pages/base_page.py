@@ -9,11 +9,10 @@ from playwright.sync_api import BrowserContext
 
 def get_domain(url):
     parsed_url = urlparse(url)
-    print(f"{parsed_url.scheme}://{parsed_url.netloc}/")
     return f"{parsed_url.scheme}://{parsed_url.netloc}/"
 
-def get_slug_from_url(url):
-    if url == get_domain(url) :
+def get_slug_from_url(url, domain):
+    if url == domain :
         return "Home_Page"
     else:
         parsed_url = urlparse(url)
@@ -26,7 +25,7 @@ class PageInstance:
         self.page = context.new_page()
         self.url = url
         self.domain = get_domain(url)
-        self.slug = get_slug_from_url(url)
+        self.slug = get_slug_from_url(url, self.domain)
         self.response = None
         self.open_status = None
         self.open_url()

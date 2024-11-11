@@ -1,0 +1,862 @@
+{
+    "404": {
+        "url": "https://www.motrin.com/404",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Page Not Found | MOTRIN®",
+            "meta_description": "We’re sorry, but we couldn’t find the page you were looking for!",
+            "canonical_link": "https://www.motrin.com/404",
+            "og_title": "Page Not Found | MOTRIN®",
+            "og_description": "We’re sorry, but we couldn’t find the page you were looking for!",
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Page Not Found | MOTRIN®",
+            "twitter_description": "We’re sorry, but we couldn’t find the page you were looking for!",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "404"
+        }
+    },
+    "Home_Page": {
+        "url": "https://www.motrin.com/",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Pain Reliever & Fever Reducer for Adults & Kids | MOTRIN®",
+            "meta_description": "For relief from muscle aches, fevers, cramps, & more, MOTRIN® is pain relief you can count on. Learn how MOTRIN® can help relieve pain for you & your child.",
+            "canonical_link": "https://www.motrin.com",
+            "og_title": "Pain Reliever & Fever Reducer for Adults & Kids | MOTRIN®",
+            "og_description": "For relief from muscle aches, fevers, cramps, & more, MOTRIN® is pain relief you can count on. Learn how MOTRIN® can help relieve pain for you & your child.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/",
+            "og_image": null,
+            "twitter_title": "Pain Reliever & Fever Reducer for Adults & Kids | MOTRIN®",
+            "twitter_description": "For relief from muscle aches, fevers, cramps, & more, MOTRIN® is pain relief you can count on. Learn how MOTRIN® can help relieve pain for you & your child.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "United in Overcoming Pain"
+        }
+    },
+    "adults": {
+        "url": "https://www.motrin.com/adults",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Adult Pain Relief Tips | MOTRIN®",
+            "meta_description": "Discover articles with helpful information for adults that explain how to relieve and prevent headaches, muscle and body pain, arthritis pain, and more.",
+            "canonical_link": "https://www.motrin.com/adults",
+            "og_title": "Adult Pain Relief Tips | MOTRIN®",
+            "og_description": "Discover articles with helpful information for adults that explain how to relieve and prevent headaches, muscle and body pain, arthritis pain, and more.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/adults",
+            "og_image": null,
+            "twitter_title": "Adult Pain Relief Tips | MOTRIN®",
+            "twitter_description": "Discover articles with helpful information for adults that explain how to relieve and prevent headaches, muscle and body pain, arthritis pain, and more.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Quick Tips for Headaches, Muscle Pain and More"
+        }
+    },
+    "adults/arthritis/3-ways-to-relieve-knee-arthritis": {
+        "url": "https://www.motrin.com/adults/arthritis/3-ways-to-relieve-knee-arthritis",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Knee arthritis: 3 ways to help your joints de-stress | MOTRIN®",
+            "meta_description": "Discover how you can reduce joint pain in your knees caused by arthritis and relieve knee strain while you exercise with these tips.",
+            "canonical_link": "https://www.motrin.com/adults/arthritis/3-ways-to-relieve-knee-arthritis",
+            "og_title": "Knee arthritis: 3 ways to help your joints de-stress | MOTRIN®",
+            "og_description": "Discover how you can reduce joint pain in your knees caused by arthritis and relieve knee strain while you exercise with these tips.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/adults/arthritis/3-ways-to-relieve-knee-arthritis",
+            "og_image": null,
+            "twitter_title": "Knee arthritis: 3 ways to help your joints de-stress | MOTRIN®",
+            "twitter_description": "Discover how you can reduce joint pain in your knees caused by arthritis and relieve knee strain while you exercise with these tips.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Knee Arthritis: 3 Ways To Help Your Joints De-Stress"
+        }
+    },
+    "adults/arthritis/tips-remedies": {
+        "url": "https://www.motrin.com/adults/arthritis/tips-remedies",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "8 Tips & Remedies for Arthritis Pain Relief At Home | MOTRIN®",
+            "meta_description": "Are you experiencing arthritis pain? Home exercises and diet changes can help alleviate discomfort. Discover these and other arthritis pain relief remedies here.",
+            "canonical_link": "https://www.motrin.com/adults/arthritis/tips-remedies",
+            "og_title": "8 Tips & Remedies for Arthritis Pain Relief At Home | MOTRIN®",
+            "og_description": "Are you experiencing arthritis pain? Home exercises and diet changes can help alleviate discomfort. Discover these and other arthritis pain relief remedies here.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/adults/arthritis/tips-remedies",
+            "og_image": null,
+            "twitter_title": "8 Tips & Remedies for Arthritis Pain Relief At Home | MOTRIN®",
+            "twitter_description": "Are you experiencing arthritis pain? Home exercises and diet changes can help alleviate discomfort. Discover these and other arthritis pain relief remedies here.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "8 Tips & Remedies for Arthritis Pain Relief at Home test"
+        }
+    },
+    "adults/cold-flu/managing-fever": {
+        "url": "https://www.motrin.com/adults/cold-flu/managing-fever",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "How to Break a Fever and Manage Fever Symptoms | MOTRIN®",
+            "meta_description": "Learn what is considered a fever, how to effectively manage fever symptoms, home remedies to break your fever such as taking MOTRIN® (ibuprofen).",
+            "canonical_link": "https://www.motrin.com/adults/cold-flu/managing-fever",
+            "og_title": "How to Break a Fever and Manage Fever Symptoms | MOTRIN®",
+            "og_description": "Learn what is considered a fever, how to effectively manage fever symptoms, home remedies to break your fever such as taking MOTRIN® (ibuprofen).",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/safety-dosing/taking-ibuprofen-and-acetaminophen",
+            "og_image": null,
+            "twitter_title": "How to Break a Fever and Manage Fever Symptoms | MOTRIN®",
+            "twitter_description": "Learn what is considered a fever, how to effectively manage fever symptoms, home remedies to break your fever such as taking MOTRIN® (ibuprofen).",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Concerned About a Fever? A Guide to Fever Temperature, Symptoms, and Home Remedies"
+        }
+    },
+    "adults/headache/headache-migraine-prevention": {
+        "url": "https://www.motrin.com/adults/headache/headache-migraine-prevention",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Tips for Preventing a Headache or Migraine Before It Starts | MOTRIN®",
+            "meta_description": "Learn how to get relief of a headache or migraine before it even starts with these tips on\nheadache and migraine prevention from MOTRIN®",
+            "canonical_link": "https://www.motrin.com/adults/headache/headache-migraine-prevention",
+            "og_title": "Tips for Preventing a Headache or Migraine Before It Starts | MOTRIN®",
+            "og_description": "Learn how to get relief of a headache or migraine before it even starts with these tips on\nheadache and migraine prevention from MOTRIN®",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/adults/headache/headache-migraine-prevention",
+            "og_image": null,
+            "twitter_title": "Tips for Preventing a Headache or Migraine Before It Starts | MOTRIN®",
+            "twitter_description": "Learn how to get relief of a headache or migraine before it even starts with these tips on\nheadache and migraine prevention from MOTRIN®",
+            "twitter_card": "summary",
+            "twitter_image": "Motrin_Preventing-Headache-Tips_Hero_1.png",
+            "h1": "Tips for Preventing a Headache or Migraine Before It Starts"
+        }
+    },
+    "adults/period/menstrual-cycle": {
+        "url": "https://www.motrin.com/adults/period/menstrual-cycle",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "The Menstrual Cycle: Phases, Symptoms, and How Long Do Periods Last? | MOTRIN®",
+            "meta_description": "Are you familiar with the phases of the menstrual cycle? Learn about what causes period symptoms before and during menstruation to understand your period pain.",
+            "canonical_link": "https://www.motrin.com/adults/period/menstrual-cycle",
+            "og_title": "The Menstrual Cycle: Phases, Symptoms, and How Long Do Periods Last? | MOTRIN®",
+            "og_description": "Are you familiar with the phases of the menstrual cycle? Learn about what causes period symptoms before and during menstruation to understand your period pain.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/adults/period/menstrual-cycle ",
+            "og_image": null,
+            "twitter_title": "The Menstrual Cycle: Phases, Symptoms, and How Long Do Periods Last? | MOTRIN®",
+            "twitter_description": "Are you familiar with the phases of the menstrual cycle? Learn about what causes period symptoms before and during menstruation to understand your period pain.",
+            "twitter_card": "summary",
+            "twitter_image": "Motrin_Menstrual-Cycle_Hero.png",
+            "h1": "The Menstrual Cycle: Phases, Symptoms, and How Long Do Periods Last?"
+        }
+    },
+    "adults/period/period-pain-relief": {
+        "url": "https://www.motrin.com/adults/period/period-pain-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Period Cramps: 9 Menstrual Pain Relief Tips | MOTRIN®",
+            "meta_description": "Period cramps (dysmenorrhea) affect more than half of women during their periods. Learn more about what causes cramps along with period pain relief tips.",
+            "canonical_link": "https://www.motrin.com/adults/period/period-pain-relief",
+            "og_title": "Period Cramps: 9 Menstrual Pain Relief Tips | MOTRIN®",
+            "og_description": "Period cramps (dysmenorrhea) affect more than half of women during their periods. Learn more about what causes cramps along with period pain relief tips.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/adults/period/period-pain-relief",
+            "og_image": null,
+            "twitter_title": "Period Cramps: 9 Menstrual Pain Relief Tips | MOTRIN®",
+            "twitter_description": "Period cramps (dysmenorrhea) affect more than half of women during their periods. Learn more about what causes cramps along with period pain relief tips.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "What Helps with Period Cramps? 9 Menstrual Pain Relief Tips"
+        }
+    },
+    "bv_terms_of_use": {
+        "url": "https://www.motrin.com/bv_terms_of_use",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® Brand Reviews Terms of Use | MOTRIN®",
+            "meta_description": "Read and review the Motrin® Brand Terms of Use for leaving reviews on the site.",
+            "canonical_link": "https://www.motrin.com/bv_terms_of_use",
+            "og_title": "MOTRIN® Brand Reviews Terms of Use | MOTRIN®",
+            "og_description": "Read and review the Motrin® Brand Terms of Use for leaving reviews on the site.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/bv_terms_of_use",
+            "og_image": null,
+            "twitter_title": "MOTRIN® Brand Reviews Terms of Use | MOTRIN®",
+            "twitter_description": "Read and review the Motrin® Brand Terms of Use for leaving reviews on the site.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® Brand Reviews Terms of Use"
+        }
+    },
+    "children-infants": {
+        "url": "https://www.motrin.com/children-infants",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children + Infants Relief | MOTRIN®",
+            "meta_description": "Learn how to identify pain in your child or infant, read children and infant dosing charts, and find ways to help relieve their pain.",
+            "canonical_link": "https://www.motrin.com/children-infants",
+            "og_title": "Children + Infants Relief | MOTRIN®",
+            "og_description": "Learn how to identify pain in your child or infant, read children and infant dosing charts, and find ways to help relieve their pain.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/children-infants",
+            "og_image": null,
+            "twitter_title": "Children + Infants Relief | MOTRIN®",
+            "twitter_description": "Learn how to identify pain in your child or infant, read children and infant dosing charts, and find ways to help relieve their pain.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Pain Relief Tips for Children & Infants"
+        }
+    },
+    "children-infants/dosing-charts": {
+        "url": "https://www.motrin.com/children-infants/dosing-charts",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children & Infants Dosage by Age & Weight | MOTRIN®",
+            "meta_description": "Use the following charts to help you determine the proper dosage of Children’s or Infants’ MOTRIN® for your child or infant.",
+            "canonical_link": "https://www.motrin.com/children-infants/dosing-charts",
+            "og_title": "Children & Infants Dosage by Age & Weight | MOTRIN®",
+            "og_description": "Use the following charts to help you determine the proper dosage of Children’s or Infants’ MOTRIN® for your child or infant.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/children-infants/dosing-charts",
+            "og_image": null,
+            "twitter_title": "Children & Infants Dosage by Age & Weight | MOTRIN®",
+            "twitter_description": "Use the following charts to help you determine the proper dosage of Children’s or Infants’ MOTRIN® for your child or infant.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® Dosing Charts for Children & Infants"
+        }
+    },
+    "children-infants/headache": {
+        "url": "https://www.motrin.com/children-infants/headache",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Kids' Headache Relief Tips | MOTRIN®",
+            "meta_description": "Discover different ways that you can help your kids find relief from their headaches, including taking a nap or eating healthy snacks.",
+            "canonical_link": "https://www.motrin.com/children-infants/headache",
+            "og_title": "Kids' Headache Relief Tips | MOTRIN®",
+            "og_description": "Discover different ways that you can help your kids find relief from their headaches, including taking a nap or eating healthy snacks.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/children-infants/headache",
+            "og_image": null,
+            "twitter_title": "Kids' Headache Relief Tips | MOTRIN®",
+            "twitter_description": "Discover different ways that you can help your kids find relief from their headaches, including taking a nap or eating healthy snacks.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Relieving Kids’ Headaches"
+        }
+    },
+    "children-infants/sore-throat/baby-signs-and-relief": {
+        "url": "https://www.motrin.com/children-infants/sore-throat/baby-signs-and-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Sore Throat in Babies: Signs & Relief | MOTRIN®",
+            "meta_description": "Learn how you can identify when your baby has a sore throat, and find various tips meant to provide relief for their sore throat symptoms.",
+            "canonical_link": "https://www.motrin.com/children-infants/sore-throat/baby-signs-and-relief",
+            "og_title": "Sore Throat in Babies: Signs & Relief | MOTRIN®",
+            "og_description": "Learn how you can identify when your baby has a sore throat, and find various tips meant to provide relief for their sore throat symptoms.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/children-infants/sore-throat/baby-signs-and-relief",
+            "og_image": null,
+            "twitter_title": "Sore Throat in Babies: Signs & Relief | MOTRIN®",
+            "twitter_description": "Learn how you can identify when your baby has a sore throat, and find various tips meant to provide relief for their sore throat symptoms.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Sore Throats in Babies: Spot the Signs and Speed Up Relief"
+        }
+    },
+    "children-infants/sore-throat/kids-sore-throat-relief": {
+        "url": "https://www.motrin.com/children-infants/sore-throat/kids-sore-throat-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "4 Steps Towards Sore Throat Relief in Kids | MOTRIN®",
+            "meta_description": "Read and follow these steps to help your kids find relief from their painful sore throat symptoms and get them back in full swing, fast.",
+            "canonical_link": "https://www.motrin.com/children-infants/sore-throat/kids-sore-throat-relief",
+            "og_title": "4 Steps Towards Sore Throat Relief in Kids | MOTRIN®",
+            "og_description": "Read and follow these steps to help your kids find relief from their painful sore throat symptoms and get them back in full swing, fast.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/children-infants/sore-throat/kids-sore-throat-relief",
+            "og_image": null,
+            "twitter_title": "4 Steps Towards Sore Throat Relief in Kids | MOTRIN®",
+            "twitter_description": "Read and follow these steps to help your kids find relief from their painful sore throat symptoms and get them back in full swing, fast.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Simple Steps for Sore Throat Relief in Kids"
+        }
+    },
+    "contact-us": {
+        "url": "https://www.motrin.com/contact-us",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Contact Us & Customer Care | MOTRIN®",
+            "meta_description": "Looking to contact MOTRIN®? Reach us via email or phone or connect with us on social media. Also, check out some common FAQs & discover how MOTRIN® can help you.",
+            "canonical_link": "https://www.motrin.com/contact-us",
+            "og_title": "Contact Us & Customer Care | MOTRIN®",
+            "og_description": "Looking to contact MOTRIN®? Reach us via email or phone or connect with us on social media. Also, check out some common FAQs & discover how MOTRIN® can help you.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/contact-us",
+            "og_image": null,
+            "twitter_title": "Contact Us & Customer Care | MOTRIN®",
+            "twitter_description": "Looking to contact MOTRIN®? Reach us via email or phone or connect with us on social media. Also, check out some common FAQs & discover how MOTRIN® can help you.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Contact Us & Customer Care"
+        }
+    },
+    "cookie-policy": {
+        "url": "https://www.motrin.com/cookie-policy",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Cookie Policy | MOTRIN®",
+            "meta_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies.\n",
+            "canonical_link": "https://www.motrin.com/cookie-policy",
+            "og_title": "Cookie Policy | MOTRIN®",
+            "og_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies.\n",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/cookie-policy",
+            "og_image": null,
+            "twitter_title": "Cookie Policy | MOTRIN®",
+            "twitter_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies.\n",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Cookie Policy"
+        }
+    },
+    "coupons": {
+        "url": "https://www.motrin.com/coupons",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® Coupons, Discounts, and Offers | MOTRIN®",
+            "meta_description": "Find coupons for Motrin® products here. Sign up with your email for more discounts and offers for your favorite products such as Motrin® IB, Children’s Motrin®, and more.",
+            "canonical_link": "https://www.motrin.com/coupons",
+            "og_title": "MOTRIN® Coupons, Discounts, and Offers | MOTRIN®",
+            "og_description": "Find coupons for Motrin® products here. Sign up with your email for more discounts and offers for your favorite products such as Motrin® IB, Children’s Motrin®, and more.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/coupons",
+            "og_image": null,
+            "twitter_title": "MOTRIN® Coupons, Discounts, and Offers | MOTRIN®",
+            "twitter_description": "Find coupons for Motrin® products here. Sign up with your email for more discounts and offers for your favorite products such as Motrin® IB, Children’s Motrin®, and more.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Coupons"
+        }
+    },
+    "dual-action": {
+        "url": "https://www.motrin.com/dual-action",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® Dual Action with TYLENOL®, United in Overcoming Pain",
+            "meta_description": "Learn more about our newest product, MOTRIN® Dual Action with TYLENOL®, Dual Action Pain Reliever with Ibuprofen & Acetaminophen.",
+            "canonical_link": "https://www.motrin.com/dual-action",
+            "og_title": "MOTRIN® Dual Action with TYLENOL®, United in Overcoming Pain",
+            "og_description": "Learn more about our newest product, MOTRIN® Dual Action with TYLENOL®, Dual Action Pain Reliever with Ibuprofen & Acetaminophen.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/dual-action",
+            "og_image": null,
+            "twitter_title": "MOTRIN® Dual Action with TYLENOL®, United in Overcoming Pain",
+            "twitter_description": "Learn more about our newest product, MOTRIN® Dual Action with TYLENOL®, Dual Action Pain Reliever with Ibuprofen & Acetaminophen.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® Dual Action with TYLENOL®"
+        }
+    },
+    "legal": {
+        "url": "https://www.motrin.com/legal",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Legal Notice | MOTRIN®",
+            "meta_description": "Read the MOTRIN® and McNeil Consumer Healthcare (Division of McNEIL-PPC, Inc.) legal notice.",
+            "canonical_link": "https://www.motrin.com/legal",
+            "og_title": "Legal Notice | MOTRIN®",
+            "og_description": "Read the MOTRIN® and McNeil Consumer Healthcare (Division of McNEIL-PPC, Inc.) legal notice.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/legal",
+            "og_image": null,
+            "twitter_title": "Legal Notice | MOTRIN®",
+            "twitter_description": "Read the MOTRIN® and McNeil Consumer Healthcare (Division of McNEIL-PPC, Inc.) legal notice.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Legal Notice"
+        }
+    },
+    "motrin-sponsorships": {
+        "url": "https://www.motrin.com/motrin-sponsorships",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Eradicate Period Poverty with Motrin & PERIOD. Inc | MOTRIN®",
+            "meta_description": "Learn how MOTRIN® and our pain relief products support the efforts of PERIOD. Inc, the menstrual movement out to eradicate period poverty and stigma.",
+            "canonical_link": "https://www.motrin.com/motrin-sponsorships",
+            "og_title": "Eradicate Period Poverty with Motrin & PERIOD. Inc | MOTRIN®",
+            "og_description": "Learn how MOTRIN® and our pain relief products support the efforts of PERIOD. Inc, the menstrual movement out to eradicate period poverty and stigma.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/motrin-sponsorships",
+            "og_image": null,
+            "twitter_title": "Eradicate Period Poverty with Motrin & PERIOD. Inc | MOTRIN®",
+            "twitter_description": "Learn how MOTRIN® and our pain relief products support the efforts of PERIOD. Inc, the menstrual movement out to eradicate period poverty and stigma.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® Sponsorships"
+        }
+    },
+    "privacy-policy/us": {
+        "url": "https://www.motrin.com/privacy-policy/us",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Kenvue US Privacy Policy - A new view of care",
+            "meta_description": null,
+            "canonical_link": "https://www.motrin.com/privacy-policy/us",
+            "og_title": "Kenvue US Privacy Policy - A new view of care",
+            "og_description": null,
+            "og_type": "website",
+            "og_site": "Kenvue",
+            "og_url": "https://www.kenvue.com/privacy-policy/us",
+            "og_image": null,
+            "twitter_title": "Kenvue US Privacy Policy - A new view of care",
+            "twitter_description": null,
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": null
+        }
+    },
+    "products": {
+        "url": "https://www.motrin.com/products",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "meta_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "canonical_link": "https://www.motrin.com/products",
+            "og_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "og_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products",
+            "og_image": null,
+            "twitter_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "twitter_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Pain Relief You Need From the Ibuprofen Brand You Deserve"
+        }
+    },
+    "products/adults": {
+        "url": "https://www.motrin.com/products/adults",
+        "seo_data": {
+            "page_response": "302 (Found)",
+            "meta_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "meta_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "canonical_link": "https://www.motrin.com/products",
+            "og_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "og_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products",
+            "og_image": null,
+            "twitter_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "twitter_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Pain Relief You Need From the Ibuprofen Brand You Deserve"
+        }
+    },
+    "products/children": {
+        "url": "https://www.motrin.com/products/children",
+        "seo_data": {
+            "page_response": "302 (Found)",
+            "meta_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "meta_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "canonical_link": "https://www.motrin.com/products",
+            "og_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "og_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products",
+            "og_image": null,
+            "twitter_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "twitter_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Pain Relief You Need From the Ibuprofen Brand You Deserve"
+        }
+    },
+    "products/childrens-motrin": {
+        "url": "https://www.motrin.com/products/childrens-motrin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children’s MOTRIN® Ibuprofen Liquid Medicine for Fever & Pain | MOTRIN®",
+            "meta_description": "Discover how to better relieve pain and fever in kids with Children’s MOTRIN® Ibuprofen Oral Suspension, a children’s liquid ibuprofen for pain and fever relief up to 8 hours.",
+            "canonical_link": "https://www.motrin.com/products/childrens-motrin",
+            "og_title": "Children’s MOTRIN® Ibuprofen Liquid Medicine for Fever & Pain | MOTRIN®",
+            "og_description": "Discover how to better relieve pain and fever in kids with Children’s MOTRIN® Ibuprofen Oral Suspension, a children’s liquid ibuprofen for pain and fever relief up to 8 hours.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/childrens-motrin",
+            "og_image": null,
+            "twitter_title": "Children’s MOTRIN® Ibuprofen Liquid Medicine for Fever & Pain | MOTRIN®",
+            "twitter_description": "Discover how to better relieve pain and fever in kids with Children’s MOTRIN® Ibuprofen Oral Suspension, a children’s liquid ibuprofen for pain and fever relief up to 8 hours.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Children's MOTRIN® Ibuprofen Liquid Oral Suspension Kid’s Medicine for Fever & Pain Relief"
+        }
+    },
+    "products/childrens-motrin-chewable-ibuprofen-tablets": {
+        "url": "https://www.motrin.com/products/childrens-motrin-chewable-ibuprofen-tablets",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children’s MOTRIN® Chewable Ibuprofen Tablets for Pain Relief & Fever | MOTRIN®",
+            "meta_description": "Quickly reduce fever in kids and relieve minor pains and aches for up to 8 hours with Children’s MOTRIN® ibuprofen, now in easy chewable tablet form.",
+            "canonical_link": "https://www.motrin.com/products/childrens-motrin-chewable-ibuprofen-tablets",
+            "og_title": "Children’s MOTRIN® Chewable Ibuprofen Tablets for Pain Relief & Fever | MOTRIN®",
+            "og_description": "Quickly reduce fever in kids and relieve minor pains and aches for up to 8 hours with Children’s MOTRIN® ibuprofen, now in easy chewable tablet form.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/childrens-motrin-chewable-ibuprofen-tablets",
+            "og_image": null,
+            "twitter_title": "Children’s MOTRIN® Chewable Ibuprofen Tablets for Pain Relief & Fever | MOTRIN®",
+            "twitter_description": "Quickly reduce fever in kids and relieve minor pains and aches for up to 8 hours with Children’s MOTRIN® ibuprofen, now in easy chewable tablet form.",
+            "twitter_card": "summary",
+            "twitter_image": "childrens-motrin-front.webp",
+            "h1": "Children's MOTRIN® Ibuprofen Chewable Tablets, Pain Relief Medicine & Fever Reducer for Kids, 100mg"
+        }
+    },
+    "products/compare-pain-relief-products": {
+        "url": "https://www.motrin.com/products/compare-pain-relief-products",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Compare Adult Pain & Fever Relief Products | MOTRIN®",
+            "meta_description": "Learn the differences between Motrin® (ibuprofen) & other OTC pain reliever, like Advil & Tylenol. See each brand’s active ingredient & find which may be right for you.",
+            "canonical_link": "https://www.motrin.com/products/compare-pain-relief-products",
+            "og_title": "Compare Adult Pain & Fever Relief Products | MOTRIN®",
+            "og_description": "Learn the differences between Motrin® (ibuprofen) & other OTC pain reliever, like Advil & Tylenol. See each brand’s active ingredient & find which may be right for you.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/compare-pain-relief-products",
+            "og_image": null,
+            "twitter_title": "Compare Adult Pain & Fever Relief Products | MOTRIN®",
+            "twitter_description": "Learn the differences between Motrin® (ibuprofen) & other OTC pain reliever, like Advil & Tylenol. See each brand’s active ingredient & find which may be right for you.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® vs. Other Pain Relievers"
+        }
+    },
+    "products/dual-action": {
+        "url": "https://www.motrin.com/products/dual-action",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® Dual Action with TYLENOL® | Acetaminophen and Ibuprofen | MOTRIN®",
+            "meta_description": "Discover MOTRIN® Dual Action with TYLENOL®, a dual-action pain reliever medicine that combines Ibuprofen & Acetaminophen together to help treat minor aches & pains.",
+            "canonical_link": "https://www.motrin.com/products/dual-action",
+            "og_title": "MOTRIN® Dual Action with TYLENOL® | Acetaminophen and Ibuprofen | MOTRIN®",
+            "og_description": "Discover MOTRIN® Dual Action with TYLENOL®, a dual-action pain reliever medicine that combines Ibuprofen & Acetaminophen together to help treat minor aches & pains.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/dual-action",
+            "og_image": null,
+            "twitter_title": "MOTRIN® Dual Action with TYLENOL® | Acetaminophen and Ibuprofen | MOTRIN®",
+            "twitter_description": "Discover MOTRIN® Dual Action with TYLENOL®, a dual-action pain reliever medicine that combines Ibuprofen & Acetaminophen together to help treat minor aches & pains.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® Dual Action with TYLENOL®, Ibuprofen (NSAID) 125 mg & Acetaminophen 250 mg"
+        }
+    },
+    "products/infants": {
+        "url": "https://www.motrin.com/products/infants",
+        "seo_data": {
+            "page_response": "302 (Found)",
+            "meta_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "meta_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "canonical_link": "https://www.motrin.com/products",
+            "og_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "og_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products",
+            "og_image": null,
+            "twitter_title": "Pain & Fever Relief Medicine Products | MOTRIN®",
+            "twitter_description": "Get information about pain and fever relief medicine from MOTRIN® including MOTRIN® IB, MOTRIN® PM, Children’s MOTRIN® or Infants’ MOTRIN®.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Pain Relief You Need From the Ibuprofen Brand You Deserve"
+        }
+    },
+    "products/infants-motrin": {
+        "url": "https://www.motrin.com/products/infants-motrin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Infants' MOTRIN® Concentrated Ibuprofen Liquid Medicine Drops | MOTRIN®",
+            "meta_description": "Reduce pain and fever in babies ages 6 through 23 months with Infants' MOTRIN®, a liquid ibuprofen medicine drop available in berry and dye-free berry flavors.",
+            "canonical_link": "https://www.motrin.com/products/infants-motrin",
+            "og_title": "Infants' MOTRIN® Concentrated Ibuprofen Liquid Medicine Drops | MOTRIN®",
+            "og_description": "Reduce pain and fever in babies ages 6 through 23 months with Infants' MOTRIN®, a liquid ibuprofen medicine drop available in berry and dye-free berry flavors.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/infants-motrin",
+            "og_image": null,
+            "twitter_title": "Infants' MOTRIN® Concentrated Ibuprofen Liquid Medicine Drops | MOTRIN®",
+            "twitter_description": "Reduce pain and fever in babies ages 6 through 23 months with Infants' MOTRIN®, a liquid ibuprofen medicine drop available in berry and dye-free berry flavors.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Infants' MOTRIN® Liquid Ibuprofen Medicine Drops, Pain Reliever & Fever Reducer for Babies"
+        }
+    },
+    "products/motrin-arthritis-pain-gel": {
+        "url": "https://www.motrin.com/products/motrin-arthritis-pain-gel",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® Arthritis Pain Relief Topical Gel with Diclofenac | MOTRIN®",
+            "meta_description": "Shop MOTRIN® Arthritis Topical Pain Relief Gel with Diclofenac. The prescription-strength formula offers clinically proven arthritis pain relief in a convenient topical NSAID gel cream.",
+            "canonical_link": "https://www.motrin.com/products/motrin-arthritis-pain-gel",
+            "og_title": "MOTRIN® Arthritis Pain Relief Topical Gel with Diclofenac | MOTRIN®",
+            "og_description": "Shop MOTRIN® Arthritis Topical Pain Relief Gel with Diclofenac. The prescription-strength formula offers clinically proven arthritis pain relief in a convenient topical NSAID gel cream.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/motrin-arthritis-pain-gel",
+            "og_image": null,
+            "twitter_title": "MOTRIN® Arthritis Pain Relief Topical Gel with Diclofenac | MOTRIN®",
+            "twitter_description": "Shop MOTRIN® Arthritis Topical Pain Relief Gel with Diclofenac. The prescription-strength formula offers clinically proven arthritis pain relief in a convenient topical NSAID gel cream.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® Arthritis Pain Relief Diclofenac Sodium Topical Gel 1% for Joint Pain & Inflammation Relief"
+        }
+    },
+    "products/motrin-ib": {
+        "url": "https://www.motrin.com/products/motrin-ib",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® IB Ibuprofen Tablets for Fever & Pain Relief | MOTRIN®",
+            "meta_description": "Find pain relief from muscle aches, period pain, minor arthritis pain, toothaches and headaches, and reduce fever with MOTRIN® IB tablets with ibuprofen 200mg.",
+            "canonical_link": "https://www.motrin.com/products/motrin-ib",
+            "og_title": "MOTRIN® IB Ibuprofen Tablets for Fever & Pain Relief | MOTRIN®",
+            "og_description": "Find pain relief from muscle aches, period pain, minor arthritis pain, toothaches and headaches, and reduce fever with MOTRIN® IB tablets with ibuprofen 200mg.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/motrin-ib",
+            "og_image": null,
+            "twitter_title": "MOTRIN® IB Ibuprofen Tablets for Fever & Pain Relief | MOTRIN®",
+            "twitter_description": "Find pain relief from muscle aches, period pain, minor arthritis pain, toothaches and headaches, and reduce fever with MOTRIN® IB tablets with ibuprofen 200mg.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® IB, Ibuprofen 200mg Tablets Pain Reliever & Fever Reducer"
+        }
+    },
+    "products/motrin-ib-liquid-gels": {
+        "url": "https://www.motrin.com/products/motrin-ib-liquid-gels",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® IB Liquid Gels for Headache, Fever, & Pain Relief | MOTRIN®",
+            "meta_description": "Learn how MOTRIN® IB Liquid Gels with ibuprofen reduces fever and provides pain relief from muscle aches, minor arthritis, backaches and headaches.",
+            "canonical_link": "https://www.motrin.com/products/motrin-ib-liquid-gels",
+            "og_title": "MOTRIN® IB Liquid Gels for Headache, Fever, & Pain Relief | MOTRIN®",
+            "og_description": "Learn how MOTRIN® IB Liquid Gels with ibuprofen reduces fever and provides pain relief from muscle aches, minor arthritis, backaches and headaches.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/motrin-ib-liquid-gels",
+            "og_image": null,
+            "twitter_title": "MOTRIN® IB Liquid Gels for Headache, Fever, & Pain Relief | MOTRIN®",
+            "twitter_description": "Learn how MOTRIN® IB Liquid Gels with ibuprofen reduces fever and provides pain relief from muscle aches, minor arthritis, backaches and headaches.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® IB Liquid Gels, Ibuprofen 200mg Medicine for Headache, Pain Relief and Fever Reduction"
+        }
+    },
+    "products/motrin-ib-migraine-liquid-gels": {
+        "url": "https://www.motrin.com/products/motrin-ib-migraine-liquid-gels",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® Migraine Pain Relief Liquid Gels with Ibuprofen | MOTRIN®",
+            "meta_description": "Discover MOTRIN® IB Migraine Liquid Gels to help treat migraine headaches. Each liquid gel capsule contains 200mg of ibuprofen, providing powerful migraine pain relief.",
+            "canonical_link": "https://www.motrin.com/products/motrin-ib-migraine-liquid-gels",
+            "og_title": "MOTRIN® Migraine Pain Relief Liquid Gels with Ibuprofen | MOTRIN®",
+            "og_description": "Discover MOTRIN® IB Migraine Liquid Gels to help treat migraine headaches. Each liquid gel capsule contains 200mg of ibuprofen, providing powerful migraine pain relief.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/motrin-ib-migraine-liquid-gels",
+            "og_image": null,
+            "twitter_title": "MOTRIN® Migraine Pain Relief Liquid Gels with Ibuprofen | MOTRIN®",
+            "twitter_description": "Discover MOTRIN® IB Migraine Liquid Gels to help treat migraine headaches. Each liquid gel capsule contains 200mg of ibuprofen, providing powerful migraine pain relief.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® IB Migraine Pain Relief Medication Liquid Gel Caps with Ibuprofen 200mg"
+        }
+    },
+    "products/motrin-pm": {
+        "url": "https://www.motrin.com/products/motrin-pm",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® PM Pain Relief Caplets, Ibuprofen & Nighttime Sleep Aid | MOTRIN®",
+            "meta_description": "Help relieve pain at night with MOTRIN® PM Pain Relief Caplets for sleep which combines ibuprofen and a nighttime sleep aid to relieve minor aches and pains at bed time.",
+            "canonical_link": "https://www.motrin.com/products/motrin-pm",
+            "og_title": "MOTRIN® PM Pain Relief Caplets, Ibuprofen & Nighttime Sleep Aid | MOTRIN®",
+            "og_description": "Help relieve pain at night with MOTRIN® PM Pain Relief Caplets for sleep which combines ibuprofen and a nighttime sleep aid to relieve minor aches and pains at bed time.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/products/motrin-pm",
+            "og_image": null,
+            "twitter_title": "MOTRIN® PM Pain Relief Caplets, Ibuprofen & Nighttime Sleep Aid | MOTRIN®",
+            "twitter_description": "Help relieve pain at night with MOTRIN® PM Pain Relief Caplets for sleep which combines ibuprofen and a nighttime sleep aid to relieve minor aches and pains at bed time.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "MOTRIN® PM Caplets, 200mg Ibuprofen & 38mg Sleep Aid for Pain Relief at Night"
+        }
+    },
+    "safety-dosing": {
+        "url": "https://www.motrin.com/safety-dosing",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Motrin (Ibuprofen) Dosing and Safety Information | MOTRIN®",
+            "meta_description": "Find and learn different safety and dosing information when using Ibuprofen, an ingredient in MOTRIN® pain relief products.",
+            "canonical_link": "https://www.motrin.com/safety-dosing",
+            "og_title": "Motrin (Ibuprofen) Dosing and Safety Information | MOTRIN®",
+            "og_description": "Find and learn different safety and dosing information when using Ibuprofen, an ingredient in MOTRIN® pain relief products.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/safety-dosing",
+            "og_image": null,
+            "twitter_title": "Motrin (Ibuprofen) Dosing and Safety Information | MOTRIN®",
+            "twitter_description": "Find and learn different safety and dosing information when using Ibuprofen, an ingredient in MOTRIN® pain relief products.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Ibuprofen Safety and Dosing Information for Children, Infants, and Adults"
+        }
+    },
+    "safety-dosing/adult-dosing-chart": {
+        "url": "https://www.motrin.com/safety-dosing/adult-dosing-chart",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Motrin (Ibuprofen) Adult Dosing Chart | MOTRIN®",
+            "meta_description": "Use the following chart to find the proper dose for adults including how many caplets to take and how often you can take them.",
+            "canonical_link": "https://www.motrin.com/safety-dosing/adult-dosing-chart",
+            "og_title": "Motrin (Ibuprofen) Adult Dosing Chart | MOTRIN®",
+            "og_description": "Use the following chart to find the proper dose for adults including how many caplets to take and how often you can take them.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/safety-dosing/adult-dosing-chart",
+            "og_image": null,
+            "twitter_title": "Motrin (Ibuprofen) Adult Dosing Chart | MOTRIN®",
+            "twitter_description": "Use the following chart to find the proper dose for adults including how many caplets to take and how often you can take them.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Adult Dosing Chart"
+        }
+    },
+    "safety-dosing/faq": {
+        "url": "https://www.motrin.com/safety-dosing/faq",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Motrin and Ibuprofen FAQs | MOTRIN®",
+            "meta_description": "Find answers to your questions about ibuprofen and Motrin pain relief products such as MOTRIN® IB or Children's MOTRIN® here.",
+            "canonical_link": "https://www.motrin.com/safety-dosing/faq",
+            "og_title": "Motrin and Ibuprofen FAQs | MOTRIN®",
+            "og_description": "Find answers to your questions about ibuprofen and Motrin pain relief products such as MOTRIN® IB or Children's MOTRIN® here.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/safety-dosing/faq",
+            "og_image": null,
+            "twitter_title": "Motrin and Ibuprofen FAQs | MOTRIN®",
+            "twitter_description": "Find answers to your questions about ibuprofen and Motrin pain relief products such as MOTRIN® IB or Children's MOTRIN® here.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Motrin and Ibuprofen FAQs"
+        }
+    },
+    "safety-dosing/taking-ibuprofen-and-acetaminophen": {
+        "url": "https://www.motrin.com/safety-dosing/taking-ibuprofen-and-acetaminophen",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "MOTRIN® and TYLENOL®: What Is the Difference? | MOTRIN®",
+            "meta_description": "Learn more about the active ingredients of Motrin® (ibuprofen) and Tylenol® (acetaminophen), and how they work together in MOTRIN® Dual Action with TYLENOL®.",
+            "canonical_link": "https://www.motrin.com/safety-dosing/taking-ibuprofen-and-acetaminophen",
+            "og_title": "MOTRIN® and TYLENOL®: What Is the Difference? | MOTRIN®",
+            "og_description": "Learn more about the active ingredients of Motrin® (ibuprofen) and Tylenol® (acetaminophen), and how they work together in MOTRIN® Dual Action with TYLENOL®.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/safety-dosing/taking-ibuprofen-and-acetaminophen",
+            "og_image": null,
+            "twitter_title": "MOTRIN® and TYLENOL®: What Is the Difference? | MOTRIN®",
+            "twitter_description": "Learn more about the active ingredients of Motrin® (ibuprofen) and Tylenol® (acetaminophen), and how they work together in MOTRIN® Dual Action with TYLENOL®.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "How Do the Ingredients MOTRIN® (Ibuprofen) and TYLENOL® (Acetaminophen) Work?"
+        }
+    },
+    "sitemap": {
+        "url": "https://www.motrin.com/sitemap",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Sitemap | MOTRIN®",
+            "meta_description": "Explore the MOTRIN® website and find adult and children’s MOTRIN® products for pain and fever relief. Learn about on menstrual pain, arthritis, fever, and more.",
+            "canonical_link": "https://www.motrin.com/sitemap",
+            "og_title": "Sitemap | MOTRIN®",
+            "og_description": "Explore the MOTRIN® website and find adult and children’s MOTRIN® products for pain and fever relief. Learn about on menstrual pain, arthritis, fever, and more.",
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Sitemap | MOTRIN®",
+            "twitter_description": "Explore the MOTRIN® website and find adult and children’s MOTRIN® products for pain and fever relief. Learn about on menstrual pain, arthritis, fever, and more.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Sitemap"
+        }
+    },
+    "what-is-motrin": {
+        "url": "https://www.motrin.com/what-is-motrin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "What Is Motrin (Ibuprofen)? | MOTRIN®",
+            "meta_description": "Learn more about ibuprofen, the active ingredient in MOTRIN®, and how this NSAID can help reduce fever and relieve pain for all members of your family.",
+            "canonical_link": "https://www.motrin.com/what-is-motrin",
+            "og_title": "What Is Motrin (Ibuprofen)? | MOTRIN®",
+            "og_description": "Learn more about ibuprofen, the active ingredient in MOTRIN®, and how this NSAID can help reduce fever and relieve pain for all members of your family.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/what-is-motrin",
+            "og_image": null,
+            "twitter_title": "What Is Motrin (Ibuprofen)? | MOTRIN®",
+            "twitter_description": "Learn more about ibuprofen, the active ingredient in MOTRIN®, and how this NSAID can help reduce fever and relieve pain for all members of your family.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "What Is MOTRIN®?"
+        }
+    },
+    "where-to-buy": {
+        "url": "https://www.motrin.com/where-to-buy",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Where To Buy MOTRIN® Ibuprofen Products | MOTRIN®",
+            "meta_description": "Discover where you can buy MOTRIN® ibuprofen products both online or near you, so you can experience pain relief from muscle aches, fevers, cramps and more.",
+            "canonical_link": "https://www.motrin.com/where-to-buy",
+            "og_title": "Where To Buy MOTRIN® Ibuprofen Products | MOTRIN®",
+            "og_description": "Discover where you can buy MOTRIN® ibuprofen products both online or near you, so you can experience pain relief from muscle aches, fevers, cramps and more.",
+            "og_type": "article",
+            "og_site": "MOTRIN®",
+            "og_url": "https://www.motrin.com/where-to-buy",
+            "og_image": null,
+            "twitter_title": "Where To Buy MOTRIN® Ibuprofen Products | MOTRIN®",
+            "twitter_description": "Discover where you can buy MOTRIN® ibuprofen products both online or near you, so you can experience pain relief from muscle aches, fevers, cramps and more.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Where To Buy"
+        }
+    }
+}

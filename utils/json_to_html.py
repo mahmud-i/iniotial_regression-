@@ -203,7 +203,9 @@ def generate_html_report(json_file_path):
     <html>
     <head>
         <title>{json_filename}</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            {css_content}
+        </style>
     </head>
     <body>
         <div id="report-container">

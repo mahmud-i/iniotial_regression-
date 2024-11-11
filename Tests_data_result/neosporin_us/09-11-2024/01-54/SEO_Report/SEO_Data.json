@@ -1,0 +1,522 @@
+{
+    "404": {
+        "url": "https://www.neosporin.com/404",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Page not found | Neosporin®",
+            "meta_description": "Page not found.",
+            "canonical_link": "https://www.neosporin.com/404",
+            "og_title": "Page not found | Neosporin®",
+            "og_description": "Page not found.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/404",
+            "og_image": null,
+            "twitter_title": "Page not found | Neosporin®",
+            "twitter_description": "Page not found.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Sorry! We can’t find the page you are looking for."
+        }
+    },
+    "Home_Page": {
+        "url": "https://www.neosporin.com/",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Discover Neosporin® Ointment Products & Wound Healing Tips| NEOSPORIN®",
+            "meta_description": "Get pain relief & infection protection you can trust with NEOSPORIN® wound care products. Plus, discover helpful first aid tips, including how to protect & heal wounds.",
+            "canonical_link": "https://www.neosporin.com",
+            "og_title": "Discover Neosporin® Ointment Products & Wound Healing Tips| NEOSPORIN®",
+            "og_description": "Get pain relief & infection protection you can trust with NEOSPORIN® wound care products. Plus, discover helpful first aid tips, including how to protect & heal wounds.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com",
+            "og_image": null,
+            "twitter_title": "Discover Neosporin® Ointment Products & Wound Healing Tips| NEOSPORIN®",
+            "twitter_description": "Get pain relief & infection protection you can trust with NEOSPORIN® wound care products. Plus, discover helpful first aid tips, including how to protect & heal wounds.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "When life comes with cuts, we come prepared."
+        }
+    },
+    "contact-us": {
+        "url": "https://www.neosporin.com/contact-us",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Contact Us & Customer Care | NEOSPORIN®",
+            "meta_description": "Looking to contact NEOSPORIN®? Use our customer care portal to reach our support team via email or phone. Plus, find answers to your questions with our top FAQ's about NEOSPORIN® products.",
+            "canonical_link": "https://www.neosporin.com/contact-us",
+            "og_title": "Contact Us & Customer Care | NEOSPORIN®",
+            "og_description": "Looking to contact NEOSPORIN®? Use our customer care portal to reach our support team via email or phone. Plus, find answers to your questions with our top FAQ's about NEOSPORIN® products.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/contact-us",
+            "og_image": "image_article_contact_us2x.png",
+            "twitter_title": "Contact Us & Customer Care | NEOSPORIN®",
+            "twitter_description": "Looking to contact NEOSPORIN®? Use our customer care portal to reach our support team via email or phone. Plus, find answers to your questions with our top FAQ's about NEOSPORIN® products.",
+            "twitter_card": "summary",
+            "twitter_image": "image_article_contact_us2x.png",
+            "h1": "Have a question? We have answers!"
+        }
+    },
+    "cookie-policy": {
+        "url": "https://www.neosporin.com/cookie-policy",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Cookie Policy | Neosporin",
+            "meta_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following:",
+            "canonical_link": "https://www.neosporin.com/cookie-policy",
+            "og_title": "Cookie Policy | Neosporin",
+            "og_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following:",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/cookie-policy",
+            "og_image": null,
+            "twitter_title": "Cookie Policy | Neosporin",
+            "twitter_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies (like gifs, web beacons, etc.). The functionalities for which we use these technologies may include the following:",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Cookie Policy"
+        }
+    },
+    "email-signup": {
+        "url": "https://www.neosporin.com/email-signup",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Email Signup | Neosporin",
+            "meta_description": "Want to receive tips, personalized content and exclusive offers from NEOSPORIN®?",
+            "canonical_link": "https://www.neosporin.com/email-signup",
+            "og_title": "Email Signup | Neosporin",
+            "og_description": "Want to receive tips, personalized content and exclusive offers from NEOSPORIN®?",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/email-signup",
+            "og_image": "care_club_image_1-en-us-Neosporin?h=250",
+            "twitter_title": "Email Signup | Neosporin",
+            "twitter_description": "Want to receive tips, personalized content and exclusive offers from NEOSPORIN®?",
+            "twitter_card": "summary",
+            "twitter_image": "care_club_image_1-en-us-Neosporin",
+            "h1": "Email Signup"
+        }
+    },
+    "first-aid-info": {
+        "url": "https://www.neosporin.com/first-aid-info",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "How to Treat & Heal Everyday Cuts, Scrapes & Burns | NEOSPORIN®",
+            "meta_description": "Follow these steps to properly heal & treat minor wounds. Learn when to use Neosporin®, how to prevent infection & why it’s better to keep a wound covered vs uncovered.",
+            "canonical_link": "https://www.neosporin.com/first-aid-info",
+            "og_title": "How to Treat & Heal Everyday Cuts, Scrapes & Burns | NEOSPORIN®",
+            "og_description": "Follow these steps to properly heal & treat minor wounds. Learn when to use Neosporin®, how to prevent infection & why it’s better to keep a wound covered vs uncovered.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/first-aid-info",
+            "og_image": "hero_image_caring_for_everyday_injuries-en-us",
+            "twitter_title": "How to Treat & Heal Everyday Cuts, Scrapes & Burns | NEOSPORIN®",
+            "twitter_description": "Follow these steps to properly heal & treat minor wounds. Learn when to use Neosporin®, how to prevent infection & why it’s better to keep a wound covered vs uncovered.",
+            "twitter_card": "summary",
+            "twitter_image": "hero_image_caring_for_everyday_injuries-en-us",
+            "h1": "Caring for Everyday Injuries"
+        }
+    },
+    "first-aid-info/chapped-lips-causes-remedies": {
+        "url": "https://www.neosporin.com/first-aid-info/chapped-lips-causes-remedies",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Chapped Lips: Causes, Symptoms and Remedies | NEOSPORIN®",
+            "meta_description": "Find out how to take care of your lips. Learn about chapped lips causes and how to get rid of dry lips with key lifestyle changes and NEOSPORIN® today.",
+            "canonical_link": "https://www.neosporin.com/first-aid-info/chapped-lips-causes-remedies",
+            "og_title": "Chapped Lips: Causes, Symptoms and Remedies | NEOSPORIN®",
+            "og_description": "Find out how to take care of your lips. Learn about chapped lips causes and how to get rid of dry lips with key lifestyle changes and NEOSPORIN® today.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/first-aid-info/chapped-lips-causes-remedies",
+            "og_image": "image_cahpped_lips_0.png",
+            "twitter_title": "Chapped Lips: Causes, Symptoms and Remedies | NEOSPORIN®",
+            "twitter_description": "Find out how to take care of your lips. Learn about chapped lips causes and how to get rid of dry lips with key lifestyle changes and NEOSPORIN® today.",
+            "twitter_card": "summary",
+            "twitter_image": "image_cahpped_lips_0.png",
+            "h1": "Chapped Lips: Causes, Symptoms and Remedies"
+        }
+    },
+    "first-aid-info/infection-signs-treatment": {
+        "url": "https://www.neosporin.com/first-aid-info/infection-signs-treatment",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Minor Infected Wounds: Prevention, Treatment and Signs | NEOSPORIN®",
+            "meta_description": "Learn the differences between a healing and infected wound, explore the signs of wound infection, and find out how NEOSPORIN® can help prevent infections.",
+            "canonical_link": "https://www.neosporin.com/first-aid-info/infection-signs-treatment",
+            "og_title": "Minor Infected Wounds: Prevention, Treatment and Signs | NEOSPORIN®",
+            "og_description": "Learn the differences between a healing and infected wound, explore the signs of wound infection, and find out how NEOSPORIN® can help prevent infections.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/first-aid-info/infection-signs-treatment",
+            "og_image": "shutterstock_1081434338_22x_0.png",
+            "twitter_title": "Minor Infected Wounds: Prevention, Treatment and Signs | NEOSPORIN®",
+            "twitter_description": "Learn the differences between a healing and infected wound, explore the signs of wound infection, and find out how NEOSPORIN® can help prevent infections.",
+            "twitter_card": "summary",
+            "twitter_image": "shutterstock_1081434338_22x_0.png",
+            "h1": "Minor Infected Wounds: Prevention, Treatment and Signs"
+        }
+    },
+    "first-aid-info/neosporin-vs-polysporin-vs-bacitracin": {
+        "url": "https://www.neosporin.com/first-aid-info/neosporin-vs-polysporin-vs-bacitracin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "POLYSPORIN® vs NEOSPORIN® vs Bacitracin | NEOSPORIN®",
+            "meta_description": "From NEOSPORIN® ingredients to Polysporin uses, we look at the similarities and differences between three of the most popular antibiotic ointments.",
+            "canonical_link": "https://www.neosporin.com/first-aid-info/neosporin-vs-polysporin-vs-bacitracin",
+            "og_title": "POLYSPORIN® vs NEOSPORIN® vs Bacitracin | NEOSPORIN®",
+            "og_description": "From NEOSPORIN® ingredients to Polysporin uses, we look at the similarities and differences between three of the most popular antibiotic ointments.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/first-aid-info/neosporin-vs-polysporin-vs-bacitracin",
+            "og_image": "stocksy_comp_3376460_162x.png",
+            "twitter_title": "POLYSPORIN® vs NEOSPORIN® vs Bacitracin | NEOSPORIN®",
+            "twitter_description": "From NEOSPORIN® ingredients to Polysporin uses, we look at the similarities and differences between three of the most popular antibiotic ointments.",
+            "twitter_card": "summary",
+            "twitter_image": "stocksy_comp_3376460_162x.png",
+            "h1": "POLYSPORIN® vs NEOSPORIN® vs Bacitracin: Key Differences In Ointments"
+        }
+    },
+    "first-aid-info/what-is-neosporin": {
+        "url": "https://www.neosporin.com/first-aid-info/what-is-neosporin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "What Is NEOSPORIN® And What Is It Used For? | NEOSPORIN®",
+            "meta_description": "Discover what NEOSPORIN® ointment is, when it can be used and how to use it. Protect cuts and burns from infection with NEOSPORIN® wound care products.",
+            "canonical_link": "https://www.neosporin.com/first-aid-info/what-is-neosporin",
+            "og_title": "What Is NEOSPORIN® And What Is It Used For? | NEOSPORIN®",
+            "og_description": "Discover what NEOSPORIN® ointment is, when it can be used and how to use it. Protect cuts and burns from infection with NEOSPORIN® wound care products.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/first-aid-info/what-is-neosporin",
+            "og_image": "image_article_whatisneosporin2x.png",
+            "twitter_title": "What Is NEOSPORIN® And What Is It Used For? | NEOSPORIN®",
+            "twitter_description": "Discover what NEOSPORIN® ointment is, when it can be used and how to use it. Protect cuts and burns from infection with NEOSPORIN® wound care products.",
+            "twitter_card": "summary",
+            "twitter_image": "image_article_whatisneosporin2x.png",
+            "h1": "What Is NEOSPORIN® And What Is It Used For?"
+        }
+    },
+    "frequently-asked-questions": {
+        "url": "https://www.neosporin.com/frequently-asked-questions",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Find Answers to Our Most Frequently Asked Questions | NEOSPORIN®",
+            "meta_description": "Check out our frequently-asked questions to see if we’ve already covered yours.",
+            "canonical_link": "https://www.neosporin.com/frequently-asked-questions",
+            "og_title": "Find Answers to Our Most Frequently Asked Questions | NEOSPORIN®",
+            "og_description": "Check out our frequently-asked questions to see if we’ve already covered yours.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/frequently-asked-questions",
+            "og_image": "image_article_faq2x.png?h=250",
+            "twitter_title": "Find Answers to Our Most Frequently Asked Questions | NEOSPORIN®",
+            "twitter_description": "Check out our frequently-asked questions to see if we’ve already covered yours.",
+            "twitter_card": "summary",
+            "twitter_image": "image_article_faq2x.png",
+            "h1": "Frequently Asked Questions"
+        }
+    },
+    "legal": {
+        "url": "https://www.neosporin.com/legal",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Legal Notice | NEOSPORIN®",
+            "meta_description": "Read the Legal Notice for NEOSPORIN® to get information on our terms and conditions.",
+            "canonical_link": "https://www.neosporin.com/legal",
+            "og_title": "Legal Notice | NEOSPORIN®",
+            "og_description": "Read the Legal Notice for NEOSPORIN® to get information on our terms and conditions.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/legal",
+            "og_image": null,
+            "twitter_title": "Legal Notice | NEOSPORIN®",
+            "twitter_description": "Read the Legal Notice for NEOSPORIN® to get information on our terms and conditions.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Legal Notice"
+        }
+    },
+    "products": {
+        "url": "https://www.neosporin.com/products",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "View all Neosporin® Antibiotic Ointments & Other Products | Neosporin®",
+            "meta_description": "Prevent infection & promote healing with our first aid antibiotic ointments. Explore all Neosporin® products & find the right ointment or lip care product for your needs.",
+            "canonical_link": "https://www.neosporin.com/products",
+            "og_title": "View all Neosporin® Antibiotic Ointments & Other Products | Neosporin®",
+            "og_description": "Prevent infection & promote healing with our first aid antibiotic ointments. Explore all Neosporin® products & find the right ointment or lip care product for your needs.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products",
+            "og_image": null,
+            "twitter_title": "View all Neosporin® Antibiotic Ointments & Other Products | Neosporin®",
+            "twitter_description": "Prevent infection & promote healing with our first aid antibiotic ointments. Explore all Neosporin® products & find the right ointment or lip care product for your needs.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Our Products"
+        }
+    },
+    "products/lip-care/overnight-renewal-therapy": {
+        "url": "https://www.neosporin.com/products/lip-care/overnight-renewal-therapy",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Neosporin® Lip Health Overnight Renewal Therapy® Treatment for Dry, Chapped Lips | NEOSPORIN®",
+            "meta_description": "Discover NEOSPORIN® Overnight Renewal Therapy® white petrolatum lip protectant for dry, chapped lips. Just apply before bed to repair, moisturize & heal lips overnight.",
+            "canonical_link": "https://www.neosporin.com/products/lip-care/overnight-renewal-therapy",
+            "og_title": "Neosporin® Lip Health Overnight Renewal Therapy® Treatment for Dry, Chapped Lips | NEOSPORIN®",
+            "og_description": "Discover NEOSPORIN® Overnight Renewal Therapy® white petrolatum lip protectant for dry, chapped lips. Just apply before bed to repair, moisturize & heal lips overnight.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/lip-care/overnight-renewal-therapy",
+            "og_image": "27oz_0000_500wx500h-en-us.png",
+            "twitter_title": "Neosporin® Lip Health Overnight Renewal Therapy® Treatment for Dry, Chapped Lips | NEOSPORIN®",
+            "twitter_description": "Discover NEOSPORIN® Overnight Renewal Therapy® white petrolatum lip protectant for dry, chapped lips. Just apply before bed to repair, moisturize & heal lips overnight.",
+            "twitter_card": "summary",
+            "twitter_image": "27oz_0000_500wx500h-en-us.png",
+            "h1": "NEOSPORIN® LIP HEALTH Overnight Renewal Therapy® Treatment for Dry, Chapped Lips"
+        }
+    },
+    "products/topical-antibiotics": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Wound Care Products: Topical Antibiotic Ointments & Creams | NEOSPORIN®",
+            "meta_description": "Discover NEOSPORIN® wound care products, including pain relief creams & antibiotic ointments to help prevent infection & provide relief for burns, cuts, scrapes & more.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics",
+            "og_title": "Wound Care Products: Topical Antibiotic Ointments & Creams | NEOSPORIN®",
+            "og_description": "Discover NEOSPORIN® wound care products, including pain relief creams & antibiotic ointments to help prevent infection & provide relief for burns, cuts, scrapes & more.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics",
+            "og_image": null,
+            "twitter_title": "Wound Care Products: Topical Antibiotic Ointments & Creams | NEOSPORIN®",
+            "twitter_description": "Discover NEOSPORIN® wound care products, including pain relief creams & antibiotic ointments to help prevent infection & provide relief for burns, cuts, scrapes & more.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Topical Antibiotics"
+        }
+    },
+    "products/topical-antibiotics/burn-relief-antibiotic-ointment": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/burn-relief-antibiotic-ointment",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "First Aid Antibiotic Burn Ointment to Relieve & Protect Burns | NEOSPORIN®",
+            "meta_description": "Discover NEOSPORIN® Burn Relief First Aid Antibiotic Ointment. This burn ointment is designed to help treat & relieve burn pain & protect healing burns from infection.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/burn-relief-antibiotic-ointment",
+            "og_title": "First Aid Antibiotic Burn Ointment to Relieve & Protect Burns | NEOSPORIN®",
+            "og_description": "Discover NEOSPORIN® Burn Relief First Aid Antibiotic Ointment. This burn ointment is designed to help treat & relieve burn pain & protect healing burns from infection.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/burn-relief-antibiotic-ointment",
+            "og_image": null,
+            "twitter_title": "First Aid Antibiotic Burn Ointment to Relieve & Protect Burns | NEOSPORIN®",
+            "twitter_description": "Discover NEOSPORIN® Burn Relief First Aid Antibiotic Ointment. This burn ointment is designed to help treat & relieve burn pain & protect healing burns from infection.",
+            "twitter_card": "summary",
+            "twitter_image": "5oz_obwb-en-us?h=250",
+            "h1": "NEOSPORIN® Burn Relief + First-Aid Antibiotic Ointment"
+        }
+    },
+    "products/topical-antibiotics/lidocaine-ointment": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/lidocaine-ointment",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "NEOSPORIN® + Lidocaine First Aid Antibiotic Numbing Ointment | NEOSPORIN®",
+            "meta_description": "Discover & shop NEOSPORIN® + Lidocaine First Aid Antibiotic Ointment. This ointment helps numb away pain with Lidocaine, while providing 24-hour infection protection.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/lidocaine-ointment",
+            "og_title": "NEOSPORIN® + Lidocaine First Aid Antibiotic Numbing Ointment | NEOSPORIN®",
+            "og_description": "Discover & shop NEOSPORIN® + Lidocaine First Aid Antibiotic Ointment. This ointment helps numb away pain with Lidocaine, while providing 24-hour infection protection.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/lidocaine-ointment",
+            "og_image": "5oz_oobwb_500wx500h-en-us.png",
+            "twitter_title": "NEOSPORIN® + Lidocaine First Aid Antibiotic Numbing Ointment | NEOSPORIN®",
+            "twitter_description": "Discover & shop NEOSPORIN® + Lidocaine First Aid Antibiotic Ointment. This ointment helps numb away pain with Lidocaine, while providing 24-hour infection protection.",
+            "twitter_card": "summary",
+            "twitter_image": "5oz_oobwb_500wx500h-en-us.png",
+            "h1": "NEOSPORIN® + Lidocaine First Aid Antibiotic Ointment with Numbing Pain Relief"
+        }
+    },
+    "products/topical-antibiotics/neosporin-pain-itch-scar": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/neosporin-pain-itch-scar",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Minimize the appearance of scars | NEOSPORIN® + Pain, Itch, Scar",
+            "meta_description": "Minimize the appearance of scars while preventing infection and relieving itch and pain. Introducing the first and only NEOSPORIN® Antibiotic Ointment that addresses 5 areas of wound healing:",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/neosporin-pain-itch-scar",
+            "og_title": "Minimize the appearance of scars | NEOSPORIN® + Pain, Itch, Scar",
+            "og_description": "Minimize the appearance of scars while preventing infection and relieving itch and pain. Introducing the first and only NEOSPORIN® Antibiotic Ointment that addresses 5 areas of wound healing:",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/neosporin-pain-itch-scar",
+            "og_image": "01_neo_312547238090_us_pain_itch_scar_ointment_1oz_obwb_500wx500h-en-us",
+            "twitter_title": "Minimize the appearance of scars | NEOSPORIN® + Pain, Itch, Scar",
+            "twitter_description": "Minimize the appearance of scars while preventing infection and relieving itch and pain. Introducing the first and only NEOSPORIN® Antibiotic Ointment that addresses 5 areas of wound healing:",
+            "twitter_card": "summary",
+            "twitter_image": "Image_1__NEOSPORIN.png",
+            "h1": "NEOSPORIN® + Pain, Itch, Scar"
+        }
+    },
+    "products/topical-antibiotics/original-antibiotic-ointment": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/original-antibiotic-ointment",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Neosporin® Original Triple Antibiotic Ointment for Minor Wounds | NEOSPORIN®",
+            "meta_description": "Discover Neosporin® Original Triple Antibiotic Ointment. Made with polymyxin, bacitracin, and neomycin, this first aid ointment helps protect minor wounds from infection.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/original-antibiotic-ointment",
+            "og_title": "Neosporin® Original Triple Antibiotic Ointment for Minor Wounds | NEOSPORIN®",
+            "og_description": "Discover Neosporin® Original Triple Antibiotic Ointment. Made with polymyxin, bacitracin, and neomycin, this first aid ointment helps protect minor wounds from infection.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/original-antibiotic-ointment",
+            "og_image": "01_neo_300810730877_us_original_ointment_1oz_obwb_500wx500h-en-us.png",
+            "twitter_title": "Neosporin® Original Triple Antibiotic Ointment for Minor Wounds | NEOSPORIN®",
+            "twitter_description": "Discover Neosporin® Original Triple Antibiotic Ointment. Made with polymyxin, bacitracin, and neomycin, this first aid ointment helps protect minor wounds from infection.",
+            "twitter_card": "summary",
+            "twitter_image": "01_neo_300810730877_us_original_ointment_1oz_obwb_500wx500h-en-us.png",
+            "h1": "NEOSPORIN® Original Triple Antibiotic Ointment"
+        }
+    },
+    "products/topical-antibiotics/pain-relief-cream": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-cream",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Pain Relief Cream | NEOSPORIN®",
+            "meta_description": "Learn about how NEOSPORIN® + Pain Relief Products can help soothe painful cuts, scrapes, and burns, while also preventing infection.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-cream",
+            "og_title": "Pain Relief Cream | NEOSPORIN®",
+            "og_description": "Learn about how NEOSPORIN® + Pain Relief Products can help soothe painful cuts, scrapes, and burns, while also preventing infection.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-cream",
+            "og_image": "01_neo_312547237796_us_pain_relief_cream_1oz_obwb_500wx500h.png",
+            "twitter_title": "Pain Relief Cream | NEOSPORIN®",
+            "twitter_description": "Learn about how NEOSPORIN® + Pain Relief Products can help soothe painful cuts, scrapes, and burns, while also preventing infection.",
+            "twitter_card": "summary",
+            "twitter_image": "01_neo_312547237796_us_pain_relief_cream_1oz_obwb_500wx500h.png",
+            "h1": "NEOSPORIN® + Pain Relief Cream"
+        }
+    },
+    "products/topical-antibiotics/pain-relief-cream-for-kids": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-cream-for-kids",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Neosporin® First Aid Antibiotic + Pain Relief Cream for Kids | NEOSPORIN®",
+            "meta_description": "Discover NEOSPORIN® Antibiotic + PAIN RELIEF Cream for Kids. This antibiotic cream soothes painful cuts, scrapes, and burns and helps prevent infection while wounds heal.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-cream-for-kids",
+            "og_title": "Neosporin® First Aid Antibiotic + Pain Relief Cream for Kids | NEOSPORIN®",
+            "og_description": "Discover NEOSPORIN® Antibiotic + PAIN RELIEF Cream for Kids. This antibiotic cream soothes painful cuts, scrapes, and burns and helps prevent infection while wounds heal.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-cream-for-kids",
+            "og_image": "5oz_obwb_500wx500h-en-us-Neosporin.png",
+            "twitter_title": "Neosporin® First Aid Antibiotic + Pain Relief Cream for Kids | NEOSPORIN®",
+            "twitter_description": "Discover NEOSPORIN® Antibiotic + PAIN RELIEF Cream for Kids. This antibiotic cream soothes painful cuts, scrapes, and burns and helps prevent infection while wounds heal.",
+            "twitter_card": "summary",
+            "twitter_image": "5oz_obwb_500wx500h-en-us-Neosporin.png",
+            "h1": "NEOSPORIN® + Pain, Itch, Scar Antibiotic Ointment to minimize the appearance of scars "
+        }
+    },
+    "products/topical-antibiotics/pain-relief-ointment": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-ointment",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Neosporin® + Pain Relief Antibiotic Ointment for Minor Wounds | NEOSPORIN®",
+            "meta_description": "Discover NEOSPORIN® + Pain Relief Antibiotic Ointment. This first aid ointment helps soothe & relieve painful cuts, scrapes, or burns while protecting from infection.\n",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-ointment",
+            "og_title": "Neosporin® + Pain Relief Antibiotic Ointment for Minor Wounds | NEOSPORIN®",
+            "og_description": "Discover NEOSPORIN® + Pain Relief Antibiotic Ointment. This first aid ointment helps soothe & relieve painful cuts, scrapes, or burns while protecting from infection.\n",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/pain-relief-ointment",
+            "og_image": "01_neo_300810746878_us_pain_relief_ointment_1oz_obwb_500wx500h.png",
+            "twitter_title": "Neosporin® + Pain Relief Antibiotic Ointment for Minor Wounds | NEOSPORIN®",
+            "twitter_description": "Discover NEOSPORIN® + Pain Relief Antibiotic Ointment. This first aid ointment helps soothe & relieve painful cuts, scrapes, or burns while protecting from infection.\n",
+            "twitter_card": "summary",
+            "twitter_image": "01_neo_300810746878_us_pain_relief_ointment_1oz_obwb_500wx500h.png",
+            "h1": "NEOSPORIN® + Pain Relief Antibiotic Ointment"
+        }
+    },
+    "products/topical-antibiotics/polysporin": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/polysporin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "POLYSPORIN® First Aid Double Antibiotic Ointment | NEOSPORIN®",
+            "meta_description": "Discover POLYSPORIN® First Aid Double Antibiotic Ointment. This neomycin-free topical antibiotic contains bacitracin & polymyxin B to help protect minor wounds from infection.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/polysporin",
+            "og_title": "POLYSPORIN® First Aid Double Antibiotic Ointment | NEOSPORIN®",
+            "og_description": "Discover POLYSPORIN® First Aid Double Antibiotic Ointment. This neomycin-free topical antibiotic contains bacitracin & polymyxin B to help protect minor wounds from infection.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/polysporin",
+            "og_image": "01_ply_300810798877_us_plyysporin_ointment_1oz_obwb_600wx315h.png",
+            "twitter_title": "POLYSPORIN® First Aid Double Antibiotic Ointment | NEOSPORIN®",
+            "twitter_description": "Discover POLYSPORIN® First Aid Double Antibiotic Ointment. This neomycin-free topical antibiotic contains bacitracin & polymyxin B to help protect minor wounds from infection.",
+            "twitter_card": "summary",
+            "twitter_image": "01_ply_300810798877_us_plyysporin_ointment_1oz_obwb_600wx315h.png",
+            "h1": "POLYSPORIN® First Aid Double Antibiotic Ointment"
+        }
+    },
+    "products/topical-antibiotics/simply-neosporin-antibiotic-ointment": {
+        "url": "https://www.neosporin.com/products/topical-antibiotics/simply-neosporin-antibiotic-ointment",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "SIMPLY NEOSPORIN™ 3 Ingredient Antibiotic Ointment | NEOSPORIN®",
+            "meta_description": "Prevent infection in cuts, scrapes & burns with SIMPLY NEOSPORIN™. This double antibiotic ointment contains just 3 ingredients: bacitracin zinc, polymyxin B & petrolatum.",
+            "canonical_link": "https://www.neosporin.com/products/topical-antibiotics/simply-neosporin-antibiotic-ointment",
+            "og_title": "SIMPLY NEOSPORIN™ 3 Ingredient Antibiotic Ointment | NEOSPORIN®",
+            "og_description": "Prevent infection in cuts, scrapes & burns with SIMPLY NEOSPORIN™. This double antibiotic ointment contains just 3 ingredients: bacitracin zinc, polymyxin B & petrolatum.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/products/topical-antibiotics/simply-neosporin-antibiotic-ointment",
+            "og_image": "5oz_obwb-en-us-Neosporin.png",
+            "twitter_title": "SIMPLY NEOSPORIN™ 3 Ingredient Antibiotic Ointment | NEOSPORIN®",
+            "twitter_description": "Prevent infection in cuts, scrapes & burns with SIMPLY NEOSPORIN™. This double antibiotic ointment contains just 3 ingredients: bacitracin zinc, polymyxin B & petrolatum.",
+            "twitter_card": "summary",
+            "twitter_image": "5oz_obwb-en-us-Neosporin.png",
+            "h1": "SIMPLY NEOSPORIN™ Double Antibiotic Ointment with Just 3 Ingredients"
+        }
+    },
+    "sitemap": {
+        "url": "https://www.neosporin.com/sitemap",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "NEOSPORIN® Sitemap | NEOSPORIN®",
+            "meta_description": "Explore the sitemap for the NEOSPORIN® website, so you can easily find your favorite NEOSPORIN® products and discover helpful wound care tips.",
+            "canonical_link": "https://www.neosporin.com/sitemap",
+            "og_title": "NEOSPORIN® Sitemap | NEOSPORIN®",
+            "og_description": "Explore the sitemap for the NEOSPORIN® website, so you can easily find your favorite NEOSPORIN® products and discover helpful wound care tips.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/sitemap",
+            "og_image": null,
+            "twitter_title": "NEOSPORIN® Sitemap | NEOSPORIN®",
+            "twitter_description": "Explore the sitemap for the NEOSPORIN® website, so you can easily find your favorite NEOSPORIN® products and discover helpful wound care tips.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Sitemap"
+        }
+    },
+    "where-to-buy": {
+        "url": "https://www.neosporin.com/where-to-buy",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Where to Buy NEOSPORIN® Products | NEOSPORIN®",
+            "meta_description": "Find out where to buy your favorite NEOSPORIN® wound care products online or at a store near you, so you can help treat skin concerns & protect wounds from infection.",
+            "canonical_link": "https://www.neosporin.com/where-to-buy",
+            "og_title": "Where to Buy NEOSPORIN® Products | NEOSPORIN®",
+            "og_description": "Find out where to buy your favorite NEOSPORIN® wound care products online or at a store near you, so you can help treat skin concerns & protect wounds from infection.",
+            "og_type": "article",
+            "og_site": "Neosporin",
+            "og_url": "https://www.neosporin.com/where-to-buy",
+            "og_image": null,
+            "twitter_title": "Where to Buy NEOSPORIN® Products | NEOSPORIN®",
+            "twitter_description": "Find out where to buy your favorite NEOSPORIN® wound care products online or at a store near you, so you can help treat skin concerns & protect wounds from infection.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Where to Buy"
+        }
+    }
+}

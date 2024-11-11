@@ -1,0 +1,1202 @@
+{
+    "404": {
+        "url": "https://www.benadryl.com/404",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "",
+            "meta_description": null,
+            "canonical_link": "https://www.benadryl.com/404",
+            "og_title": null,
+            "og_description": null,
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": null,
+            "twitter_description": null,
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "404"
+        }
+    },
+    "Home_Page": {
+        "url": "https://www.benadryl.com/",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Allergy & Itch Relief Medicine for Adults & Children | BENADRYL®",
+            "meta_description": "Do you need help relieving allergies or a pesky itch? Check out the many allergy and itch relief products BENADRYL® offers which may help provide relief.",
+            "canonical_link": "https://www.benadryl.com",
+            "og_title": "Allergy & Itch Relief Medicine for Adults & Children | BENADRYL®",
+            "og_description": "Do you need help relieving allergies or a pesky itch? Check out the many allergy and itch relief products BENADRYL® offers which may help provide relief.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com",
+            "og_image": null,
+            "twitter_title": "Allergy & Itch Relief Medicine for Adults & Children | BENADRYL®",
+            "twitter_description": "Do you need help relieving allergies or a pesky itch? Check out the many allergy and itch relief products BENADRYL® offers which may help provide relief.",
+            "twitter_card": "summary",
+            "twitter_image": "find-relief-en-us",
+            "h1": "Relief You Can Trust"
+        }
+    },
+    "allergies": {
+        "url": "https://www.benadryl.com/allergies",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Allergies 101: All About Allergies and How to Treat Them | BENADRYL®",
+            "meta_description": "Learn all about what allergies are, their causes and their symptoms. Discover how products like BENADRYL® can provide allergy relief for adults and children alike.",
+            "canonical_link": "https://www.benadryl.com/allergies",
+            "og_title": "Allergies 101: All About Allergies and How to Treat Them | BENADRYL®",
+            "og_description": "Learn all about what allergies are, their causes and their symptoms. Discover how products like BENADRYL® can provide allergy relief for adults and children alike.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies",
+            "og_image": null,
+            "twitter_title": "Allergies 101: All About Allergies and How to Treat Them | BENADRYL®",
+            "twitter_description": "Learn all about what allergies are, their causes and their symptoms. Discover how products like BENADRYL® can provide allergy relief for adults and children alike.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Allergies 101: All About Allergies and How to Treat Them"
+        }
+    },
+    "allergies/allergy-symptoms-common-causes": {
+        "url": "https://www.benadryl.com/allergies/allergy-symptoms-common-causes",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Allergy Symptoms and Common Causes of Allergic Reactions | BENADRYL®",
+            "meta_description": "Learn about the symptoms of allergies, what causes allergy symptoms such as itchy throat, runny nose, and sneezing, and how Benadryl can help relieve allergies.",
+            "canonical_link": "https://www.benadryl.com/allergies/allergy-symptoms-common-causes",
+            "og_title": "Allergy Symptoms and Common Causes of Allergic Reactions | BENADRYL®",
+            "og_description": "Learn about the symptoms of allergies, what causes allergy symptoms such as itchy throat, runny nose, and sneezing, and how Benadryl can help relieve allergies.",
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Allergy Symptoms and Common Causes of Allergic Reactions | BENADRYL®",
+            "twitter_description": "Learn about the symptoms of allergies, what causes allergy symptoms such as itchy throat, runny nose, and sneezing, and how Benadryl can help relieve allergies.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Allergy Symptoms and Common Causes of Allergic Reactions"
+        }
+    },
+    "allergies/dust-mite-allergy-symptoms-relief": {
+        "url": "https://www.benadryl.com/allergies/dust-mite-allergy-symptoms-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Dust Mite Allergy Symptoms, Causes, and Treatments | BENADRYL®",
+            "meta_description": "Dust mites are one of the leading causes of indoor allergies. Learn what dust mites are, the symptoms they trigger, and how to prevent and relieve allergic reactions.",
+            "canonical_link": "https://www.benadryl.com/allergies/dust-mite-allergy-symptoms-relief",
+            "og_title": "Dust Mite Allergy Symptoms, Causes, and Treatments | BENADRYL®",
+            "og_description": "Dust mites are one of the leading causes of indoor allergies. Learn what dust mites are, the symptoms they trigger, and how to prevent and relieve allergic reactions.",
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Dust Mite Allergy Symptoms, Causes, and Treatments | BENADRYL®",
+            "twitter_description": "Dust mites are one of the leading causes of indoor allergies. Learn what dust mites are, the symptoms they trigger, and how to prevent and relieve allergic reactions.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Dust Mite Allergy Symptoms, Causes, and Treatments"
+        }
+    },
+    "allergies/eye-allergies-allergic-conjunctivitis": {
+        "url": "https://www.benadryl.com/allergies/eye-allergies-allergic-conjunctivitis",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Eye Allergies (Allergic Conjunctivitis): Causes & Symptoms | BENADRYL® | BENADRYL®",
+            "meta_description": "Learn what allergic conjunctivitis is, commonly known as eye allergy, its causes and symptoms, how it differs from pink eye, and how to find relief with BENADRYL®",
+            "canonical_link": "https://www.benadryl.com/allergies/eye-allergies-allergic-conjunctivitis",
+            "og_title": "Eye Allergies (Allergic Conjunctivitis): Causes & Symptoms | BENADRYL® | BENADRYL®",
+            "og_description": "Learn what allergic conjunctivitis is, commonly known as eye allergy, its causes and symptoms, how it differs from pink eye, and how to find relief with BENADRYL®",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/eye-allergies-allergic-conjunctivitis",
+            "og_image": null,
+            "twitter_title": "Eye Allergies (Allergic Conjunctivitis): Causes & Symptoms | BENADRYL® | BENADRYL®",
+            "twitter_description": "Learn what allergic conjunctivitis is, commonly known as eye allergy, its causes and symptoms, how it differs from pink eye, and how to find relief with BENADRYL®",
+            "twitter_card": "summary",
+            "twitter_image": "eye-allergies_1-en-us",
+            "h1": "Causes & Symptoms of Eye Allergies (Allergic Conjunctivitis)"
+        }
+    },
+    "allergies/hay-fever-allergic-rhinitis": {
+        "url": "https://www.benadryl.com/allergies/hay-fever-allergic-rhinitis",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "What Is Hay Fever (Allergic Rhinitis)? Causes, Symptoms & Treatments | BENADRYL®",
+            "meta_description": "Learn the causes, symptoms, and treatment options for allergic rhinitis, more commonly known as hay fever, including how BENADRYL® products can help.",
+            "canonical_link": "https://www.benadryl.com/allergies/hay-fever-allergic-rhinitis",
+            "og_title": "What Is Hay Fever (Allergic Rhinitis)? Causes, Symptoms & Treatments | BENADRYL®",
+            "og_description": "Learn the causes, symptoms, and treatment options for allergic rhinitis, more commonly known as hay fever, including how BENADRYL® products can help.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/hay-fever-allergic-rhinitis",
+            "og_image": null,
+            "twitter_title": "What Is Hay Fever (Allergic Rhinitis)? Causes, Symptoms & Treatments | BENADRYL®",
+            "twitter_description": "Learn the causes, symptoms, and treatment options for allergic rhinitis, more commonly known as hay fever, including how BENADRYL® products can help.",
+            "twitter_card": "summary",
+            "twitter_image": "hay-fever-en-us",
+            "h1": "What Is Hay Fever (Allergic Rhinitis)?"
+        }
+    },
+    "allergies/hypoallergenic-dogs-cats-facts": {
+        "url": "https://www.benadryl.com/allergies/hypoallergenic-dogs-cats-facts",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Are Hypoallergenic Dogs and Cats Real? Fact vs. Fiction | BENADRYL®",
+            "meta_description": "Are there really hypoallergenic dog and cat breeds? Learn some of the facts and myths about hypoallergenic pets, and what they mean for sufferers of pet allergies.",
+            "canonical_link": "https://www.benadryl.com/allergies/hypoallergenic-dogs-cats-facts",
+            "og_title": "Are Hypoallergenic Dogs and Cats Real? Fact vs. Fiction | BENADRYL®",
+            "og_description": "Are there really hypoallergenic dog and cat breeds? Learn some of the facts and myths about hypoallergenic pets, and what they mean for sufferers of pet allergies.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/hypoallergenic-dogs-cats-facts",
+            "og_image": null,
+            "twitter_title": "Are Hypoallergenic Dogs and Cats Real? Fact vs. Fiction | BENADRYL®",
+            "twitter_description": "Are there really hypoallergenic dog and cat breeds? Learn some of the facts and myths about hypoallergenic pets, and what they mean for sufferers of pet allergies.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "5 Facts About Hypoallergenic Dogs & Cats for Pet Allergy Sufferers"
+        }
+    },
+    "allergies/indoor-allergy-tips": {
+        "url": "https://www.benadryl.com/allergies/indoor-allergy-tips",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "10 Indoor Allergy Tips to Help Relieve Symptoms at Home | BENADRYL®",
+            "meta_description": "Is your home making your allergies worse? Find out how you can help relieve symptoms with these tips from BENADRYL® on reducing common indoor allergies.",
+            "canonical_link": "https://www.benadryl.com/allergies/indoor-allergy-tips",
+            "og_title": "10 Indoor Allergy Tips to Help Relieve Symptoms at Home | BENADRYL®",
+            "og_description": "Is your home making your allergies worse? Find out how you can help relieve symptoms with these tips from BENADRYL® on reducing common indoor allergies.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/indoor-allergy-tips",
+            "og_image": null,
+            "twitter_title": "10 Indoor Allergy Tips to Help Relieve Symptoms at Home | BENADRYL®",
+            "twitter_description": "Is your home making your allergies worse? Find out how you can help relieve symptoms with these tips from BENADRYL® on reducing common indoor allergies.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Indoor Allergy Tips to Help Relieve Symptoms at Home"
+        }
+    },
+    "allergies/mold-allergies-symptoms-relief": {
+        "url": "https://www.benadryl.com/allergies/mold-allergies-symptoms-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Mold Allergies: Causes, Symptoms, and Treatments",
+            "meta_description": "Protect yourself from mold allergies. Learn all you need to know about the causes and symptoms of mold exposure, as well as treatment and relief options",
+            "canonical_link": "https://www.benadryl.com/allergies/mold-allergies-symptoms-relief",
+            "og_title": "Mold Allergies: Causes, Symptoms, and Treatments",
+            "og_description": "Protect yourself from mold allergies. Learn all you need to know about the causes and symptoms of mold exposure, as well as treatment and relief options",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/mold-allergies-symptoms-relief",
+            "og_image": null,
+            "twitter_title": "Mold Allergies: Causes, Symptoms, and Treatments",
+            "twitter_description": "Protect yourself from mold allergies. Learn all you need to know about the causes and symptoms of mold exposure, as well as treatment and relief options",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Mold Allergies: Causes, Symptoms, and Treatments"
+        }
+    },
+    "allergies/nasal-congestion-tips": {
+        "url": "https://www.benadryl.com/allergies/nasal-congestion-tips",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "6 Tips to Unclog a Stuffy Nose & Clear Congestion from Allergies | BENADRYL®",
+            "meta_description": "Read these 6 congestion tips and at-home remedies and learn how to get relief for nasal allergy symptoms such as stuffy, clogged nose or sinus pressure.",
+            "canonical_link": "https://www.benadryl.com/allergies/nasal-congestion-tips",
+            "og_title": "6 Tips to Unclog a Stuffy Nose & Clear Congestion from Allergies | BENADRYL®",
+            "og_description": "Read these 6 congestion tips and at-home remedies and learn how to get relief for nasal allergy symptoms such as stuffy, clogged nose or sinus pressure.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/nasal-congestion-tips",
+            "og_image": null,
+            "twitter_title": "6 Tips to Unclog a Stuffy Nose & Clear Congestion from Allergies | BENADRYL®",
+            "twitter_description": "Read these 6 congestion tips and at-home remedies and learn how to get relief for nasal allergy symptoms such as stuffy, clogged nose or sinus pressure.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Tips to Treat Nasal Congestion from Allergies at Home"
+        }
+    },
+    "allergies/night-time-allergy-tips": {
+        "url": "https://www.benadryl.com/allergies/night-time-allergy-tips",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Allergies at Night and How to Relieve Night Time Symptoms | BENADRYL®",
+            "meta_description": "Why are allergies worse at night for some people? Learn why symptoms like congestion can act up at night and how you can find relief with BENADRYL®.",
+            "canonical_link": "https://www.benadryl.com/allergies/night-time-allergy-tips",
+            "og_title": "Allergies at Night and How to Relieve Night Time Symptoms | BENADRYL®",
+            "og_description": "Why are allergies worse at night for some people? Learn why symptoms like congestion can act up at night and how you can find relief with BENADRYL®.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/night-time-allergy-tips",
+            "og_image": null,
+            "twitter_title": "Allergies at Night and How to Relieve Night Time Symptoms | BENADRYL®",
+            "twitter_description": "Why are allergies worse at night for some people? Learn why symptoms like congestion can act up at night and how you can find relief with BENADRYL®.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Allergies at Night and How To Relieve Night Time Symptoms"
+        }
+    },
+    "allergies/outdoor-allergy-tips": {
+        "url": "https://www.benadryl.com/allergies/outdoor-allergy-tips",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "6 Outdoor Allergy Tips for Seasonal Allergy Symptom Relief | BENADRYL®",
+            "meta_description": "If you suffer from outdoor seasonal allergies, try these tips from BENADRYL® for symptom relief from pollen and mold so you can enjoy the outside to the fullest.",
+            "canonical_link": "https://www.benadryl.com/allergies/outdoor-allergy-tips",
+            "og_title": "6 Outdoor Allergy Tips for Seasonal Allergy Symptom Relief | BENADRYL®",
+            "og_description": "If you suffer from outdoor seasonal allergies, try these tips from BENADRYL® for symptom relief from pollen and mold so you can enjoy the outside to the fullest.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/outdoor-allergy-tips",
+            "og_image": null,
+            "twitter_title": "6 Outdoor Allergy Tips for Seasonal Allergy Symptom Relief | BENADRYL®",
+            "twitter_description": "If you suffer from outdoor seasonal allergies, try these tips from BENADRYL® for symptom relief from pollen and mold so you can enjoy the outside to the fullest.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "6 Outdoor Allergy Tips for Symptom Relief"
+        }
+    },
+    "allergies/pet-allergy-symptoms-relief": {
+        "url": "https://www.benadryl.com/allergies/pet-allergy-symptoms-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Dog & Cat Allergies: How to Manage Pet Allergy Symptoms | BENADRYL®",
+            "meta_description": "Are you allergic to dogs or cats? Learn the causes of pet allergies and how to manage, prevent, and treat symptoms with BENADRYL® products.",
+            "canonical_link": "https://www.benadryl.com/allergies/pet-allergy-symptoms-relief",
+            "og_title": "Dog & Cat Allergies: How to Manage Pet Allergy Symptoms | BENADRYL®",
+            "og_description": "Are you allergic to dogs or cats? Learn the causes of pet allergies and how to manage, prevent, and treat symptoms with BENADRYL® products.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/pet-allergy-symptoms-relief",
+            "og_image": null,
+            "twitter_title": "Dog & Cat Allergies: How to Manage Pet Allergy Symptoms | BENADRYL®",
+            "twitter_description": "Are you allergic to dogs or cats? Learn the causes of pet allergies and how to manage, prevent, and treat symptoms with BENADRYL® products.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Dog & Cat Allergies: How To Manage Pet Allergy Symptoms"
+        }
+    },
+    "allergies/ragweed-pollen-symptoms-relief": {
+        "url": "https://www.benadryl.com/allergies/ragweed-pollen-symptoms-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Ragweed Pollen Allergies: What it is, Symptoms & Treatment | BENADRYL®",
+            "meta_description": "Experiencing allergies in August, September, or early Fall? You might have a ragweed allergy! Learn more about ragweed pollen, the symptoms it causes & how to treat them.",
+            "canonical_link": "https://www.benadryl.com/allergies/ragweed-pollen-symptoms-relief",
+            "og_title": "Ragweed Pollen Allergies: What it is, Symptoms & Treatment | BENADRYL®",
+            "og_description": "Experiencing allergies in August, September, or early Fall? You might have a ragweed allergy! Learn more about ragweed pollen, the symptoms it causes & how to treat them.",
+            "og_type": "article",
+            "og_site": null,
+            "og_url": "https://www.benadryl.com/allergies/ragweed-pollen-symptoms-relief",
+            "og_image": null,
+            "twitter_title": "Ragweed Pollen Allergies: What it is, Symptoms & Treatment | BENADRYL®",
+            "twitter_description": "Experiencing allergies in August, September, or early Fall? You might have a ragweed allergy! Learn more about ragweed pollen, the symptoms it causes & how to treat them.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Ragweed Pollen Allergies: Symptoms, Treatment & More"
+        }
+    },
+    "allergies/seasonal-vs-year-round": {
+        "url": "https://www.benadryl.com/allergies/seasonal-vs-year-round",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "When Is Allergy Season? Seasonal vs. Year-Round Allergies | BENADRYL®",
+            "meta_description": "What are the differences between seasonal and year-round allergies? Learn about allergens that cause reactions, common symptoms, and the times of year they’re active.",
+            "canonical_link": "https://www.benadryl.com/allergies/seasonal-vs-year-round",
+            "og_title": "When Is Allergy Season? Seasonal vs. Year-Round Allergies | BENADRYL®",
+            "og_description": "What are the differences between seasonal and year-round allergies? Learn about allergens that cause reactions, common symptoms, and the times of year they’re active.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/seasonal-vs-year-round",
+            "og_image": null,
+            "twitter_title": "When Is Allergy Season? Seasonal vs. Year-Round Allergies | BENADRYL®",
+            "twitter_description": "What are the differences between seasonal and year-round allergies? Learn about allergens that cause reactions, common symptoms, and the times of year they’re active.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "When Is Allergy Season? Seasonal vs. Year-Round Allergies"
+        }
+    },
+    "allergies/sore-itchy-throat": {
+        "url": "https://www.benadryl.com/allergies/sore-itchy-throat",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Are Allergies Causing Your Itchy, Sore Throat? | BENADRYL®",
+            "meta_description": "Suffering from a sore or itchy throat? Read and learn how to tell if allergies are to blame for your throat allergy symptoms, plus how to get relief.",
+            "canonical_link": "https://www.benadryl.com/allergies/sore-itchy-throat",
+            "og_title": "Are Allergies Causing Your Itchy, Sore Throat? | BENADRYL®",
+            "og_description": "Suffering from a sore or itchy throat? Read and learn how to tell if allergies are to blame for your throat allergy symptoms, plus how to get relief.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/sore-itchy-throat",
+            "og_image": null,
+            "twitter_title": "Are Allergies Causing Your Itchy, Sore Throat? | BENADRYL®",
+            "twitter_description": "Suffering from a sore or itchy throat? Read and learn how to tell if allergies are to blame for your throat allergy symptoms, plus how to get relief.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Are Allergies Causing Your Itchy, Sore Throat?"
+        }
+    },
+    "allergies/traveling-with-allergies-tips": {
+        "url": "https://www.benadryl.com/allergies/traveling-with-allergies-tips",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Allergies on the Go: 10 Travel Tips for Allergy Prevention & Relief | BENADRYL®",
+            "meta_description": "Read these 10 tips and find out how to deal with both indoor and outdoor allergies when traveling, and how BENADRYL® can help relieve allergy symptoms on the go.",
+            "canonical_link": "https://www.benadryl.com/allergies/traveling-with-allergies-tips",
+            "og_title": "Allergies on the Go: 10 Travel Tips for Allergy Prevention & Relief | BENADRYL®",
+            "og_description": "Read these 10 tips and find out how to deal with both indoor and outdoor allergies when traveling, and how BENADRYL® can help relieve allergy symptoms on the go.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/traveling-with-allergies-tips",
+            "og_image": null,
+            "twitter_title": "Allergies on the Go: 10 Travel Tips for Allergy Prevention & Relief | BENADRYL®",
+            "twitter_description": "Read these 10 tips and find out how to deal with both indoor and outdoor allergies when traveling, and how BENADRYL® can help relieve allergy symptoms on the go.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Allergies on the Go: 10 Travel Tips for Allergy Prevention & Relief"
+        }
+    },
+    "allergies/treatment-and-prevention": {
+        "url": "https://www.benadryl.com/allergies/treatment-and-prevention",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Allergy Remedies & Tips to Treat, Manage & Prevent Symptoms | BENADRYL®",
+            "meta_description": "Wondering how to treat and prevent your allergies? Read these home remedies and tips to learn how to avoid common triggers and manage your worst allergy symptoms.",
+            "canonical_link": "https://www.benadryl.com/allergies/treatment-and-prevention",
+            "og_title": "Allergy Remedies & Tips to Treat, Manage & Prevent Symptoms | BENADRYL®",
+            "og_description": "Wondering how to treat and prevent your allergies? Read these home remedies and tips to learn how to avoid common triggers and manage your worst allergy symptoms.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/treatment-and-prevention",
+            "og_image": null,
+            "twitter_title": "Allergy Remedies & Tips to Treat, Manage & Prevent Symptoms | BENADRYL®",
+            "twitter_description": "Wondering how to treat and prevent your allergies? Read these home remedies and tips to learn how to avoid common triggers and manage your worst allergy symptoms.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Tips and Remedies to Treat, Prevent, and Manage Allergy Symptoms"
+        }
+    },
+    "allergies/tree-pollen-types-symptoms-relief": {
+        "url": "https://www.benadryl.com/allergies/tree-pollen-types-symptoms-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Tree Pollen Allergies: Types, Symptoms & Treatment | BENADRYL®",
+            "meta_description": "Find out if tree pollen is the culprit of your allergy symptoms. Learn about the types of trees with pollen, tree pollen allergy symptoms, treatment options & more",
+            "canonical_link": "https://www.benadryl.com/allergies/tree-pollen-types-symptoms-relief",
+            "og_title": "Tree Pollen Allergies: Types, Symptoms & Treatment | BENADRYL®",
+            "og_description": "Find out if tree pollen is the culprit of your allergy symptoms. Learn about the types of trees with pollen, tree pollen allergy symptoms, treatment options & more",
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Tree Pollen Allergies: Types, Symptoms & Treatment | BENADRYL®",
+            "twitter_description": "Find out if tree pollen is the culprit of your allergy symptoms. Learn about the types of trees with pollen, tree pollen allergy symptoms, treatment options & more",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Tree Pollen Allergies: Types, Symptoms & Treatment"
+        }
+    },
+    "allergies/what-are-histamines": {
+        "url": "https://www.benadryl.com/allergies/what-are-histamines",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "What is Histamine & How Does it Relate to Allergic Responses? | BENADRYL®",
+            "meta_description": "Learn what all about histamines, including what they are, their function in the body, how they relate to allergic responses, and how antihistamines like BENADRYL® can",
+            "canonical_link": "https://www.benadryl.com/allergies/what-are-histamines",
+            "og_title": "What is Histamine & How Does it Relate to Allergic Responses? | BENADRYL®",
+            "og_description": "Learn what all about histamines, including what they are, their function in the body, how they relate to allergic responses, and how antihistamines like BENADRYL® can",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergies/what-are-histamines",
+            "og_image": null,
+            "twitter_title": "What is Histamine & How Does it Relate to Allergic Responses? | BENADRYL®",
+            "twitter_description": "Learn what all about histamines, including what they are, their function in the body, how they relate to allergic responses, and how antihistamines like BENADRYL® can",
+            "twitter_card": "summary",
+            "twitter_image": "what-are-histamines.jpg",
+            "h1": "What Are Histamines & How Do They Relate to Allergies?"
+        }
+    },
+    "allergy-cold-guide": {
+        "url": "https://www.benadryl.com/allergy-cold-guide",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Find Out What’s Causing Your Symptoms",
+            "meta_description": "Causes, Symptoms, and Treatments of Allergies and Colds",
+            "canonical_link": "https://www.benadryl.com/allergy-cold-guide",
+            "og_title": "Find Out What’s Causing Your Symptoms",
+            "og_description": "Causes, Symptoms, and Treatments of Allergies and Colds",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/allergy-cold-guide",
+            "og_image": null,
+            "twitter_title": "Find Out What’s Causing Your Symptoms",
+            "twitter_description": "Causes, Symptoms, and Treatments of Allergies and Colds",
+            "twitter_card": "summary",
+            "twitter_image": "allergy-guide-benadryl.png",
+            "h1": "Allergy & Cold Guide"
+        }
+    },
+    "benadryl-difference": {
+        "url": "https://www.benadryl.com/benadryl-difference",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Benadryl Difference| BENADRYL®",
+            "meta_description": "Learn the differences that set Benadryl allergy and itchy skin products apart, such as Benadryl uses and indications, how Benadryl compares to competitors, and more.",
+            "canonical_link": "https://www.benadryl.com/benadryl-difference",
+            "og_title": "Benadryl Difference| BENADRYL®",
+            "og_description": "Learn the differences that set Benadryl allergy and itchy skin products apart, such as Benadryl uses and indications, how Benadryl compares to competitors, and more.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/benadryl-difference",
+            "og_image": null,
+            "twitter_title": "Benadryl Difference| BENADRYL®",
+            "twitter_description": "Learn the differences that set Benadryl allergy and itchy skin products apart, such as Benadryl uses and indications, how Benadryl compares to competitors, and more.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-difference_1620x1080_1-en-us",
+            "h1": "The BENADRYL® Difference"
+        }
+    },
+    "benadryl-difference/compare-allergy-relief-products": {
+        "url": "https://www.benadryl.com/benadryl-difference/compare-allergy-relief-products",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Benadryl Vs. Claritin & Other OTC Allergy Medicines | BENADRYL®",
+            "meta_description": "Find out how Benadryl (diphenhydramine) compares to Claritin, Allegra, Zyrtec, and other over-the-counter allergy medications, including active ingredient differences.",
+            "canonical_link": "https://www.benadryl.com/benadryl-difference/compare-allergy-relief-products",
+            "og_title": "Benadryl Vs. Claritin & Other OTC Allergy Medicines | BENADRYL®",
+            "og_description": "Find out how Benadryl (diphenhydramine) compares to Claritin, Allegra, Zyrtec, and other over-the-counter allergy medications, including active ingredient differences.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/benadryl-difference/compare-allergy-relief-products",
+            "og_image": null,
+            "twitter_title": "Benadryl Vs. Claritin & Other OTC Allergy Medicines | BENADRYL®",
+            "twitter_description": "Find out how Benadryl (diphenhydramine) compares to Claritin, Allegra, Zyrtec, and other over-the-counter allergy medications, including active ingredient differences.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Benadryl Vs. Claritin & Other OTC Allergy Medicines"
+        }
+    },
+    "benadryl-difference/diphenhydramine-active-ingredient": {
+        "url": "https://www.benadryl.com/benadryl-difference/diphenhydramine-active-ingredient",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "About Diphenhydramine HCl: The Active Ingredient in BENADRYL® | BENADRYL®",
+            "meta_description": "Diphenhydramine is an antihistamine and the main active ingredient in BENADRYL® allergy products. Explore what it’s used for, the forms it comes in and more.",
+            "canonical_link": "https://www.benadryl.com/benadryl-difference/diphenhydramine-active-ingredient",
+            "og_title": "About Diphenhydramine HCl: The Active Ingredient in BENADRYL® | BENADRYL®",
+            "og_description": "Diphenhydramine is an antihistamine and the main active ingredient in BENADRYL® allergy products. Explore what it’s used for, the forms it comes in and more.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/benadryl-difference/diphenhydramine-active-ingredient",
+            "og_image": null,
+            "twitter_title": "About Diphenhydramine HCl: The Active Ingredient in BENADRYL® | BENADRYL®",
+            "twitter_description": "Diphenhydramine is an antihistamine and the main active ingredient in BENADRYL® allergy products. Explore what it’s used for, the forms it comes in and more.",
+            "twitter_card": "summary",
+            "twitter_image": "our_ingredients.png",
+            "h1": "About Diphenhydramine Hydrochloride HCl: The Active Ingredient in BENADRYL®"
+        }
+    },
+    "benadryl-difference/ingredients-transparency": {
+        "url": "https://www.benadryl.com/benadryl-difference/ingredients-transparency",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Ingredients List | BENADRYL®",
+            "meta_description": "Learn what are the ingredients in BENADRYL® adult, topical, and children’s products, whether the ingredients are active or inactive, and the purpose each serves.",
+            "canonical_link": "https://www.benadryl.com/benadryl-difference/ingredients-transparency",
+            "og_title": "BENADRYL® Ingredients List | BENADRYL®",
+            "og_description": "Learn what are the ingredients in BENADRYL® adult, topical, and children’s products, whether the ingredients are active or inactive, and the purpose each serves.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/benadryl-difference/ingredients-transparency",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Ingredients List | BENADRYL®",
+            "twitter_description": "Learn what are the ingredients in BENADRYL® adult, topical, and children’s products, whether the ingredients are active or inactive, and the purpose each serves.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Our Ingredients"
+        }
+    },
+    "benadryl-difference/uses-indications": {
+        "url": "https://www.benadryl.com/benadryl-difference/uses-indications",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Indications: What Can BENADRYL® Products Be Used For? | BENADRYL®",
+            "meta_description": "BENADRYL® oral allergy and topical itch relief products help treat a number of symptoms caused by various allergens. Learn more about what BENADRYL® is used for here.",
+            "canonical_link": "https://www.benadryl.com/benadryl-difference/uses-indications",
+            "og_title": "BENADRYL® Indications: What Can BENADRYL® Products Be Used For? | BENADRYL®",
+            "og_description": "BENADRYL® oral allergy and topical itch relief products help treat a number of symptoms caused by various allergens. Learn more about what BENADRYL® is used for here.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/benadryl-difference/uses-indications",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Indications: What Can BENADRYL® Products Be Used For? | BENADRYL®",
+            "twitter_description": "BENADRYL® oral allergy and topical itch relief products help treat a number of symptoms caused by various allergens. Learn more about what BENADRYL® is used for here.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-uses-resize-en-us",
+            "h1": "BENADRYL® Indications: What Can BENADRYL® (Diphenhydramine HCl) Products Be Used For?"
+        }
+    },
+    "benadryl-difference/uses-indications/decongestants": {
+        "url": "https://www.benadryl.com/benadryl-difference/uses-indications/decongestants",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "What Are Decongestants and How Do They Work | BENADRYL®",
+            "meta_description": "Learn about decongestants, including how they work and what symptoms they help treat. Discover how Benadryl® products can help relieve allergies and congestion.",
+            "canonical_link": "https://www.benadryl.com/benadryl-difference/uses-indications/decongestants",
+            "og_title": "What Are Decongestants and How Do They Work | BENADRYL®",
+            "og_description": "Learn about decongestants, including how they work and what symptoms they help treat. Discover how Benadryl® products can help relieve allergies and congestion.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/benadryl-difference/uses-indications/decongestants",
+            "og_image": null,
+            "twitter_title": "What Are Decongestants and How Do They Work | BENADRYL®",
+            "twitter_description": "Learn about decongestants, including how they work and what symptoms they help treat. Discover how Benadryl® products can help relieve allergies and congestion.",
+            "twitter_card": "summary",
+            "twitter_image": "what-are-decongestants-en-us",
+            "h1": "What Are Decongestants and How Do They Work?"
+        }
+    },
+    "benadryl-dosing-guide": {
+        "url": "https://www.benadryl.com/benadryl-dosing-guide",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Dosing Guide: Adult & Children’s Diphenhydramine Dosage | BENADRYL®",
+            "meta_description": "Find BENADRYL® dosage information for adults, children, and toddlers and learn how much you and your family should take with our allergy medicine product-dosing guide.",
+            "canonical_link": "https://www.benadryl.com/benadryl-dosing-guide",
+            "og_title": "BENADRYL® Dosing Guide: Adult & Children’s Diphenhydramine Dosage | BENADRYL®",
+            "og_description": "Find BENADRYL® dosage information for adults, children, and toddlers and learn how much you and your family should take with our allergy medicine product-dosing guide.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/benadryl-dosing-guide",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Dosing Guide: Adult & Children’s Diphenhydramine Dosage | BENADRYL®",
+            "twitter_description": "Find BENADRYL® dosage information for adults, children, and toddlers and learn how much you and your family should take with our allergy medicine product-dosing guide.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "BENADRYL® (Diphenhydramine HCl) Dosing Guide for Adults & Children"
+        }
+    },
+    "bv_terms_of_use": {
+        "url": "https://www.benadryl.com/bv_terms_of_use",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® TERMS OF USE",
+            "meta_description": "Read and learn about the benadryl.com brand review terms of use.",
+            "canonical_link": "https://www.benadryl.com/bv_terms_of_use",
+            "og_title": "BENADRYL® TERMS OF USE",
+            "og_description": "Read and learn about the benadryl.com brand review terms of use.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/bv_terms_of_use",
+            "og_image": null,
+            "twitter_title": "BENADRYL® TERMS OF USE",
+            "twitter_description": "Read and learn about the benadryl.com brand review terms of use.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "BENADRYL® Terms of Use"
+        }
+    },
+    "childrens-allergies": {
+        "url": "https://www.benadryl.com/childrens-allergies",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children’s Allergies: Common Kids Allergy Symptoms & How to Help",
+            "meta_description": "Wondering if your child is suffering from allergies? Learn the commons signs and symptoms of allergies in kids and see how you can help them find relief.",
+            "canonical_link": "https://www.benadryl.com/childrens-allergies",
+            "og_title": "Children’s Allergies: Common Kids Allergy Symptoms & How to Help",
+            "og_description": "Wondering if your child is suffering from allergies? Learn the commons signs and symptoms of allergies in kids and see how you can help them find relief.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/childrens-allergies",
+            "og_image": null,
+            "twitter_title": "Children’s Allergies: Common Kids Allergy Symptoms & How to Help",
+            "twitter_description": "Wondering if your child is suffering from allergies? Learn the commons signs and symptoms of allergies in kids and see how you can help them find relief.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Children’s Allergies: Common Allergy Symptoms in Kids & How To Help"
+        }
+    },
+    "cold/cold-or-allergies": {
+        "url": "https://www.benadryl.com/cold/cold-or-allergies",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Is it a Cold or Allergy Symptoms? How to Tell the Difference | BENADRYL®",
+            "meta_description": "It can be easy to confuse allergy symptoms with cold symptoms. Learn about the differences between the two along with their causes and how to treat your symptoms.",
+            "canonical_link": "https://www.benadryl.com/cold/cold-or-allergies",
+            "og_title": "Is it a Cold or Allergy Symptoms? How to Tell the Difference | BENADRYL®",
+            "og_description": "It can be easy to confuse allergy symptoms with cold symptoms. Learn about the differences between the two along with their causes and how to treat your symptoms.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/cold/cold-or-allergies",
+            "og_image": null,
+            "twitter_title": "Is it a Cold or Allergy Symptoms? How to Tell the Difference | BENADRYL®",
+            "twitter_description": "It can be easy to confuse allergy symptoms with cold symptoms. Learn about the differences between the two along with their causes and how to treat your symptoms.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Is It a Cold or Allergies?"
+        }
+    },
+    "contact-us": {
+        "url": "https://www.benadryl.com/contact-us",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Contact Us | BENADRYL®",
+            "meta_description": "Explore common questions from consumers about BENADRYL® products for allergy, cold, and itchy skin. Find out how to contact BENADRYL® for additional information.",
+            "canonical_link": "https://www.benadryl.com/contact-us",
+            "og_title": "Contact Us | BENADRYL®",
+            "og_description": "Explore common questions from consumers about BENADRYL® products for allergy, cold, and itchy skin. Find out how to contact BENADRYL® for additional information.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/contact-us",
+            "og_image": null,
+            "twitter_title": "Contact Us | BENADRYL®",
+            "twitter_description": "Explore common questions from consumers about BENADRYL® products for allergy, cold, and itchy skin. Find out how to contact BENADRYL® for additional information.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Contact Us"
+        }
+    },
+    "cookie-policy": {
+        "url": "https://www.benadryl.com/cookie-policy",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Cookie Policy | BENADRYL®",
+            "meta_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies. Learn more.",
+            "canonical_link": "https://www.benadryl.com/cookie-policy",
+            "og_title": "Cookie Policy | BENADRYL®",
+            "og_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies. Learn more.",
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Cookie Policy | BENADRYL®",
+            "twitter_description": "This Cookie Policy is designed to tell you about our practices regarding the collection of information through cookies and other tracking technologies. Learn more.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Cookie Policy"
+        }
+    },
+    "faq": {
+        "url": "https://www.benadryl.com/faq",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Frequently Asked Questions",
+            "meta_description": "Itching for answers? Browse our frequently asked questions and find the information you need about BENADRYL® and the allergies our products can help treat.",
+            "canonical_link": "https://www.benadryl.com/faq",
+            "og_title": "Frequently Asked Questions",
+            "og_description": "Itching for answers? Browse our frequently asked questions and find the information you need about BENADRYL® and the allergies our products can help treat.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/faq",
+            "og_image": null,
+            "twitter_title": "Frequently Asked Questions",
+            "twitter_description": "Itching for answers? Browse our frequently asked questions and find the information you need about BENADRYL® and the allergies our products can help treat.",
+            "twitter_card": "summary",
+            "twitter_image": "faqs_1620x1080.jpg",
+            "h1": " Frequently Asked Questions"
+        }
+    },
+    "itchy-skin": {
+        "url": "https://www.benadryl.com/itchy-skin",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Understanding Itchy Skin (Pruritus): Causes, Treatment & More | BENADRYL®",
+            "meta_description": "Learn more information on itchy skin causes such as poison ivy, bug bites, and sun burn. Plus, discover home remedies and treatment options for your itchy skin symptoms.",
+            "canonical_link": "https://www.benadryl.com/itchy-skin",
+            "og_title": "Understanding Itchy Skin (Pruritus): Causes, Treatment & More | BENADRYL®",
+            "og_description": "Learn more information on itchy skin causes such as poison ivy, bug bites, and sun burn. Plus, discover home remedies and treatment options for your itchy skin symptoms.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/itchy-skin",
+            "og_image": null,
+            "twitter_title": "Understanding Itchy Skin (Pruritus): Causes, Treatment & More | BENADRYL®",
+            "twitter_description": "Learn more information on itchy skin causes such as poison ivy, bug bites, and sun burn. Plus, discover home remedies and treatment options for your itchy skin symptoms.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Understanding Itchy Skin (Pruritus)"
+        }
+    },
+    "itchy-skin/poison-ivy-oak-sumac-rashes-symptoms-relief": {
+        "url": "https://www.benadryl.com/itchy-skin/poison-ivy-oak-sumac-rashes-symptoms-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Poison Ivy, Oak, and Sumac Skin Rashes: Symptoms and Treatments | BENADRYL®",
+            "meta_description": "Find out the symptoms of poison ivy, poison oak, and poison sumac rashes, including what they look like on skin, as well as treatment and prevention options.",
+            "canonical_link": "https://www.benadryl.com/itchy-skin/poison-ivy-oak-sumac-rashes-symptoms-relief",
+            "og_title": "Poison Ivy, Oak, and Sumac Skin Rashes: Symptoms and Treatments | BENADRYL®",
+            "og_description": "Find out the symptoms of poison ivy, poison oak, and poison sumac rashes, including what they look like on skin, as well as treatment and prevention options.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/itchy-skin/poison-ivy-oak-sumac-rashes-symptoms-relief",
+            "og_image": null,
+            "twitter_title": "Poison Ivy, Oak, and Sumac Skin Rashes: Symptoms and Treatments | BENADRYL®",
+            "twitter_description": "Find out the symptoms of poison ivy, poison oak, and poison sumac rashes, including what they look like on skin, as well as treatment and prevention options.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Poison Ivy, Oak, and Sumac Rashes: Symptoms and Treatments"
+        }
+    },
+    "itchy-skin/relief-prevent-skin-itching-tips": {
+        "url": "https://www.benadryl.com/itchy-skin/relief-prevent-skin-itching-tips",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "10 Itchy Skin Relief Tips to Stop and Prevent Skin Itching | BENADRYL®",
+            "meta_description": "Read these 10 itchy skin tips and learn how to prevent and relieve skin itching caused by bug bites, poison ivy, sunburn, and more.",
+            "canonical_link": "https://www.benadryl.com/itchy-skin/relief-prevent-skin-itching-tips",
+            "og_title": "10 Itchy Skin Relief Tips to Stop and Prevent Skin Itching | BENADRYL®",
+            "og_description": "Read these 10 itchy skin tips and learn how to prevent and relieve skin itching caused by bug bites, poison ivy, sunburn, and more.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/itchy-skin/relief-prevent-skin-itching-tips",
+            "og_image": null,
+            "twitter_title": "10 Itchy Skin Relief Tips to Stop and Prevent Skin Itching | BENADRYL®",
+            "twitter_description": "Read these 10 itchy skin tips and learn how to prevent and relieve skin itching caused by bug bites, poison ivy, sunburn, and more.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Itchy Skin Relief Tips To Stop and Prevent Skin Itching"
+        }
+    },
+    "itchy-skin/sunburn-itch-sun-rash-causes-relief": {
+        "url": "https://www.benadryl.com/itchy-skin/sunburn-itch-sun-rash-causes-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "How Sunburn Causes Itchy Skin: Symptoms, Treatments and More | BENADRYL®",
+            "meta_description": "Severe sunburn can lead to sun rash, sun poisoning, and itchy skin. Find out how you can relieve the itch and rashes caused by sunburn with BENADRYL®.",
+            "canonical_link": "https://www.benadryl.com/itchy-skin/sunburn-itch-sun-rash-causes-relief",
+            "og_title": "How Sunburn Causes Itchy Skin: Symptoms, Treatments and More | BENADRYL®",
+            "og_description": "Severe sunburn can lead to sun rash, sun poisoning, and itchy skin. Find out how you can relieve the itch and rashes caused by sunburn with BENADRYL®.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/itchy-skin/sunburn-itch-sun-rash-causes-relief",
+            "og_image": null,
+            "twitter_title": "How Sunburn Causes Itchy Skin: Symptoms, Treatments and More | BENADRYL®",
+            "twitter_description": "Severe sunburn can lead to sun rash, sun poisoning, and itchy skin. Find out how you can relieve the itch and rashes caused by sunburn with BENADRYL®.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Sunburns & Sun-Related Itchy Skin Conditions: Symptoms, Relief & Prevention"
+        }
+    },
+    "itchy-skin/why-bug-bites-itch-relief": {
+        "url": "https://www.benadryl.com/itchy-skin/why-bug-bites-itch-relief",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Why Do Bug Bites Itch and How to Relieve Them | BENADRYL®",
+            "meta_description": "Learn why mosquitoes and other bug bites itch, the signs and symptoms of a bug bite, and tips on how to find relief and stop bug bites from itching.\n",
+            "canonical_link": "https://www.benadryl.com/itchy-skin/why-bug-bites-itch-relief",
+            "og_title": "Why Do Bug Bites Itch and How to Relieve Them | BENADRYL®",
+            "og_description": "Learn why mosquitoes and other bug bites itch, the signs and symptoms of a bug bite, and tips on how to find relief and stop bug bites from itching.\n",
+            "og_type": "article",
+            "og_site": null,
+            "og_url": "https://www.benadryl.com/sites/benadryl_us_2/files/bring-it_mosquito_still-tout.jpg",
+            "og_image": null,
+            "twitter_title": "Why Do Bug Bites Itch and How to Relieve Them | BENADRYL®",
+            "twitter_description": "Learn why mosquitoes and other bug bites itch, the signs and symptoms of a bug bite, and tips on how to find relief and stop bug bites from itching.\n",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Why Do Bug Bites Itch and How To Relieve Them"
+        }
+    },
+    "legal": {
+        "url": "https://www.benadryl.com/legal",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Legal Notice | BENADRYL®",
+            "meta_description": "Learn about the JJCI McNeil Consumer Healthcare Division Legal Notice for this site.",
+            "canonical_link": "https://www.benadryl.com/legal",
+            "og_title": "Legal Notice | BENADRYL®",
+            "og_description": "Learn about the JJCI McNeil Consumer Healthcare Division Legal Notice for this site.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/legal",
+            "og_image": null,
+            "twitter_title": "Legal Notice | BENADRYL®",
+            "twitter_description": "Learn about the JJCI McNeil Consumer Healthcare Division Legal Notice for this site.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Legal Notice"
+        }
+    },
+    "privacy-policy": {
+        "url": "https://www.benadryl.com/privacy-policy",
+        "seo_data": {
+            "page_response": "301 (Moved Permanently)",
+            "meta_title": "Kenvue US Privacy Policy - A new view of care",
+            "meta_description": null,
+            "canonical_link": "https://www.kenvue.com/privacy-policy/us",
+            "og_title": "Kenvue US Privacy Policy",
+            "og_description": null,
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": "?url=https%3A%2F%2Fkenvue-production-kenvue.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa4%2F99%2F18543b7a4138a6071cde527c6e75%2Fkenvue-share-image.png",
+            "twitter_title": "Kenvue US Privacy Policy",
+            "twitter_description": null,
+            "twitter_card": "summary_large_image",
+            "twitter_image": null,
+            "h1": null
+        }
+    },
+    "products": {
+        "url": "https://www.benadryl.com/products",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Allergy Medicine & Anti-Itch Relief for Adults & Children | BENADRYL®",
+            "meta_description": "Learn more about BENADRYL® allergy and anti-itch products for children and adults. Find the best over-the-counter allergy relief for when you need it most.",
+            "canonical_link": "https://www.benadryl.com/products",
+            "og_title": "Allergy Medicine & Anti-Itch Relief for Adults & Children | BENADRYL®",
+            "og_description": "Learn more about BENADRYL® allergy and anti-itch products for children and adults. Find the best over-the-counter allergy relief for when you need it most.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products",
+            "og_image": null,
+            "twitter_title": "Allergy Medicine & Anti-Itch Relief for Adults & Children | BENADRYL®",
+            "twitter_description": "Learn more about BENADRYL® allergy and anti-itch products for children and adults. Find the best over-the-counter allergy relief for when you need it most.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Allergy Relief Medication & Anti-Itch Products"
+        }
+    },
+    "products/benadryl-allergy-dye-free-liquigels": {
+        "url": "https://www.benadryl.com/products/benadryl-allergy-dye-free-liquigels",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Allergy Relief Antihistamine Dye-Free LIQUI-GELS® | BENADRYL®",
+            "meta_description": "Get powerful relief for your allergy and cold symptoms such as sneezing and runny nose with BENADRYL® Dye-Free LIQUI-GELS® with 25 mg of Diphenhydramine HCl.",
+            "canonical_link": "https://www.benadryl.com/products/benadryl-allergy-dye-free-liquigels",
+            "og_title": "BENADRYL® Allergy Relief Antihistamine Dye-Free LIQUI-GELS® | BENADRYL®",
+            "og_description": "Get powerful relief for your allergy and cold symptoms such as sneezing and runny nose with BENADRYL® Dye-Free LIQUI-GELS® with 25 mg of Diphenhydramine HCl.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/benadryl-allergy-dye-free-liquigels",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Allergy Relief Antihistamine Dye-Free LIQUI-GELS® | BENADRYL®",
+            "twitter_description": "Get powerful relief for your allergy and cold symptoms such as sneezing and runny nose with BENADRYL® Dye-Free LIQUI-GELS® with 25 mg of Diphenhydramine HCl.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-allergy-liquigels-en-us.png",
+            "h1": "BENADRYL® Allergy Antihistamine Dye-Free LIQUI-GELS® with Diphenhydramine HCl 25 mg"
+        }
+    },
+    "products/benadryl-allergy-plus-congestion": {
+        "url": "https://www.benadryl.com/products/benadryl-allergy-plus-congestion",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Allergy Plus Congestion Sinus Medicine | BENADRYL®",
+            "meta_description": "Learn more about BENADRYL® Allergy Plus Congestion, a powerful allergy and decongestant medicine for fast relief from sinus congestion, runny nose, sneezing, and other allergy symptoms.",
+            "canonical_link": "https://www.benadryl.com/products/benadryl-allergy-plus-congestion",
+            "og_title": "BENADRYL® Allergy Plus Congestion Sinus Medicine | BENADRYL®",
+            "og_description": "Learn more about BENADRYL® Allergy Plus Congestion, a powerful allergy and decongestant medicine for fast relief from sinus congestion, runny nose, sneezing, and other allergy symptoms.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/benadryl-allergy-plus-congestion",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Allergy Plus Congestion Sinus Medicine | BENADRYL®",
+            "twitter_description": "Learn more about BENADRYL® Allergy Plus Congestion, a powerful allergy and decongestant medicine for fast relief from sinus congestion, runny nose, sneezing, and other allergy symptoms.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-allergy-plus-congestion-ultratabs-en-us.png",
+            "h1": "BENADRYL® Allergy Plus Congestion for Sinus Pressure & Nasal Congestion Relief"
+        }
+    },
+    "products/benadryl-allergy-ultratabs-tablets": {
+        "url": "https://www.benadryl.com/products/benadryl-allergy-ultratabs-tablets",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Allergy ULTRATABS® Tablets with Diphenhydramine | BENADRYL®",
+            "meta_description": "Get allergy relief with BENADRYL® Allergy ULTRATABS® antihistamine tablets with diphenhydramine. Relieve allergy and cold symptoms such as sneezing, runny nose, and itchy throat.",
+            "canonical_link": "https://www.benadryl.com/products/benadryl-allergy-ultratabs-tablets",
+            "og_title": "BENADRYL® Allergy ULTRATABS® Tablets with Diphenhydramine | BENADRYL®",
+            "og_description": "Get allergy relief with BENADRYL® Allergy ULTRATABS® antihistamine tablets with diphenhydramine. Relieve allergy and cold symptoms such as sneezing, runny nose, and itchy throat.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/benadryl-allergy-ultratabs-tablets",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Allergy ULTRATABS® Tablets with Diphenhydramine | BENADRYL®",
+            "twitter_description": "Get allergy relief with BENADRYL® Allergy ULTRATABS® antihistamine tablets with diphenhydramine. Relieve allergy and cold symptoms such as sneezing, runny nose, and itchy throat.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-allergy-ultratabs-en-us.png",
+            "h1": "BENADRYL® Allergy ULTRATABS® Tablets with Allergy Relief and Diphenhydramine HCI 25 mg"
+        }
+    },
+    "products/benadryl-extra-strength-allergy-ultratabs": {
+        "url": "https://www.benadryl.com/products/benadryl-extra-strength-allergy-ultratabs",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Extra Strength Allergy Relief Antihistamine Tablets | BENADRYL®",
+            "meta_description": "Combat allergy and cold symptoms with BENADRYL® Extra Strength ULTRATABS® Antihistamine Tablets, an over-the-counter allergy relief tablet with twice the strength in one pill.",
+            "canonical_link": "https://www.benadryl.com/products/benadryl-extra-strength-allergy-ultratabs",
+            "og_title": "BENADRYL® Extra Strength Allergy Relief Antihistamine Tablets | BENADRYL®",
+            "og_description": "Combat allergy and cold symptoms with BENADRYL® Extra Strength ULTRATABS® Antihistamine Tablets, an over-the-counter allergy relief tablet with twice the strength in one pill.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/benadryl-extra-strength-allergy-ultratabs",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Extra Strength Allergy Relief Antihistamine Tablets | BENADRYL®",
+            "twitter_description": "Combat allergy and cold symptoms with BENADRYL® Extra Strength ULTRATABS® Antihistamine Tablets, an over-the-counter allergy relief tablet with twice the strength in one pill.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-extra-strength-allergy-en-us.png",
+            "h1": "BENADRYL® Extra Strength Allergy Relief Antihistamine Tablets with 50 mg of Diphenhydramine HCl"
+        }
+    },
+    "products/benadryl-extra-strength-itch-relief-stick": {
+        "url": "https://www.benadryl.com/products/benadryl-extra-strength-itch-relief-stick",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Extra Strength Itch Relief Stick for Bug Bites | BENADRYL®",
+            "meta_description": "Treat pain and itching with BENADRYL® Extra Strength Itch Relief Stick with antihistamine to help relieve itchy skin from bug bites, rashes, and other minor skin irritations.",
+            "canonical_link": "https://www.benadryl.com/products/benadryl-extra-strength-itch-relief-stick",
+            "og_title": "BENADRYL® Extra Strength Itch Relief Stick for Bug Bites | BENADRYL®",
+            "og_description": "Treat pain and itching with BENADRYL® Extra Strength Itch Relief Stick with antihistamine to help relieve itchy skin from bug bites, rashes, and other minor skin irritations.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/benadryl-extra-strength-itch-relief-stick",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Extra Strength Itch Relief Stick for Bug Bites | BENADRYL®",
+            "twitter_description": "Treat pain and itching with BENADRYL® Extra Strength Itch Relief Stick with antihistamine to help relieve itchy skin from bug bites, rashes, and other minor skin irritations.",
+            "twitter_card": "summary",
+            "twitter_image": "benadrylr-extra-strength-itch-relief-stick-for-rashes_-insect-and-bug-bites-en-us.png",
+            "h1": "BENADRYL® Extra Strength Itch Relief Stick for Rashes, Insect and Bug Bites"
+        }
+    },
+    "products/benadryl-extra-strength-spray": {
+        "url": "https://www.benadryl.com/products/benadryl-extra-strength-spray",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Extra Strength Topical Anti-Itch Spray for Itch Relief | BENADRYL®",
+            "meta_description": "Relieve itchy skin, rash and pain caused by bug bites, poison ivy, and more with BENADRYL® Extra Strength Topical Antihistamine Anti-Itch Spray with diphenhydramine HCI.",
+            "canonical_link": "https://www.benadryl.com/products/benadryl-extra-strength-spray",
+            "og_title": "BENADRYL® Extra Strength Topical Anti-Itch Spray for Itch Relief | BENADRYL®",
+            "og_description": "Relieve itchy skin, rash and pain caused by bug bites, poison ivy, and more with BENADRYL® Extra Strength Topical Antihistamine Anti-Itch Spray with diphenhydramine HCI.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/benadryl-extra-strength-spray",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Extra Strength Topical Anti-Itch Spray for Itch Relief | BENADRYL®",
+            "twitter_description": "Relieve itchy skin, rash and pain caused by bug bites, poison ivy, and more with BENADRYL® Extra Strength Topical Antihistamine Anti-Itch Spray with diphenhydramine HCI.",
+            "twitter_card": "summary",
+            "twitter_image": "benadrylr_extra_strength_topical_analgesic_spray_for_skin_itch_rash_relief_1-en-us.png",
+            "h1": "BENADRYL® Extra Strength Topical Analgesic Spray for Skin Itch & Rash Relief"
+        }
+    },
+    "products/benadryl-itch-stopping-gel-extra-strength": {
+        "url": "https://www.benadryl.com/products/benadryl-itch-stopping-gel-extra-strength",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Itch Stopping Gel Extra Strength Topical Analgesic | BENADRYL®",
+            "meta_description": "Try BENADRYL® Itch Stopping Gel Extra Strength with 2% diphenhydramine HCI in a cooling gel for itch relief to treat pain from skin rash, insect bites, sunburn, and more.",
+            "canonical_link": "https://www.benadryl.com/products/benadryl-itch-stopping-gel-extra-strength",
+            "og_title": "BENADRYL® Itch Stopping Gel Extra Strength Topical Analgesic | BENADRYL®",
+            "og_description": "Try BENADRYL® Itch Stopping Gel Extra Strength with 2% diphenhydramine HCI in a cooling gel for itch relief to treat pain from skin rash, insect bites, sunburn, and more.",
+            "og_type": null,
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/benadryl-itch-stopping-gel-extra-strength",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Itch Stopping Gel Extra Strength Topical Analgesic | BENADRYL®",
+            "twitter_description": "Try BENADRYL® Itch Stopping Gel Extra Strength with 2% diphenhydramine HCI in a cooling gel for itch relief to treat pain from skin rash, insect bites, sunburn, and more.",
+            "twitter_card": "summary",
+            "twitter_image": "benadrylr_itch_stopping_gel_extra_strength_topical_analgesic_gel_for_itchy_skin_1-en-us.png",
+            "h1": "BENADRYL® Itch Stopping Gel Extra Strength Topical Analgesic Gel for Itchy Skin"
+        }
+    },
+    "products/childrens-benadryl-allergy-liquid": {
+        "url": "https://www.benadryl.com/products/childrens-benadryl-allergy-liquid",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children’s BENADRYL® Allergy Relief Liquid Medicine | BENADRYL®",
+            "meta_description": "Treat symptoms due to hay fever or other upper respiratory allergies in kids with Children’s BENADRYL® Allergy Liquid, an effective OTC allergy relief liquid medicine.",
+            "canonical_link": "https://www.benadryl.com/products/childrens-benadryl-allergy-liquid",
+            "og_title": "Children’s BENADRYL® Allergy Relief Liquid Medicine | BENADRYL®",
+            "og_description": "Treat symptoms due to hay fever or other upper respiratory allergies in kids with Children’s BENADRYL® Allergy Liquid, an effective OTC allergy relief liquid medicine.",
+            "og_type": null,
+            "og_site": null,
+            "og_url": null,
+            "og_image": null,
+            "twitter_title": "Children’s BENADRYL® Allergy Relief Liquid Medicine | BENADRYL®",
+            "twitter_description": "Treat symptoms due to hay fever or other upper respiratory allergies in kids with Children’s BENADRYL® Allergy Liquid, an effective OTC allergy relief liquid medicine.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Children’s BENADRYL® Allergy Relief Liquid Medicine with Diphenhydramine HCl"
+        }
+    },
+    "products/childrens-benadryl-allergy-plus-congestion": {
+        "url": "https://www.benadryl.com/products/childrens-benadryl-allergy-plus-congestion",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children’s BENADRYL® Allergy Plus Congestion Liquid Medicine | BENADRYL®",
+            "meta_description": "Relieve your child’s sinus pressure & allergy symptoms with Children’s BENADRYL® Allergy Plus Congestion antihistamine liquid medicine, a nasal and sinus decongestant for kids.",
+            "canonical_link": "https://www.benadryl.com/products/childrens-benadryl-allergy-plus-congestion",
+            "og_title": "Children’s BENADRYL® Allergy Plus Congestion Liquid Medicine | BENADRYL®",
+            "og_description": "Relieve your child’s sinus pressure & allergy symptoms with Children’s BENADRYL® Allergy Plus Congestion antihistamine liquid medicine, a nasal and sinus decongestant for kids.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/childrens-benadryl-allergy-plus-congestion",
+            "og_image": null,
+            "twitter_title": "Children’s BENADRYL® Allergy Plus Congestion Liquid Medicine | BENADRYL®",
+            "twitter_description": "Relieve your child’s sinus pressure & allergy symptoms with Children’s BENADRYL® Allergy Plus Congestion antihistamine liquid medicine, a nasal and sinus decongestant for kids.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-childrens-allergy-plus-congestion-en-us.png",
+            "h1": "Children's BENADRYL® Allergy Plus Congestion Nasal Decongestant & Sinus Liquid Medicine for Kids "
+        }
+    },
+    "products/childrens-benadryl-chewables": {
+        "url": "https://www.benadryl.com/products/childrens-benadryl-chewables",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children’s BENADRYL® Chewables Allergy Medicine for Kids | BENADRYL®",
+            "meta_description": "Relieve allergy symptoms in kids with Children’s BENADRYL® Chewables, an easy-to-take chewable antihistamine tablet that helps relieve your child’s symptoms on-the-go.",
+            "canonical_link": "https://www.benadryl.com/products/childrens-benadryl-chewables",
+            "og_title": "Children’s BENADRYL® Chewables Allergy Medicine for Kids | BENADRYL®",
+            "og_description": "Relieve allergy symptoms in kids with Children’s BENADRYL® Chewables, an easy-to-take chewable antihistamine tablet that helps relieve your child’s symptoms on-the-go.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/childrens-benadryl-chewables",
+            "og_image": null,
+            "twitter_title": "Children’s BENADRYL® Chewables Allergy Medicine for Kids | BENADRYL®",
+            "twitter_description": "Relieve allergy symptoms in kids with Children’s BENADRYL® Chewables, an easy-to-take chewable antihistamine tablet that helps relieve your child’s symptoms on-the-go.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-childrens-chewables-en-us.png",
+            "h1": "Children’s BENADRYL® Chewables Allergy Relief Tablets Antihistamine Allergy Medicine for Kids"
+        }
+    },
+    "products/childrens-benadryl-dye-free-allergy-liquid": {
+        "url": "https://www.benadryl.com/products/childrens-benadryl-dye-free-allergy-liquid",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Children’s BENADRYL® Dye-Free Allergy Liquid Medicine | BENADRYL®",
+            "meta_description": "Learn how Children's BENADRYL® Dye-Free allergy diphenhydramine liquid medicine can effectively relieve your child’s hay fever and upper respiratory allergy symptoms.",
+            "canonical_link": "https://www.benadryl.com/products/childrens-benadryl-dye-free-allergy-liquid",
+            "og_title": "Children’s BENADRYL® Dye-Free Allergy Liquid Medicine | BENADRYL®",
+            "og_description": "Learn how Children's BENADRYL® Dye-Free allergy diphenhydramine liquid medicine can effectively relieve your child’s hay fever and upper respiratory allergy symptoms.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/childrens-benadryl-dye-free-allergy-liquid",
+            "og_image": null,
+            "twitter_title": "Children’s BENADRYL® Dye-Free Allergy Liquid Medicine | BENADRYL®",
+            "twitter_description": "Learn how Children's BENADRYL® Dye-Free allergy diphenhydramine liquid medicine can effectively relieve your child’s hay fever and upper respiratory allergy symptoms.",
+            "twitter_card": "summary",
+            "twitter_image": "benadryl-childrens-dye-free-allergy-liquid-en-us.png",
+            "h1": "Children’s BENADRYL® Dye-Free Allergy Liquid Diphenhydramine Antihistamine Allergy Medicine"
+        }
+    },
+    "products/extra-strength-benadryl-itch-stopping-cream": {
+        "url": "https://www.benadryl.com/products/extra-strength-benadryl-itch-stopping-cream",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Itch Stopping Cream Extra Strength Itchy Skin Relief | BENADRYL®",
+            "meta_description": "Discover topical skin, rash and pain relief with BENADRYL® Extra Strength Itch Stopping Cream for bug bites, sunburn, poison ivy rash, and other minor skin irritations.",
+            "canonical_link": "https://www.benadryl.com/products/extra-strength-benadryl-itch-stopping-cream",
+            "og_title": "BENADRYL® Itch Stopping Cream Extra Strength Itchy Skin Relief | BENADRYL®",
+            "og_description": "Discover topical skin, rash and pain relief with BENADRYL® Extra Strength Itch Stopping Cream for bug bites, sunburn, poison ivy rash, and other minor skin irritations.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/extra-strength-benadryl-itch-stopping-cream",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Itch Stopping Cream Extra Strength Itchy Skin Relief | BENADRYL®",
+            "twitter_description": "Discover topical skin, rash and pain relief with BENADRYL® Extra Strength Itch Stopping Cream for bug bites, sunburn, poison ivy rash, and other minor skin irritations.",
+            "twitter_card": "summary",
+            "twitter_image": "Benadryl_US_Itch_Stopping_Gel_Extra_Strength_1OZ.png",
+            "h1": "BENADRYL® Itch Stopping Cream Extra Strength Itchy Skin and Rash Relief with Diphenhydramine"
+        }
+    },
+    "products/original-strength-benadryl-itch-stopping-cream": {
+        "url": "https://www.benadryl.com/products/original-strength-benadryl-itch-stopping-cream",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Original Strength Itch Stopping Cream Topical Analgesic | BENADRYL®",
+            "meta_description": "Stop itching in its tracks with Original Strength BENADRYL® Itch Stopping Topical Analgesic Cream with antihistamine for fast anti-itch relief from insect bites, minor burns, and rashes.",
+            "canonical_link": "https://www.benadryl.com/products/original-strength-benadryl-itch-stopping-cream",
+            "og_title": "BENADRYL® Original Strength Itch Stopping Cream Topical Analgesic | BENADRYL®",
+            "og_description": "Stop itching in its tracks with Original Strength BENADRYL® Itch Stopping Topical Analgesic Cream with antihistamine for fast anti-itch relief from insect bites, minor burns, and rashes.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/products/original-strength-benadryl-itch-stopping-cream",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Original Strength Itch Stopping Cream Topical Analgesic | BENADRYL®",
+            "twitter_description": "Stop itching in its tracks with Original Strength BENADRYL® Itch Stopping Topical Analgesic Cream with antihistamine for fast anti-itch relief from insect bites, minor burns, and rashes.",
+            "twitter_card": "summary",
+            "twitter_image": "original_strength_benadrylr_itch_stopping_cream_topical_analgesic_for_skin_relief_-en-us.png",
+            "h1": "Original Strength BENADRYL® Itch Stopping Cream Topical Analgesic for Skin Relief"
+        }
+    },
+    "safety": {
+        "url": "https://www.benadryl.com/safety",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Safety Is Our Top Priority",
+            "meta_description": "Learn about how abuse and misuse of BENADRYL® and its active ingredient, diphenhydramine, is unsafe and can have potentially long-lasting or life-threatening effects.",
+            "canonical_link": "https://www.benadryl.com/safety",
+            "og_title": "Safety Is Our Top Priority",
+            "og_description": "Learn about how abuse and misuse of BENADRYL® and its active ingredient, diphenhydramine, is unsafe and can have potentially long-lasting or life-threatening effects.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/safety",
+            "og_image": null,
+            "twitter_title": "Safety Is Our Top Priority",
+            "twitter_description": "Learn about how abuse and misuse of BENADRYL® and its active ingredient, diphenhydramine, is unsafe and can have potentially long-lasting or life-threatening effects.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Safety Is Our Top Priority"
+        }
+    },
+    "save-on-benadryl": {
+        "url": "https://www.benadryl.com/save-on-benadryl",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Coupons & Savings for BENADRYL® Allergy & Itch Relief Products",
+            "meta_description": "Download free printable coupons to save money on BENADRYL® Adult Allergy, Children’s Allergy and Itch Relief Products. Sign up for additional deals and discounts.",
+            "canonical_link": "https://www.benadryl.com/save-on-benadryl",
+            "og_title": "Coupons & Savings for BENADRYL® Allergy & Itch Relief Products",
+            "og_description": "Download free printable coupons to save money on BENADRYL® Adult Allergy, Children’s Allergy and Itch Relief Products. Sign up for additional deals and discounts.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/save-on-benadryl",
+            "og_image": null,
+            "twitter_title": "Coupons & Savings for BENADRYL® Allergy & Itch Relief Products",
+            "twitter_description": "Download free printable coupons to save money on BENADRYL® Adult Allergy, Children’s Allergy and Itch Relief Products. Sign up for additional deals and discounts.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Coupons & Savings for BENADRYL® Allergy & Itch Relief Products"
+        }
+    },
+    "sitemap": {
+        "url": "https://www.benadryl.com/sitemap",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "BENADRYL® Sitemap",
+            "meta_description": "Explore the BENADRYL® website sitemap, including pages for adult, kids, and topical products and articles about allergies, itchy skin, and the common cold.",
+            "canonical_link": "https://www.benadryl.com/sitemap",
+            "og_title": "BENADRYL® Sitemap",
+            "og_description": "Explore the BENADRYL® website sitemap, including pages for adult, kids, and topical products and articles about allergies, itchy skin, and the common cold.",
+            "og_type": "article",
+            "og_site": null,
+            "og_url": "https://www.benadryl.com/sitemap",
+            "og_image": null,
+            "twitter_title": "BENADRYL® Sitemap",
+            "twitter_description": "Explore the BENADRYL® website sitemap, including pages for adult, kids, and topical products and articles about allergies, itchy skin, and the common cold.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Sitemap"
+        }
+    },
+    "where-to-buy": {
+        "url": "https://www.benadryl.com/where-to-buy",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Where to Buy BENADRYL® Allergy Products | BENADRYL®",
+            "meta_description": "Find out where you can purchase BENADRYL® allergy and itch relief products online or at a store near you, so you can get fast relief when you need it the most.",
+            "canonical_link": "https://www.benadryl.com/where-to-buy",
+            "og_title": "Where to Buy BENADRYL® Allergy Products | BENADRYL®",
+            "og_description": "Find out where you can purchase BENADRYL® allergy and itch relief products online or at a store near you, so you can get fast relief when you need it the most.",
+            "og_type": "article",
+            "og_site": "BENADRYL®",
+            "og_url": "https://www.benadryl.com/where-to-buy",
+            "og_image": null,
+            "twitter_title": "Where to Buy BENADRYL® Allergy Products | BENADRYL®",
+            "twitter_description": "Find out where you can purchase BENADRYL® allergy and itch relief products online or at a store near you, so you can get fast relief when you need it the most.",
+            "twitter_card": "summary",
+            "twitter_image": null,
+            "h1": "Where To Buy"
+        }
+    }
+}
