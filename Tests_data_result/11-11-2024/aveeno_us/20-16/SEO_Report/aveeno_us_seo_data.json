@@ -1,0 +1,42 @@
+{
+    "products/baby-care/eczema": {
+        "url": "https://www.aveeno.com/products/baby-care/eczema",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Eczema Treatment for Babies to Help Relieve Dry & Itchy Skin | Aveeno®",
+            "meta_description": "Relieve and treat baby’s dry, itchy and irritated skin with AVEENO® baby eczema products. Carefully formulated to gently comfort and prevent eczema flare ups.",
+            "canonical_link": "https://www.aveeno.com/products/baby-care/eczema",
+            "og_title": "Eczema Treatment for Babies to Help Relieve Dry & Itchy Skin | Aveeno®",
+            "og_description": "Relieve and treat baby’s dry, itchy and irritated skin with AVEENO® baby eczema products. Carefully formulated to gently comfort and prevent eczema flare ups.",
+            "og_type": "product.group",
+            "og_site": "Aveeno®",
+            "og_url": "https://www.aveeno.com/products/baby-care/eczema",
+            "og_image": null,
+            "twitter_title": "Eczema Treatment for Babies to Help Relieve Dry & Itchy Skin | Aveeno®",
+            "twitter_description": "Relieve and treat baby’s dry, itchy and irritated skin with AVEENO® baby eczema products. Carefully formulated to gently comfort and prevent eczema flare ups.",
+            "twitter_card": "summary",
+            "twitter_image": "Aveeno_the_Power_of_Oat_for_Sensitive_Skin.png",
+            "h1": "Products for Baby Eczema Relief"
+        }
+    },
+    "products/kids-care": {
+        "url": "https://www.aveeno.com/products/kids-care",
+        "seo_data": {
+            "page_response": "200 (OK)",
+            "meta_title": "Kids Hair and Skin Care Products | Aveeno®",
+            "meta_description": "Growing kids have delicate skin & hair. Aveeno Kids products are made with oat extract, perfect for sensitive skin & developing hair. Explore and shop now!",
+            "canonical_link": "https://www.aveeno.com/products/kids-care",
+            "og_title": "Kids Hair and Skin Care Products | Aveeno®",
+            "og_description": "Growing kids have delicate skin & hair. Aveeno Kids products are made with oat extract, perfect for sensitive skin & developing hair. Explore and shop now!",
+            "og_type": "product.group",
+            "og_site": "Aveeno®",
+            "og_url": "https://www.aveeno.com/products/kids-care",
+            "og_image": null,
+            "twitter_title": "Kids Hair and Skin Care Products | Aveeno®",
+            "twitter_description": "Growing kids have delicate skin & hair. Aveeno Kids products are made with oat extract, perfect for sensitive skin & developing hair. Explore and shop now!",
+            "twitter_card": "summary",
+            "twitter_image": "Aveeno_the_Power_of_Oat_for_Sensitive_Skin.png",
+            "h1": "Aveeno® Kids Products"
+        }
+    }
+}
