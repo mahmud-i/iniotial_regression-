@@ -1,8 +1,0 @@
-{
-    "https://www.aveeno.com/products/baby-care/eczema": {
-        "error": "page opening error: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.aveeno.com/products/baby-care/eczema\", waiting until \"load\"\n"
-    },
-    "https://www.aveeno.com/products/kids-care": {
-        "error": "page opening error: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.aveeno.com/products/kids-care\", waiting until \"load\"\n"
-    }
-}
